@@ -1,0 +1,19 @@
+{
+  "name": "orna-reflexology",
+  "version": "1.0.0",
+  "description": "orna's website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gefenbar/orna-reflexology.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gefenbar/orna-reflexology/issues"
+  },
+  "homepage": "https://github.com/gefenbar/orna-reflexology#readme"
+}
