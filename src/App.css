@@ -245,16 +245,9 @@ a.navbar-logo:hover {
   /* font-size: smaller; */
   color:#876e4a;
 }
-.contact-page .phone-color {
-  color: #2196f3;
-}
-.contact-page .email-color {
-  color: #ff2147;
-}
-.contact-page .facebook-color {
+.contact-page a {
   color: black;
 }
-
 .contact-page a:hover {
   color: #876e4a;
 }
