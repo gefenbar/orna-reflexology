@@ -6,7 +6,7 @@ export default function ContactPage() {
       <h1>יצירת קשר</h1>
 
       <p className="some-text">לתיאום טיפול או בכל שאלה, אנא פנו אליי באמצעות:</p>
-      <p>
+      <p className="contact-page-social">
         <a className="phone-color" href="tel:0549794777">
           <img src="phone.webp"  alt="Phone Number" width="32px" height="32px" />
           054-9794-777

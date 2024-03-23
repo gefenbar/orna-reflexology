@@ -257,6 +257,7 @@ a.navbar-logo:hover {
   top: 5px;
   left: 10px;
 }
+.contact-page-social{ line-height: 0.3!important;}
 .map{
   position: relative;
   bottom: 10px;
