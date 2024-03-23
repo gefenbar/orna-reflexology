@@ -103,8 +103,8 @@ p {
 }
 
 a.navbar-logo:hover {
-  background-color: #e5eee3 !important;
-  border-radius: 90%;
+  /* background-color: #e5eee3 !important; */
+  /* border-radius: 90%; */
 }
 
 .navbar-links {
@@ -135,6 +135,8 @@ a.navbar-logo:hover {
 .navbar-links a:hover {
   color: #4a2e1e;
 }
+
+
 
 /* Highlight style */
 .highlight {
@@ -662,8 +664,8 @@ color:#FFFFF8!important;
     top: 5vh;
   }
   .navbar-logo img {
-    width: 112.5px;
-    height: 30px;
+    width: 93.75px;
+    height: 25px;
   }
   .p-treatments {
   padding: 0px!important;

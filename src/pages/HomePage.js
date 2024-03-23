@@ -15,9 +15,13 @@ export default function HomePage() {
 const HeroSection = () => (
   <section className="hero-section">
     <div className="hero-content">
-      <h1>אורי שמאי מטפל במגע וצליל</h1>
-      <p>מגוון טיפולים מרגיעים ומאזנים</p>
+      {/* <h1>אורי שמאי מטפל במגע וצליל</h1>
+      <p>מגוון טיפולים מרגיעים ומאזנים</p> */}
+                <img src="logo-full.webp" alt="ארנה קליין" loading="lazy" width="240px" height="180px" />
+
       <br />
+      <br />
+
       <button>
         <Link to="/contact">לתיאום טיפול</Link>
       </button>
