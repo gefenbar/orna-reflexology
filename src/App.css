@@ -156,8 +156,8 @@ a.navbar-logo:hover {
 }
 .treatments-section .more {
   margin-top: 30px;
-  background-color: #b19a86;
-  color: #fff;
+  background-color: #876e4a;
+  color: #FFFFF8;
   padding: 1.5rem 1.5rem;
   font-size: 1.3rem;
   border-radius: 100px 0 100px 0;
@@ -281,7 +281,7 @@ a.navbar-logo:hover {
   justify-content: center;
   margin-left: 10%;
   margin-right: 10%;
-  background-color: #ffffff;
+  background-color: #FFFFF8;
   padding: 50px 0;
 }
 
@@ -415,7 +415,7 @@ a.navbar-logo:hover {
 
 .copyright {
   flex-grow: 1;
-  #FFFFF8-space: nowrap;
+white-space: nowrap;
   overflow: hidden;
   text-align: center;
   font-weight: 500;
@@ -485,7 +485,7 @@ section {
   margin-top: 10%;
   margin-left: 5%;
   margin-right: 5%;
-  background-color: #ffffff;
+  background-color: #FFFFF8;
   padding: 50px 0;
 }
 
@@ -527,7 +527,7 @@ section {
 .about-text-container .contact-link {
   font-size: 16px;
   font-weight: bold;
-  color: #fff;
+  color: #FFFFF8;
   background-color: #876e4a;
   text-decoration: none;
   padding: 5px 10px;
@@ -590,7 +590,7 @@ color:#FFFFF8!important;
 }
 
 .treatment-card {
-  background-color: #fff;
+  background-color: #FFFFF8;
   border-radius: 0.5rem;
   box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1);
   padding: 1.25rem;
@@ -742,7 +742,7 @@ margin-right: 10%;
   padding: 10px;
   text-align: center;
   background-color: #007bff;
-  color: #fff;
+  color: #FFFFF8;
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
