@@ -125,7 +125,7 @@ a.navbar-logo:hover {
 
 .navbar-links a {
   color: #876e4a;
-  font-weight: bold;
+  font-weight: 400;
   text-decoration: none;
   font-size: 1.2rem;
   display: block;
