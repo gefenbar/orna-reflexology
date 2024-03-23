@@ -23,6 +23,14 @@ export default function SocialLinks() {
       >
         <img src={"whatsapp.webp"} alt="WhatsApp" />
       </a>
+      <a
+        href="https://www.instagram.com/nissaniklein"
+        target="_blank"
+        rel="noreferrer"
+        className={`side-social-link`}
+      >
+        <img src={"instagram.webp"} alt="Instagram" />
+      </a>
     </div>
   );
 }

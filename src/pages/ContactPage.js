@@ -34,7 +34,6 @@ export default function ContactPage() {
       </p>
       <br />
       <h2>שעות פעילות
-      {/* <img className="decoration" src="ads.webp" alt="ארנה קליין" loading="lazy" width="612px" height="408px"/> */}
       </h2>
       <p className="contact-page-social">
         א'-ה': 9:00-17:00

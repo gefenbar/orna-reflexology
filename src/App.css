@@ -103,10 +103,6 @@ p {
   top: 3px;
 }
 
-a.navbar-logo:hover {
-  /* background-color: #e5eee3 !important; */
-  /* border-radius: 90%; */
-}
 
 .navbar-links {
   display: flex;
