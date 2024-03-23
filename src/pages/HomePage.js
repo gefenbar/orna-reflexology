@@ -15,8 +15,6 @@ export default function HomePage() {
 const HeroSection = () => (
   <section className="hero-section">
     <div className="hero-content">
-      {/* <h1>אורי שמאי מטפל במגע וצליל</h1>
-      <p>מגוון טיפולים מרגיעים ומאזנים</p> */}
                 <img src="logo-full.webp" alt="ארנה קליין" loading="lazy" width="240px" height="180px" />
 
       <br />
@@ -37,6 +35,7 @@ const AboutSection = () => (
         </div>
         <div className="about-text-container">
           <h2>קצת עליי</h2>
+          <img src="logo-full.webp" alt="ארנה קליין" loading="lazy" width="240px" height="180px" />
           <p>
           ארנה קליין - מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך, בוגרת מכללת רידמן.
 
