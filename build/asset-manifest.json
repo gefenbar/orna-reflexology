@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/gefenbar/orna-reflexology/static/css/main.3db70be7.css",
+    "main.js": "/gefenbar/orna-reflexology/static/js/main.d73eb355.js",
+    "static/media/hero.webp": "/gefenbar/orna-reflexology/static/media/hero.b1b30176e3a0c618979a.webp",
+    "index.html": "/gefenbar/orna-reflexology/index.html",
+    "main.3db70be7.css.map": "/gefenbar/orna-reflexology/static/css/main.3db70be7.css.map",
+    "main.d73eb355.js.map": "/gefenbar/orna-reflexology/static/js/main.d73eb355.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3db70be7.css",
+    "static/js/main.d73eb355.js"
+  ]
+}
