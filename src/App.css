@@ -316,11 +316,11 @@ a.navbar-logo:hover {
   /* justify-content: space-around; */
   /* max-width: 1000px; */
 }
-
+/* 
 .about-image-container img {
   width: 300px;
   height: 400px;
-}
+} */
 .about-image-container {
   align-self: center;
 }

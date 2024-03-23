@@ -31,12 +31,12 @@ const AboutSection = () => (
     <div className="about-container">
       <div className="about-content">
         <div className="about-image-container">
-          <img src="orna.webp" alt="ארנה קליין" loading="lazy" width="400px" height="500px" />
+          <img src="orna.webp" alt="ארנה קליין" loading="lazy"  width="290" height="400" />
         </div>
         
         <div className="about-text-container">
 
-          <h2>קצת עליי  <img className="decoration" src="decoration.webp" alt="ארנה קליין" loading="lazy" width="128px" height="60px"/> 
+          <h2>קצת עליי  <img className="decoration" src="decoration.webp" alt="ארנה קליין" loading="lazy" width="96px" height="45px"/> 
           </h2>
           <p>
           ארנה קליין - מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך, בוגרת מכללת רידמן.
@@ -93,7 +93,7 @@ export const TreatmentsSection = ({
 
   return (
     <section className="treatments-section">
-      {showTitle && <h2>טיפולים  <img className="decoration" src="decoration.webp" alt="ארנה קליין" loading="lazy" width="128px" height="60px"  />
+      {showTitle && <h2>טיפולים  <img className="decoration" src="decoration.webp" alt="ארנה קליין" loading="lazy" width="96px" height="45px"  />
 </h2>}
       <div className="treatment-cards">
         {treatments.map((treatment, index) => (
@@ -127,7 +127,7 @@ export const TreatmentsSection = ({
 
 const ContactSection = () => (
   <section className="contact-section">
-    <h2>יצירת קשר  <img className="decoration" src="decoration.webp" alt="ארנה קליין" loading="lazy" width="128px" height="60px"  />
+    <h2>יצירת קשר  <img className="decoration" src="decoration.webp" alt="ארנה קליין" loading="lazy" width="96px" height="45px"  />
 </h2>
     <p>כתובת: כפר תבור, מורן 9</p>
     <p>טלפון: 054-9794-777</p>
