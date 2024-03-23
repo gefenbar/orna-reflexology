@@ -30,7 +30,7 @@ h1,
 h3,
 h4,
 h5 {
-  color: #4a2e1e;
+  color: black;
 }
 
 h1 {
@@ -60,22 +60,23 @@ p {
   /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
   z-index: 1000;
 }
-
 .side-social-link {
   display: flex;
   align-items: center;
   text-decoration: none;
   /* color: #333; */
-  outline: 3px solid #876e4a; /* Adjust color and width */
-  border-radius: 300px;
+  /* outline: 2px solid #876e4a; Adjust color and width */
+  border-radius: 1150%;
   transition: all 0.1s ease;
+  background-color: #f9eddc;
+  transition: all 1s ease;  /* Change duration to 0.5s for slower spin */
+
 }
 
 .side-social-link:hover {
-  outline: 3px solid #4a2e1e; /* Adjust color and width */
-  border-radius: 300px;
-  /* border-color: #ffc107; */
+  transform: rotatey(360deg) ;  /* Use rotateX for horizontal spin */
 }
+
 
 .side-social-link img {
   width: 30px; /* Set the width of the image */
@@ -133,7 +134,7 @@ a.navbar-logo:hover {
 }
 
 .navbar-links a:hover {
-  color: #4a2e1e;
+  color: black;
 }
 
 
@@ -213,7 +214,7 @@ a.navbar-logo:hover {
   margin-bottom: 4vh;
 }
 .treatment-page h1 {
-  color: #4a2e1e;
+  color: black;
   font-size: 2.5rem;
   font-weight: bold;
 }
@@ -244,6 +245,8 @@ a.navbar-logo:hover {
   font-weight: 500;
   /* font-size: smaller; */
   color:#876e4a;
+  margin-bottom: 0;
+  font-size: 18px;
 }
 .contact-page a {
   color: black;
@@ -256,8 +259,11 @@ a.navbar-logo:hover {
   position: relative;
   top: 5px;
   left: 10px;
+  border-radius: 100%;
+  background-color:white;
+
 }
-.contact-page-social{ line-height: 0.3!important;}
+.contact-page-social{ line-height: 1;}
 .map{
   position: relative;
   bottom: 10px;
@@ -270,7 +276,7 @@ a.navbar-logo:hover {
   text-align: center;
   color: #333;
   direction: rtl;
-  /* top: 3vh; */
+  top: 3vh;
   /* top: 8vh; */
   /* margin-bottom: 8vh; */
   min-height: 100vh;
@@ -291,14 +297,16 @@ a.navbar-logo:hover {
 .about-header h1 {
   font-size: 2.5rem;
   font-weight: bold;
+  color:black;
 }
 .about-header h2 {
   color: #876e4a;
   font-weight: 400;
+  font-size:20px;
 }
 
 .about-header p {
-  font-size: 1.6rem;
+  font-size: 16px;
   font-weight: normal;
 }
 
@@ -339,8 +347,12 @@ a.navbar-logo:hover {
 
 /* Footer styles */
 .contact p {
-  color: #4a2e1e;
+  color: black;
   font-size: 20px;
+}
+.contact-page-social{
+  font-size: 16px;
+
 }
 .contact a {
   font-weight: bold;
@@ -349,7 +361,7 @@ a.navbar-logo:hover {
   color: #876e4a;
 }
 .contact a:hover {
-  color: #4a2e1e;
+  color: black;
 }
 .footer {
   position: relative;
@@ -415,6 +427,7 @@ white-space: nowrap;
   overflow: hidden;
   text-align: center;
   font-weight: 500;
+  color: black;
 }
 
 section {
@@ -427,7 +440,7 @@ section {
   height: 100vh;
   position: relative;
   background-image: url("../public/hero.webp");
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
@@ -441,7 +454,7 @@ section {
   margin-top: 10%;
   margin-left: 15%;
   margin-right: 15%;
-  box-shadow: 0 0 5px #4a2e1e; /* Add a shadow effect */
+  box-shadow: 0 0 5px black; /* Add a shadow effect */
   z-index: 1; /* Ensure the content is on top of the background image */
   backdrop-filter: blur(5px); /* Add a blur effect to the background */
 }
@@ -455,7 +468,7 @@ section {
 
 .hero-section p {
   font-size: 1.5rem;
-  color: #4a2e1e;
+  color: black;
 }
 .hero-section button {
   background-color: #FFFFF8;
@@ -483,6 +496,11 @@ section {
   margin-right: 5%;
   background-color: #FFFFF8;
   padding: 50px 0;
+}
+.decoration{
+  position: relative;
+left:0;
+top:15px;
 }
 
 .about-container {
@@ -533,7 +551,7 @@ section {
 .about-text-container .contact-link:hover {
   transition: 0.3s linear;
   /* color: #fff; */
-  background-color: #4a2e1e;
+  background-color: black;
   /* border-color: #876e4a; */
 }
 .treatments-list li{
@@ -598,7 +616,7 @@ color:#FFFFF8!important;
 }
   .treatment-card a{
     font-weight: bold;
-    color: #4a2e1e!important;
+    color: black!important;
     transition: color 0.6s ;
     font-size:larger;
 }
@@ -631,9 +649,10 @@ color:#FFFFF8!important;
     text-align: right;
   }
   .social-links .social-link img {
-    filter: brightness(0) invert(1);
+    /* filter: brightness(0) invert(1); */
     width: 1.2rem;
     height: 1.2rem;
+
   }
   /* .hero-section {
     height: 75vh;
@@ -651,7 +670,7 @@ color:#FFFFF8!important;
     margin-bottom: 20px;
   }
   .contact-section p {
-    font-size: 1em;
+    font-size: 16px;
   }
   .contact-page {
     padding: 50px 50px 50px 50px;

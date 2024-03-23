@@ -17,7 +17,6 @@ export default function TreatmentsPage() {
   return (
     <main className="treatment-page">
       <h1>הטיפולים שלי</h1>
-
       <TreatmentsSection
         additionalTreatments={moreTreatments}
         showLink={false}
