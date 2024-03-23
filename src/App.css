@@ -451,13 +451,13 @@ section {
   z-index: 1; /* Ensure the content is on top of the background image */
   backdrop-filter: blur(5px); /* Add a blur effect to the background */
 }
-
+/* 
 .hero-section h1 {
   font-size: 2.5rem;
   font-weight: bold;
   color: #876e4a;
   text-shadow: 2px 2px 0 #333, 2px 2px 0 #333, 2px 2px 0 #333, 2px 2px 0 #333;
-}
+} */
 
 .hero-section p {
   font-size: 1.5rem;
@@ -472,7 +472,7 @@ section {
   border-radius: 0.3125rem;
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 .hero-section button a {
   color: #876e4a;
@@ -528,7 +528,7 @@ section {
 
 .about-text-container .contact-link {
   font-size: 16px;
-  font-weight: bold;
+  /* font-weight: bold; */
   color: #FFFFF8;
   background-color: #876e4a;
   text-decoration: none;
