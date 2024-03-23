@@ -35,7 +35,7 @@ const AboutSection = () => (
         </div>
         <div className="about-text-container">
           <h2>קצת עליי</h2>
-          <img src="logo-full.webp" alt="ארנה קליין" loading="lazy" width="240px" height="180px" />
+          {/* <img src="logo-full.webp" alt="ארנה קליין" loading="lazy" width="240px" height="180px" /> */}
           <p>
           ארנה קליין - מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך, בוגרת מכללת רידמן.
 
