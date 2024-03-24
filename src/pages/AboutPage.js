@@ -11,11 +11,11 @@ export default function AboutPage() {
         <div className="about-content">
           <div className="about-image-container">
             <img
-              src="orna.webp"
+              src="orna2.webp"
               alt="ארנה קליין"
               loading="lazy"
-              width="400px"
-              height="500px"
+              width="350px"
+              height="450px"
             />
           </div>
           <div className="about-text-container">

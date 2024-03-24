@@ -38,7 +38,7 @@ const AboutSection = () => (
       <div className="about-content">
         <div className="about-image-container">
           <img
-            src="orna.webp"
+            src="orna2.webp"
             alt="ארנה קליין"
             loading="lazy"
             width="290"
