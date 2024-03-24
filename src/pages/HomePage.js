@@ -41,8 +41,8 @@ const AboutSection = () => (
             src="orna2.webp"
             alt="ארנה קליין"
             loading="lazy"
-            width="290"
-            height="400"
+            width="340px"
+            height="450px"
           />
         </div>
 

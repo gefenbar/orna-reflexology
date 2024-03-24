@@ -14,7 +14,7 @@ export default function AboutPage() {
               src="orna2.webp"
               alt="ארנה קליין"
               loading="lazy"
-              width="350px"
+              width="340px"
               height="450px"
             />
           </div>
