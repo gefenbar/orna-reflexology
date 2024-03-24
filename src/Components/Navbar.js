@@ -13,7 +13,7 @@ return (
         <Link to="/">דף הבית</Link>
         </li>
         <li>
-        <Link to="/treatments">טיפולים</Link>
+        <Link to="/treatments">על הרגל</Link>
         </li>
         <li>
         <Link to="/about">אודות</Link>
