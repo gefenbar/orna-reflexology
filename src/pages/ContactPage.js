@@ -44,7 +44,7 @@ export default function ContactPage() {
 
       <h2>מיקום</h2>
 
-      <p className="contact-page-social">הקליניקה ממוקמת בכפר תבור, מורן 9</p>
+      <p className="contact-page-social">הקליניקה ממוקמת בכפר תבור, מורן 9 ב'</p>
 
       <Map />
     </main>

@@ -15,7 +15,13 @@ export default function HomePage() {
 const HeroSection = () => (
   <section className="hero-section">
     <div className="hero-content">
-                <img src="logo-full.webp" alt="ארנה קליין" loading="lazy" width="240px" height="180px" />
+      <img
+        src="logo-full.webp"
+        alt="ארנה קליין"
+        loading="lazy"
+        width="240px"
+        height="180px"
+      />
 
       <br />
       <br />
@@ -31,26 +37,42 @@ const AboutSection = () => (
     <div className="about-container">
       <div className="about-content">
         <div className="about-image-container">
-          <img src="orna.webp" alt="ארנה קליין" loading="lazy"  width="290" height="400" />
+          <img
+            src="orna.webp"
+            alt="ארנה קליין"
+            loading="lazy"
+            width="290"
+            height="400"
+          />
         </div>
-        
-        <div className="about-text-container">
 
-          <h2>קצת עליי  <img className="decoration" src="decoration.webp" alt="ארנה קליין" loading="lazy" width="96px" height="45px"/> 
+        <div className="about-text-container">
+          <h2>
+            קצת עליי{" "}
+            <img
+              className="decoration"
+              id="decoration-one"
+              src="decoration.webp"
+              alt="ארנה קליין"
+              loading="lazy"
+              width="192px"
+              height="70px"
+            />
           </h2>
           <p>
-          ארנה קליין - מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך, בוגרת מכללת רידמן.
-
-<br/>בחרתי ברפלקסולוגיה מתוך אמונה עמוקה ביכולתה לתת מענה נכון למגוון מצבים ותופעות. גישתי הטיפולית משלבת צניעות וענווה, תוך הבנה שריפוי אמיתי מגיע מתוך הגוף עצמו.
+            ארנה קליין - מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך, בוגרת מכללת
+            רידמן.
+            <br />
+            בחרתי ברפלקסולוגיה מתוך אמונה עמוקה ביכולתה לתת מענה נכון למגוון
+            מצבים ותופעות. בגישתי הטיפולית אני משלבת הקשבה למטופלת ולצרכיה
+            ומקצועיות תוך הבנה שריפוי אמיתי מגיע מתוך הגוף עצמו.{" "}
           </p>
-          <Link className="contact-link" to="/contact">לפרטים נוספים וקביעת תור</Link>
-          
+          <Link className="contact-link" to="/contact">
+            לפרטים נוספים וקביעת תור
+          </Link>
         </div>
-        
       </div>
-      
     </div>
-    
   </section>
 );
 
@@ -93,21 +115,33 @@ export const TreatmentsSection = ({
 
   return (
     <section className="treatments-section">
-      {showTitle && <h2>טיפולים  <img className="decoration" src="decoration.webp" alt="ארנה קליין" loading="lazy" width="96px" height="45px"  />
-</h2>}
+      {showTitle && (
+        <h2>
+          טיפולים{" "}
+          <img
+            className="decoration"
+            id="decoration-two"
+            src="decoration.webp"
+            alt="ארנה קליין"
+            loading="lazy"
+            width="192px"
+            height="70px"
+          />
+        </h2>
+      )}
       <div className="treatment-cards">
         {treatments.map((treatment, index) => (
           <button className="treatment-card" key={index}>
-             <Link to={treatment.url}>
-            <img
-              src={treatment.image}
-              alt={treatment.title}
-              loading="lazy"
-              className="treatment-image"
-            />
-            <p className="treatment-title">
-            </p>
-            {treatment.title}</Link>
+            <Link to={treatment.url}>
+              <img
+                src={treatment.image}
+                alt={treatment.title}
+                loading="lazy"
+                className="treatment-image"
+              />
+              <p className="treatment-title"></p>
+              {treatment.title}
+            </Link>
           </button>
         ))}
       </div>
@@ -127,11 +161,22 @@ export const TreatmentsSection = ({
 
 const ContactSection = () => (
   <section className="contact-section">
-    <h2>יצירת קשר  <img className="decoration" src="decoration.webp" alt="ארנה קליין" loading="lazy" width="96px" height="45px"  />
-</h2>
-    <p>כתובת: כפר תבור, מורן 9</p>
+    <h2>
+      יצירת קשר{" "}
+      <img
+        className="decoration"
+        id="decoration-three"
+        src="decoration.webp"
+        alt="ארנה קליין"
+        loading="lazy"
+        width="192px"
+        height="70px"
+      />
+    </h2>
+    <p>כתובת: כפר תבור, מורן 9 ב'</p>
     <p>טלפון: 054-9794-777</p>
     <p>אימייל: orenkl162@gmail.com</p>
+    <p>פייסבוק: <a href="https://www.facebook.com/profile.php?id=100010434510829&mibextid=ZbWKwL">ארנה קליין</a></p>
     <p>שעות פתיחה: א'-ה' 9:00-17:00, ו' בתאום מראש</p>
   </section>
 );
