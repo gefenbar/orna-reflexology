@@ -117,7 +117,7 @@ export const TreatmentsSection = ({
     <section className="treatments-section">
       {showTitle && (
         <h2>
-          טיפולים{" "}
+          על הרגל{" "}
           <img
             className="decoration"
             id="decoration-two"
@@ -150,7 +150,7 @@ export const TreatmentsSection = ({
       <br />
       {showLink && (
         <Link className="more" to="/treatments">
-          לטיפולים נוספים
+          למידע נוסף
         </Link>
       )}
       <br />

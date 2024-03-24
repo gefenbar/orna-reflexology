@@ -493,18 +493,24 @@ section {
   position: relative;
   /* top:0px;
   left:15px; */
-}.treatments-section h2{margin-right: 120px;}
+}.treatments-section h2{
+  margin-right: 130px;
+}
 
 .contact-section h2{margin-right: 160px;}
-#decoration-one{left: 140px;
+#decoration-one{
+  left: 140px;
   top: 23px;
   width:200px;
 }
-#decoration-two{left: 120px;
-  top: 23px;}
+#decoration-two{
+  left: 130px;
+  top: 23px;
+}
 #decoration-three{left: 160px;
   width:230px;
-  top: 23px;}
+  top: 23px;
+}
 
 .about-container {
   max-width: 100%;
