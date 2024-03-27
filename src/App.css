@@ -672,6 +672,9 @@ section {
     left: 0 !important;
     top: 15px !important;
   }
+  .testimonials-section h2{
+  margin-right:0px;
+  }
   .treatments-section h2,
   .contact-section h2 {
     margin-right: 0px !important;
