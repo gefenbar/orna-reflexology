@@ -1,5 +1,5 @@
-import { TreatmentsSection } from "./HomePage";
-export default function TreatmentsPage() {
+import { AboutLegsSection } from "./HomePage";
+export default function AboutLegsPage() {
   const moreTreatments = [
     { title: "עיסוי מקלות במבוק", image: "sweedish-massage.webp",      url: "/bamboo"
   },
@@ -17,7 +17,7 @@ export default function TreatmentsPage() {
   return (
     <main className="treatment-page">
       <h1>הטיפולים שלי</h1>
-      <TreatmentsSection
+      <AboutLegsSection
         additionalTreatments={moreTreatments}
         showLink={false}
         showTitle={false}

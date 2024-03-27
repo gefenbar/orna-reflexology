@@ -5,8 +5,9 @@ export default function HomePage() {
   return (
     <main className="home">
       <HeroSection />
-      <AboutSection />
-      <TreatmentsSection />
+      <AboutMeSection />
+      <Testimonials/>
+      <AboutLegsSection />
       <ContactSection />
     </main>
   );
@@ -32,7 +33,7 @@ const HeroSection = () => (
     </div>
   </section>
 );
-const AboutSection = () => (
+const AboutMeSection = () => (
   <section className="about-section">
     <div className="about-container">
       <div className="about-content">
@@ -75,42 +76,87 @@ const AboutSection = () => (
     </div>
   </section>
 );
+const testimonials = [
+  {
+    name: "רותם כהן",
+    quote: "ארנה היא מטפלת מדהימה! הרפלקסולוגיה עזרה לי מאוד להפחית את רמות הלחץ ולשפר את איכות השינה שלי. אני ממליצה בחום לכל מי שמחפש הקלה וריפוי.",
+  },
+  {
+    name: "מיכל לוי",
+    quote: "הגעתי לארנה עם כאבי גב חזקים. לאחר מספר טיפולים, הכאב נעלם כליל. ארנה מקצועית, קשובה ונותנת יחס אישי. תודה רבה לך!",
+  },
+  {
+    name: "דוד בן-דוד",
+    quote: "לא האמנתי שרפלקסולוגיה יכולה לעזור לי, אבל גיליתי שזו טעות. ארנה עזרה לי לטפל בבעיות עיכול כרוניות שהיו לי. אני מרגיש הרבה יותר טוב עכשיו.",
+  },
+];
 
-export const TreatmentsSection = ({
-  additionalTreatments,
+const Testimonial = ({ name, quote, image }) => (
+  <div className="testimonial">
+    <p className="testimonial-quote">{quote}</p>
+    <div className="testimonial-info">
+      <p className="testimonial-name">{name}</p>
+    </div>
+  </div>
+);
+
+const Testimonials = () => (
+  <section className="testimonials-section" id="testimonials">
+    <h2>
+      שיתופים{" "}
+      <img
+        className="decoration"
+        id="decoration-four"
+        src="decoration.webp"
+        alt="ארנה קליין"
+        loading="lazy"
+        width="192px"
+        height="70px"
+      />
+    </h2>
+    <div className="testimonial-container">
+      {testimonials.map((testimonial) => (
+        <Testimonial key={testimonial.name} {...testimonial} />
+      ))}
+    </div>
+  </section>
+);
+
+ export const AboutLegsSection = ({
+  additionalInfos,
   showLink = true,
   showTitle = true,
 }) => {
-  let treatments = [
+  let infos = [
     {
-      title: "עיסוי תינוקות",
-      image: "baby-massage.webp",
+      title: "דוגמא",
+      image: "red-flower.webp",
       url: "/babies",
     },
     {
-      title: "Sound Healing",
-      image: "soundHealing.webp",
+      title: "דוגמא",
+      image: "white-flower.webp",
       url: "/sound",
     },
     {
-      title: "עיסוי לנשים הרות",
-      image: "pregnancy-massage.webp",
+      title: "דוגמא",
+      image: "blue-flower.webp",
       url: "/pregnant",
     },
     {
-      title: "כוסות רוח",
-      image: "cups.webp",
+      title: "דוגמא",
+      image: "pink-flower.webp",
       url: "/cups",
     },
     {
-      title: "טיפול בקריסטלים",
-      image: "crystals-massage.webp",
+      title: "דוגמא",
+      image: "purple-flower.webp",
       url: "/crystals",
     },
   ];
 
-  if (Array.isArray(additionalTreatments)) {
-    treatments = [...treatments, ...additionalTreatments];
+  if (Array.isArray(additionalInfos)) {
+    infos = [...infos, ...additionalInfos];
   }
 
   return (
@@ -130,17 +176,17 @@ export const TreatmentsSection = ({
         </h2>
       )}
       <div className="treatment-cards">
-        {treatments.map((treatment, index) => (
+        {infos.map((info, index) => (
           <button className="treatment-card" key={index}>
-            <Link to={treatment.url}>
+            <Link to={info.url}>
               <img
-                src={treatment.image}
-                alt={treatment.title}
+                src={info.image}
+                alt={info.title}
                 loading="lazy"
                 className="treatment-image"
               />
               <p className="treatment-title"></p>
-              {treatment.title}
+              {info.title}
             </Link>
           </button>
         ))}
@@ -149,7 +195,7 @@ export const TreatmentsSection = ({
       <br />
       <br />
       {showLink && (
-        <Link className="more" to="/treatments">
+        <Link className="more" to="/about-legs">
           למידע נוסף
         </Link>
       )}
@@ -176,7 +222,7 @@ const ContactSection = () => (
     <p>כתובת: כפר תבור, מורן 9 ב'</p>
     <p>טלפון: 054-9794-777</p>
     <p>אימייל: orenkl162@gmail.com</p>
-    <p>פייסבוק: <a href="https://www.facebook.com/profile.php?id=100010434510829&mibextid=ZbWKwL">ארנה קליין</a></p>
+    <p>פייסבוק: <a href="https://www.facebook.com/profile.php?id=100010434510829&mibextid=ZbWKwL">Orna Nissani Klein</a></p>
     <p>שעות פתיחה: א'-ה' 9:00-17:00, ו' בתאום מראש</p>
   </section>
 );

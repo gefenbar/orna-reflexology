@@ -1,9 +1,17 @@
 /* Reset default margin and padding */
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+.varela-round-regular {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: "Varela Round", sans-serif;
 }
 
 html {
@@ -39,7 +47,6 @@ h5 {
 h1 {
   font-size: 2.5rem;
 }
-
 
 p {
   font-size: 1.375rem;
@@ -493,22 +500,36 @@ section {
   position: relative;
   /* top:0px;
   left:15px; */
-}.treatments-section h2{
-  margin-right: 130px;
+}
+.treatments-section h2 {
+  margin-right: 152px;
 }
 
-.contact-section h2{margin-right: 160px;}
-#decoration-one{
+.contact-section h2 {
+  margin-right: 220px;
+}
+.testimonials-section h2 {
+  margin-right: 180px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+#decoration-one {
   left: 140px;
   top: 23px;
-  width:200px;
+  width: 200px;
 }
-#decoration-two{
+#decoration-two {
   left: 130px;
   top: 23px;
 }
-#decoration-three{left: 160px;
-  width:230px;
+#decoration-three {
+  left: 160px;
+  width: 230px;
+  top: 23px;
+}
+#decoration-four {
+  left: 140px;
+  width: 200px;
   top: 23px;
 }
 
@@ -637,7 +658,7 @@ section {
 
 .treatment-image {
   max-width: 100%;
-  height: auto;
+  height: 250px;
   border-radius: 0.5rem;
 }
 
@@ -645,13 +666,16 @@ section {
   h2 {
     font-size: 1.5rem;
   }
-  .decoration{
-    width: 96px!important;
-    height: 45px!important;
-    left:0!important;
-    top:15px!important;
+  .decoration {
+    width: 96px !important;
+    height: 45px !important;
+    left: 0 !important;
+    top: 15px !important;
   }
-  .treatments-section h2, .contact-section h2 {margin-right:0px!important;}
+  .treatments-section h2,
+  .contact-section h2 {
+    margin-right: 0px !important;
+  }
   .emoji {
     font-size: 25px;
   }
@@ -776,4 +800,70 @@ section {
 
 .btn-book-treatment:hover {
   background-color: #0056b3;
+}
+
+.testimonials-section {
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+  background-color: transparent;
+  text-align: center;
+}
+
+.testimonial-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.testimonial {
+  background-color: #fff;
+  border-radius: 50px 50px 50px 50px;
+  padding: 20px;
+  transition: transform 0.3s;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial::before {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 35px;
+  border-style: solid;
+  border-width: 25px 25px 0;
+  border-color: #fff transparent;
+}
+
+.testimonial:hover {
+  transform: translateY(-5px);
+}
+
+.testimonial-quote {
+  font-size: 18px;
+  flex-grow: 1;
+  text-align: right;
+}
+
+.testimonial-info {
+  font-size: 14px;
+  color: #666;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonial-name {
+  font-size: 16px;
+  order: 2;
+}
+
+@media (max-width: 768px) {
+  .testimonial-container {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
 }
