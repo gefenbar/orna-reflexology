@@ -3,9 +3,9 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import Navbar from "./Components/Navbar";
 import HomePage from "./pages/HomePage";
-import AboutPage from "./pages/AboutPage";
+import AboutMePage from "./pages/AboutMePage";
 import ContactPage from "./pages/ContactPage";
-import TreatmentsPage from "./pages/Treatments";
+import AboutLegsPage from "./pages/AboutLegsPage";
 import Footer from "./Components/Footer";
 import { AccessibilityWidget } from "react-accessibility";
 import "./App.css";
@@ -43,8 +43,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route exact path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/treatments" element={<TreatmentsPage />} />
+          <Route path="/about-me" element={<AboutMePage />} />
+          <Route path="/about-legs" element={<AboutLegsPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/babies" element={<Babies />} />
           <Route path="/thai" element={<Thai />} />

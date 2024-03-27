@@ -13,10 +13,10 @@ return (
         <Link to="/">דף הבית</Link>
         </li>
         <li>
-        <Link to="/treatments">על הרגל</Link>
+        <Link to="/about-legs">על הרגל</Link>
         </li>
         <li>
-        <Link to="/about">אודות</Link>
+        <Link to="/about-me">עליי</Link>
         </li>
         <li>
 
