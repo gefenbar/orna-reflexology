@@ -5,18 +5,11 @@ export default function PostPage() {
   return (
     <div className="post-page-container">
       <div className="post-content-container">
-        <h1 className="post-title">ניסיתן פעם משהו כזה?!</h1>
-        <div className="post-section">
-          <p>
-            לשם כך יש צורך לשלב ולאזן בין שריר מיומן, טכניקה, בטחון ונשימה.
-          </p>
-          <p>
-            איזון בין כוח והרפייה 🧘‍♀️🏋
-          </p>
-        </div>
+        <h1 className="post-title">איזון ורפלקסולוגיה</h1>
+       
         <div className="post-section">
           <h2 className="post-question">
-            <strong>איזון ורפלקסולוגיה - הפעם קצת ארוך מהרגיל 😊</strong>
+            <strong>ניסיתן פעם משהו כזה?! 😊</strong>
           </h2>
           <p>
             טיפול רפלקסולוגי הוא טיפול אישי שמותאם לכל גוף עם התייחסות למאפיינים ולצרכים שלו.
@@ -61,10 +54,20 @@ export default function PostPage() {
             רפלקסולוגית 👣🪻
           </p>
         </div>
+        <div className="post-section">
+          <p>
+            לשם כך יש צורך לשלב ולאזן בין שריר מיומן, טכניקה, בטחון ונשימה.
+          </p>
+          <p>
+            איזון בין כוח והרפייה 🧘‍♀️🏋
+          </p>
+        </div>
       </div>
+      
       <div className="post-image-container">
         <img className="post-image" src="balance.webp" alt="רפלקסולוגיה" loading="lazy" />
       </div>
+      
       <Link to="/contact" className="post-book-treatment-button">
         הזמינו טיפול עכשיו!
       </Link>

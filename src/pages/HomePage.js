@@ -136,26 +136,25 @@ export const AboutLegsSection = ({
       title: "רפלקסולוגיה",
       image: "coffee.webp",
       url: "/reflexology",
-      alt:"כוס נס קפה"
+      alt:"כוס נס קפה",
+      desc:"בטיפול רפלקסולוגיה, כדי להגיע לכל שכבות האיברים והמערכות, נעבור יחד תהליך יסודי..."
     },
     {
       title: "איזון",
       image: "balance.webp",
       url: "/balance",
-      alt:"תרגיל טרפז מעופף"
+      alt:"תרגיל טרפז מעופף",
+      desc:"טיפול רפלקסולוגי הוא טיפול אישי שמותאם לכל גוף עם התייחסות למאפיינים ולצרכים שלו..."
+
     },
     {
       title: "השתקפות",
       image: "reflection.webp",
       url: "/reflection",
-      alt:"השתקפות עצים על המים"
-    },
-    {
-      title: "דוגמא",
-      image: "pink-flower.webp",
-      url: "/cups",
-      alt:"כוס נס קפה"
-    },
+      alt:"השתקפות עצים על המים",
+      desc:"רפלקסולוגיה באה מהמילה REFLECTION שפירושה השתקפות. כל אזור בכף הרגל מייצג איבר או אזור מסוים בגוף..."
+
+    }
   
   ];
 
@@ -167,7 +166,7 @@ export const AboutLegsSection = ({
     <section className="treatments-section">
       {showTitle && (
         <h2>
-          על הרגל{" "}
+          על הרגל
           <img
             className="decoration"
             id="decoration-two"
@@ -189,8 +188,9 @@ export const AboutLegsSection = ({
                 loading="lazy"
                 className="treatment-image"
               />
-              <p className="treatment-title"></p>
-              {info.title}
+              <p className="treatment-title">              {info.title}
+</p>
+              {info.desc}
             </Link>
           </button>
         ))}
