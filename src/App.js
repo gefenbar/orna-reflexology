@@ -9,18 +9,17 @@ import AboutLegsPage from "./pages/AboutLegsPage";
 import Footer from "./Components/Footer";
 import { AccessibilityWidget } from "react-accessibility";
 import "./App.css";
-import Crystals from "./pages/treatments/Crystals"
+import Crystals from "./pages/posts/Crystals"
 import SocialLinks from "./Components/SocialLinks";
-import Babies from "./pages/treatments/Babies";
-import Pregnanat from "./pages/treatments/Pregnant"
-import Cups from "./pages/treatments/Cups"
-import Bamboo from "./pages/treatments/Bamboo"
-import Sweedish from "./pages/treatments/Sweedish"
-import Thai from "./pages/treatments/Thai"
-import Candles from "./pages/treatments/Candles"
-import Reflexology from "./pages/treatments/Reflexology"
-import Face from "./pages/treatments/Face"
-import Sound from "./pages/treatments/Sound"
+import Pregnanat from "./pages/posts/Pregnant"
+import Cups from "./pages/posts/Cups"
+import Balance from "./pages/posts/Balance"
+import Reflection from "./pages/posts/Reflection"
+import Thai from "./pages/posts/Thai"
+import Candles from "./pages/posts/Candles"
+import Reflexology from "./pages/posts/Reflexology"
+import Face from "./pages/posts/Face"
+import Sound from "./pages/posts/Sound"
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -46,16 +45,15 @@ function App() {
           <Route path="/about-me" element={<AboutMePage />} />
           <Route path="/about-legs" element={<AboutLegsPage />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="/babies" element={<Babies />} />
+          <Route path="/reflexology" element={<Reflexology />} />
           <Route path="/thai" element={<Thai />} />
           <Route path="/sound" element={<Sound />} />
           <Route path="/pregnant" element={<Pregnanat />} />
           <Route path="/cups" element={<Cups />} />
           <Route path="/crystals" element={<Crystals />} />
-          <Route path="/bamboo" element={<Bamboo />} />
-          <Route path="/sweedish" element={<Sweedish />} />
+          <Route path="/balance" element={<Balance />} />
+          <Route path="/reflection" element={<Reflection />} />
           <Route path="/candles" element={<Candles />} />
-          <Route path="/reflexology" element={<Reflexology />} />
           <Route path="/face" element={<Face />} />
 
 

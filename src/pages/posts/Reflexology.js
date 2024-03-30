@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export default function PostPage() {
+export default function Reflexology() {
   return (
     <div className="post-page-container">
       <div className="post-content-container">

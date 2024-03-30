@@ -1,17 +1,11 @@
 import { AboutLegsSection } from "./HomePage";
 export default function AboutLegsPage() {
   const moreTreatments = [
-    { title: "עיסוי מקלות במבוק", image: "sweedish-massage.webp",      url: "/bamboo"
+    { title: "נרות הופי", image: "sweedish-massage.webp" ,      url: "/candles" ,   alt:"כוס נס קפה"
   },
-    { title: " עיסוי שוודי", image: "sweedish-massage.webp",      url: "/sweedish"
+    { title: "רפלקסולוגיה", image: "sweedish-massage.webp" ,      url: "/reflexology" ,   alt:"כוס נס קפה"
   },
-    { title: "פוט מסאז' תאילנדי", image: "sweedish-massage.webp" ,      url: "/thai"
-  },
-    { title: "נרות הופי", image: "sweedish-massage.webp" ,      url: "/candles"
-  },
-    { title: "רפלקסולוגיה", image: "sweedish-massage.webp" ,      url: "/reflexology"
-  },
-    { title: "עיסוי פנים", image: "sweedish-massage.webp" ,      url: "/face"
+    { title: "עיסוי פנים", image: "sweedish-massage.webp" ,      url: "/face" ,   alt:"כוס נס קפה"
   },
   ];
   return (

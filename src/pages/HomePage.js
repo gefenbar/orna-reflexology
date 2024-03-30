@@ -133,30 +133,30 @@ export const AboutLegsSection = ({
 }) => {
   let infos = [
     {
-      title: "דוגמא",
+      title: "רפלקסולוגיה",
       image: "coffee.webp",
-      url: "/babies",
+      url: "/reflexology",
+      alt:"כוס נס קפה"
     },
     {
-      title: "דוגמא",
-      image: "white-flower.webp",
-      url: "/sound",
+      title: "איזון",
+      image: "balance.webp",
+      url: "/balance",
+      alt:"תרגיל טרפז מעופף"
     },
     {
-      title: "דוגמא",
-      image: "blue-flower.webp",
-      url: "/pregnant",
+      title: "השתקפות",
+      image: "reflection.webp",
+      url: "/reflection",
+      alt:"השתקפות עצים על המים"
     },
     {
       title: "דוגמא",
       image: "pink-flower.webp",
       url: "/cups",
+      alt:"כוס נס קפה"
     },
-    {
-      title: "דוגמא",
-      image: "purple-flower.webp",
-      url: "/crystals",
-    },
+  
   ];
 
   if (Array.isArray(additionalInfos)) {
@@ -185,7 +185,7 @@ export const AboutLegsSection = ({
             <Link to={info.url}>
               <img
                 src={info.image}
-                alt={info.title}
+                alt={info.alt}
                 loading="lazy"
                 className="treatment-image"
               />

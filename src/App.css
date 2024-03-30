@@ -743,6 +743,10 @@ section {
   .contact-page p {
     font-size: 1rem;
   }
+  .post-image {
+  width: 250px!important;
+  height: 250px!important;
+  }
 }
 
 /* General Styles */
@@ -897,8 +901,8 @@ section {
 }
 
 .post-image {
-  max-width: 250px;
-  height: 200px;
+  width:400px;
+  height: 400px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
