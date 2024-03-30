@@ -767,6 +767,10 @@ font-weight: 200
   }
   .treatment-image {max-width:150px;
   height: 150px;}
+
+  .about-section .about-text-container p{
+  width: 100%;
+}
 }
 
 /* General Styles */
