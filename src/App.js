@@ -35,7 +35,7 @@ function App() {
   return (
     <div className="App">
       <SocialLinks />
-      <AccessibilityWidget />
+      <AccessibilityWidget className="accessibility"/>
 
       <BrowserRouter>
       <ScrollToTop />

@@ -130,7 +130,7 @@ const Testimonials = () => (
   let infos = [
     {
       title: "דוגמא",
-      image: "red-flower.webp",
+      image: "coffee.webp",
       url: "/babies",
     },
     {
