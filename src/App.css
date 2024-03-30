@@ -636,11 +636,21 @@ section {
   .about-section .about-text-container p {
     width: 100%;
   }
-  .about-section .about-image-container img {
+  .about-image-container img {
     width: 230px;
     height: 300px;
   }
 
+   .about-content {
+    flex-direction: column;
+  }
+  .about-image-container,
+  .about-text-container {
+    width: 100%;
+  }
+  .about-text-container p {
+    width: 100%;
+  }
   
  
   /* .about-section .about-text-container {
