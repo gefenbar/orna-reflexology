@@ -112,7 +112,7 @@ const Testimonial = ({ name, quote, image }) => (
 const Testimonials = () => (
   <section className="testimonials-section" id="testimonials">
     <h2>
-      שיתופים{" "}
+      המלצות
       <img
         className="decoration"
         id="decoration-four"
