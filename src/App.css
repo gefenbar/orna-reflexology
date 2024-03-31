@@ -975,7 +975,7 @@ font-weight: 200
 
 .testimonial-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
   max-width: 1000px;
   margin: 0 auto;
@@ -990,6 +990,8 @@ font-weight: 200
   position: relative;
   display: flex;
   flex-direction: column;
+  height: fit-content;
+  width: fit-content;
 }
 
 .testimonial::before {
