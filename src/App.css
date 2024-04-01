@@ -879,6 +879,7 @@ font-weight: 200
   z-index:0;
   
 }
+
 .post-page-container::before {
   content: "";
   position: fixed;
@@ -1036,6 +1037,9 @@ font-weight: 200
   }
   .myImage {
 display: none;
+}
+.post-page-container {
+  margin-top: -30px;
 }
 }
 .mobile-navbar {
