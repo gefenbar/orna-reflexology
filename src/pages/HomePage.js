@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+// import Testimonials from "./Testimonials";
 export default function HomePage() {
   return (
     <main className="home">

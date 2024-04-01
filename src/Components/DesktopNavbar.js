@@ -1,6 +1,14 @@
 import { Link } from "react-router-dom"
-export default function Navbar() {  
-return (
+import React, { useState } from 'react';
+
+export default function DesktopNavbar() {  
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  return (
     <nav className="navbar" dir='rtl'>
       <div className="navbar-container">
       
@@ -13,13 +21,18 @@ return (
         <Link to="/">דף הבית</Link>
         </li>
         <li>
-        <Link to="/about-legs">על הרגל</Link>
-        </li>
-        <li>
         <Link to="/about-me">עליי</Link>
         </li>
         <li>
-
+              <Link to="/testimonials" onClick={toggleMenu}>
+                המלצות
+              </Link>
+            </li>
+        <li>
+        <Link to="/about-legs">על הרגל</Link>
+        </li>
+        
+        <li>
           <Link to="/contact">צרו קשר</Link>
           </li>
 

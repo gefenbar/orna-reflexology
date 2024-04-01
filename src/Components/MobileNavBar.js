@@ -23,15 +23,22 @@ const MobileNavbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="/about-legs" onClick={toggleMenu}>
-                על הרגל
-              </Link>
-            </li>
-            <li>
               <Link to="/about-me" onClick={toggleMenu}>
                 עליי
               </Link>
             </li>
+            <li>
+              <Link to="/testimonials" onClick={toggleMenu}>
+                המלצות
+              </Link>
+            </li>
+            <li>
+              <Link to="/about-legs" onClick={toggleMenu}>
+                על הרגל
+              </Link>
+            </li>
+           
+            
             <li>
               <Link to="/contact" onClick={toggleMenu}>
                 צרו קשר

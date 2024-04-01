@@ -892,6 +892,8 @@ font-weight: 200
   border-top-right-radius: 50% 10%;
   border-bottom-right-radius: 51% 90%;
   rotate: 20deg;
+  
+
   z-index: -1;
 }
 
@@ -1032,6 +1034,9 @@ font-weight: 200
     grid-template-columns: 1fr;
     gap: 50px;
   }
+  .myImage {
+display: none;
+}
 }
 .mobile-navbar {
   display: flex;
@@ -1112,3 +1117,36 @@ font-weight: 200
   color: #876e4a;
   text-decoration: none;
 }
+.myImage {
+  position: fixed;
+  bottom: 10px;
+  right: 60px;
+  width: 25px;
+  height: 25px;
+  z-index: 100000;
+}
+#testimonials-page{
+  min-height: 100vh;
+    top: 120px;
+    position: relative;
+    margin-bottom: 120px;
+}
+#testimonials-page .section-title{
+text-align: center;
+margin-bottom: 40px;}
+/* #testimonials-page::before {
+  content: "";
+  position: fixed;
+  top: 20vh;
+  left: 0;
+  width: 90vw;
+  height: 50vh;
+  background: #e5eee3;
+  border-top-left-radius: 50% 90%;
+  border-bottom-left-radius: 50% 10%;
+  border-top-right-radius: 50% 10%;
+  border-bottom-right-radius: 51% 90%;
+  rotate: 20deg;
+  z-index: 0;
+} */
+
