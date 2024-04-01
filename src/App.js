@@ -1,7 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import Navbar from "./Components/Navbar";
+import DesktopNavbar from "./Components/DesktopNavbar";
+import MobileNavbar from "./Components/MobileNavBar";
 import HomePage from "./pages/HomePage";
 import AboutMePage from "./pages/AboutMePage";
 import ContactPage from "./pages/ContactPage";
@@ -20,6 +21,7 @@ import Candles from "./pages/posts/Candles"
 import Reflexology from "./pages/posts/Reflexology"
 import Face from "./pages/posts/Face"
 import Sound from "./pages/posts/Sound"
+import { useMediaQuery } from 'react-responsive';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -31,6 +33,7 @@ function ScrollToTop() {
   return null;
 }
 function App() {
+  const isDesktop = useMediaQuery({ minWidth: 768 });
   return (
     <div className="App">
       <SocialLinks />
@@ -38,8 +41,7 @@ function App() {
 
       <BrowserRouter>
       <ScrollToTop />
-
-        <Navbar />
+        {isDesktop?<DesktopNavbar />:<MobileNavbar/>}
         <Routes>
           <Route exact path="/" element={<HomePage />} />
           <Route path="/about-me" element={<AboutMePage />} />
