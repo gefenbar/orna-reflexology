@@ -1178,11 +1178,13 @@ background-repeat: no-repeat;
 .envelope {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 75%;
   transition: transform 0.5s ease;
   background-color: #fee;
   border: 1px black;
   border-style: dashed;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .envelope-flap {
@@ -1273,14 +1275,7 @@ button:hover {
   .envelope-container {
     width: 80%; /* Adjust envelope width for smaller screens */
   }
-  .envelope {
-    width: 100%; /* Ensure envelope fills container width */
-    /* height: 50%; */
-    /* position: relative; */
-    /* justify-content: center; */
-    /* align-self: center; */
-  /* top:25%; */
-  }
+  
   .envelope-content,
   .gift-card {
     font-size: 14px; /* Adjust font size for smaller screens */
