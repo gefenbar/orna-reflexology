@@ -1156,3 +1156,136 @@ margin-bottom: 40px;}
   z-index: 0;
 } */
 
+.gift-card-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  background-image: url("../public/giftcard-background.webp");
+  background-position: bottom;
+  background-size: cover;
+background-repeat: no-repeat;
+  /* background-color: #f1f1f1; */
+}
+
+.envelope-container {
+  position: relative;
+  width: 500px;
+  height: 350px;
+  cursor: pointer;
+}
+
+.envelope {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease;
+  background-color: #fee;
+  border: 1px black;
+  border-style: dashed;
+}
+
+.envelope-flap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 175px 250px 0 250px;
+  border-color: #e5eee3 transparent transparent transparent;
+  transition: border-width 0.5s ease;
+}
+
+.envelope.open .envelope-flap {
+  border-width: 0 250px 175px 250px;
+}
+
+.envelope-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #333;
+}
+
+.logo {
+  max-width: 120px;
+  margin-bottom: 20px;
+}
+
+.gift-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: 80%;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.gift-card.revealed {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
+
+.gift-card h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.gift-card p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.gift-card .logo2 {
+  max-width: 120px;
+  margin-top: 20px;
+}
+button {
+  display: block;
+  margin: 30px auto 0;
+  padding: 12px 24px;
+  background-color: #e5eee3;
+  color: #333;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #d0e6c9;
+}
+@media (max-width: 768px) {
+  .gift-card-section {
+    height: auto; /* Adjust height for smaller screens */
+  }
+  /* .envelope-flap{} */
+  .envelope-container {
+    width: 80%; /* Adjust envelope width for smaller screens */
+  }
+  .envelope {
+    width: 100%; /* Ensure envelope fills container width */
+    /* height: 50%; */
+    /* position: relative; */
+    /* justify-content: center; */
+    /* align-self: center; */
+  /* top:25%; */
+  }
+  .envelope-content,
+  .gift-card {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+  .logo,
+  .logo2 {
+    max-width: 80px; /* Adjust logo size for smaller screens */
+  }}

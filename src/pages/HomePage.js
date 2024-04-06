@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import GiftCardBanner from "../Components/GiftCardBanner";
 // import Testimonials from "./Testimonials";
 export default function HomePage() {
   return (
@@ -8,6 +9,7 @@ export default function HomePage() {
       <AboutMeSection />
       <Testimonials />
       <AboutLegsSection />
+      <GiftCardBanner/>
       <ContactSection />
     </main>
   );
