@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import EnvelopeAndGiftCard from './GiftCardBanner';
 
 const MobileNavbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -36,13 +37,14 @@ const MobileNavbar = () => {
               <Link to="/about-legs" onClick={toggleMenu}>
                 על הרגל
               </Link>
-            </li>
-           
-            
+            </li>            
             <li>
               <Link to="/contact" onClick={toggleMenu}>
                 צרו קשר
               </Link>
+            </li>
+            <li>
+            <EnvelopeAndGiftCard/>
             </li>
           </ul>
           <div
