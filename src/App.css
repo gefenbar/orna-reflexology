@@ -1263,17 +1263,17 @@ button {
 button:hover {
   background-color: #d0e6c9;
 }
-.navbar-giftcard .gift-card-section{
+.mobile-nav-giftcard .gift-card-section{
 position: relative;
 }
-
-
-@media (max-width: 768px) {
-  .mobile-nav-giftcard .gift-card-section {height: auto;}
+.mobile-nav-giftcard .gift-card-section {height: auto;}
   li .gift-card.gift-card.revealed{
     transform: translate(-50%, -0%);
     background: red;
   }
+
+@media (max-width: 768px) {
+  
   .gift-card.gift-card.revealed {
     position: relative;
     transform: translate(-50%, -100%);
