@@ -1270,6 +1270,10 @@ position: relative;
 @media (max-width: 768px) {
   .mobile-nav-giftcard.gift-card-section {height: auto;}
   .mobile-nav-giftcard .gift-card.gift-card.revealed{
+    align-items: unset;
+    /* display: unset; */
+    height: auto;
+    justify-content: unset;
     transform: translate(-50%, -0%);
     background: red;
   }
