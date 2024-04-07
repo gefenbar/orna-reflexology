@@ -1161,11 +1161,6 @@ margin-bottom: 40px;}
   justify-content: center;
   align-items: center;
   height: 60vh;
-  /* background-image: url("../public/painted-wall.jpg"); */
-  background-position: bottom;
-  background-size: cover;
-background-repeat: no-repeat;
-  /* background-color: #f1f1f1; */
 }
 
 .envelope-container {
@@ -1182,7 +1177,6 @@ background-repeat: no-repeat;
   transition: transform 0.5s ease;
   background-color: #fff;
   border: 1px black;
-  /* border-style: dashed; */
   top: 50%;
   transform: translateY(-50%);
 }
@@ -1250,6 +1244,7 @@ background-repeat: no-repeat;
   max-width: 120px;
   margin-top: 20px;
 }
+
 button {
   display: block;
   margin: 30px auto 0;
@@ -1267,26 +1262,37 @@ button {
 button:hover {
   background-color: #d0e6c9;
 }
-@media (max-width: 768px) {
-  .envelope{
-    background-color: transparent;
+
+@media (max-width: 767px) {
+
+
+  .gift-card {
+    position: static;
+    transform: none;
+    opacity: 1;
+    width: 100%;
+    padding: 20px;
+    /* transform: translate(-50%, -50%) scale(0); */
   }
-  .envelope-content{
+}
+
+@media (max-width: 768px) {
+  .gift-card.gift-card.revealed {
+    position: relative;
+    transform: translate(-50%, -100%)
+  }
+
+  .envelope-container {
     display: none;
   }
-  .gift-card-section {
-    height: auto; /* Adjust height for smaller screens */
-  }
-  /* .envelope-flap{} */
-  .envelope-container {
-    width: 80%; /* Adjust envelope width for smaller screens */
-  }
-  
+
   .envelope-content,
   .gift-card {
-    font-size: 14px; /* Adjust font size for smaller screens */
+    font-size: 14px;
   }
+
   .logo,
   .logo2 {
-    max-width: 80px; /* Adjust logo size for smaller screens */
-  }}
+    max-width: 80px;
+  }
+}
