@@ -1273,6 +1273,7 @@ position: relative;
     transform: translate(-50%, -0%);
 
   }
+  .mobile-navbar-links li:last-child {margin-bottom: 2px;}
   .gift-card.gift-card.revealed {
     position: relative;
     transform: translate(-50%, -100%);
