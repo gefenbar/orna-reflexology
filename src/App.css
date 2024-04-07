@@ -1268,7 +1268,7 @@ position: relative;
 }
 
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .mobile-nav-giftcard .gift-card-section {height: auto;}
   .mobile-nav-giftcard .gift-card.gift-card.revealed{
     transform: translate(-50%, -0%);
