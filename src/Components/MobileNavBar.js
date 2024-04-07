@@ -43,9 +43,15 @@ const MobileNavbar = () => {
                 צרו קשר
               </Link>
             </li>
-            <li>
-            <EnvelopeAndGiftCard/>
-            </li>
+            <li className='mobile-nav-giftcard'>
+            <div className={`gift-card revealed`}>
+          <p>פנקי את עצמך או מישהי מיוחדת בחוויה מפנקת!</p>
+          <button>
+            <Link to="/contact" onClick={toggleMenu}>הזמיני Gift Card</Link>
+          </button>
+          <img className="logo2" src="logo.webp" alt="Logo" />
+        </div>
+        </li>
           </ul>
           <div
           className={`mobile-navbar-toggle ${isMenuOpen ? 'open' : ''}`}

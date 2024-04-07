@@ -1269,6 +1269,10 @@ position: relative;
 
 
 @media (max-width: 768px) {
+  .mobile-nav-giftcard .gift-card.gift-card.revealed{
+    transform: translate(-50%, -0%);
+
+  }
   .gift-card.gift-card.revealed {
     position: relative;
     transform: translate(-50%, -100%);
