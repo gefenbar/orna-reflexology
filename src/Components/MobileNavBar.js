@@ -44,7 +44,7 @@ const MobileNavbar = () => {
             </li>
             <li>
             <div className="giftcard">
-            <div className={`gift-card revealed`}>
+            <div className="gift-card revealed">
           <p>פנקי את עצמך או מישהי מיוחדת בחוויה מפנקת!</p>
           <button>
             <Link to="/contact"  onClick={toggleMenu}>הזמיני Gift Card</Link>
