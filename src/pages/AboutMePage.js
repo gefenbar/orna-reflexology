@@ -1,33 +1,53 @@
-import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 
-const EnvelopeAndGiftCard = () => {
-  const [isHovered, setIsHovered] = useState(false);
-
+export default function AboutPage() {
   return (
-    <section className="gift-card-section">
-      <div
-        className="envelope-container"
-        onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => setIsHovered(false)}
-      >
-        <div className={`envelope ${isHovered ? 'open' : ''}`}>
-          <div className="envelope-flap"></div>
-          <div className="envelope-content">
-            <img className="logo" src="logo.webp" alt="Logo" />
-            <p>Click for sending gift card</p>
+    <section className="about-page">
+      <div className="about-container">
+        <div className="about-header">
+          <h1>שלום, שמי ארנה קליין</h1>
+          <h2>מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך, בוגרת מכללת רידמן</h2>
+        </div>
+        <div className="about-content">
+          <div className="about-image-container">
+            <img
+              src="orna2.webp"
+              alt="ארנה קליין"
+              loading="lazy"
+              width="340px"
+              height="450px"
+            />
           </div>
-          <div className={`gift-card ${isHovered ? 'revealed' : ''}`}>
-            <h2>Happy Birthday!</h2>
+          <div className="about-text-container">
             <p>
-              Wishing you a wonderful day filled with joy and happiness. Please
-              enjoy this gift card as a token of our appreciation.
+            בחרתי ברפלקסולוגיה מתוך אמונה עמוקה ביכולתה לתת מענה נכון למגוון מצבים ותופעות. 
+בגישתי הטיפולית אני משלבת הקשבה לצורכי המטופלת והתאמת מענה טיפולי מדוייק תוך הבנה שריפוי אמיתי מגיע מתוך איזון של הגוף עצמו.
             </p>
-            <img className="logo2" src="logo.webp" alt="Logo" />
+            <p>
+            אני מאמינה שהקשבה לגוף היא המפתח להבנת צרכיו ולתמיכה בתהליך הריפוי הטבעי. עבורי, כל אדם הוא מכלול של גוף, נפש ורוח, ואני רואה חשיבות רבה בטיפול הוליסטי המשלב את כל היבטי האדם.
+
+            </p>
+            <p>
+            אני רואה את המטופלת כשותפה פעילה בתהליך הריפוי, ועובדות יחד כדי ליצור תנאים מיטביים להחלמה.
+            </p>
+            <p>
+            אני מאמינה שכל אדם מחזיק בכוחות ריפוי פנימיים, ותפקידי כרפלקסולוגית הוא לסייע לו לגלות ולממש את כוחותיו אלו.
+
+            </p>
+            <p>
+            אני מזמינה אתכן לחוות איתי טיפול רפלקסולוגי מותאם אישית, שיאפשר לכן להתחבר לכוחות הריפוי הטבעיים שלכן ולמצוא איזון והרמוניה בגופכן.
+
+            </p>
+            <p>
+אשמח לפגוש אתכם וללוות אתכם במסע הריפוי שלכם.
+            </p>
+            <Link className="contact-link" to="/contact">
+              דברו איתי <span className="emoji">&#128591;
+</span>
+            </Link>
           </div>
         </div>
       </div>
     </section>
   );
-};
-
-export default EnvelopeAndGiftCard;
+}
