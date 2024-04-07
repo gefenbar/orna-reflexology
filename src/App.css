@@ -1269,11 +1269,10 @@ position: relative;
 
 
 @media screen and (max-width: 768px) {
+  .mobile-nav-giftcard .gift-card-section {height: auto;}
   .mobile-nav-giftcard .gift-card.gift-card.revealed{
     transform: translate(-50%, -0%);
-
   }
-  .mobile-navbar-links li:last-child {margin-bottom: 2px;}
   .gift-card.gift-card.revealed {
     position: relative;
     transform: translate(-50%, -100%);
