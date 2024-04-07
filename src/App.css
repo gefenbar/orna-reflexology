@@ -1263,24 +1263,18 @@ button {
 button:hover {
   background-color: #d0e6c9;
 }
-
-@media (max-width: 767px) {
-
-
-  .gift-card {
-    position: static;
-    transform: none;
-    opacity: 1;
-    width: 100%;
-    padding: 20px;
-    /* transform: translate(-50%, -50%) scale(0); */
-  }
+.navbar-giftcard .gift-card-section{
+position: relative;
 }
+
 
 @media (max-width: 768px) {
   .gift-card.gift-card.revealed {
     position: relative;
-    transform: translate(-50%, -100%)
+    transform: translate(-50%, -100%);
+     opacity: 1;
+    width: 100%;
+    padding: 20px;
   }
 
   .envelope-container {
