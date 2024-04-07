@@ -1266,13 +1266,13 @@ button:hover {
 .navbar-giftcard .gift-card-section{
 position: relative;
 }
-.mobile-nav-giftcard .gift-card-section {height: auto;}
+
+@media (max-width: 768px) {
+  .mobile-nav-giftcard .gift-card-section {height: auto;}
   .mobile-nav-giftcard .gift-card.gift-card.revealed{
     transform: translate(-50%, -0%);
     background: red;
   }
-@media (max-width: 768px) {
-  
   .gift-card.gift-card.revealed {
     position: relative;
     transform: translate(-50%, -100%);
