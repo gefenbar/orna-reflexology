@@ -1263,9 +1263,9 @@ button {
 button:hover {
   background-color: #d0e6c9;
 }
-.navbar-giftcard .gift-card-section{
+/* .navbar-giftcard .gift-card-section{
 position: relative;
-}
+} */
 
 @media (max-width: 768px) {
   .mobile-nav-giftcard.gift-card-section {height: auto;}
