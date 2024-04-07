@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const EnvelopeAndGiftCard = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -19,7 +20,7 @@ const EnvelopeAndGiftCard = () => {
           <div className={`gift-card ${isHovered ? 'revealed' : ''}`}>
             <p>            פנקי את עצמך או מישהי מיוחדת בחוויה מפנקת!
 </p>
-<button>הזמיני Gift Card</button>
+<button><Link to="/contact">הזמיני Gift Card</Link></button>
 
             <img className="logo2" src="logo.webp" alt="Logo" />
           </div>
