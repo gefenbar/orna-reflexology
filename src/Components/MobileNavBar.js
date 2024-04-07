@@ -42,7 +42,7 @@ const MobileNavbar = () => {
                 צרו קשר
               </Link>
             </li>
-            <li>
+            <li className='mobile-giftcard'>
             <div className="giftcard">
             <div className="gift-card revealed">
           <p>פנקי את עצמך או מישהי מיוחדת בחוויה מפנקת!</p>
