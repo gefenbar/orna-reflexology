@@ -30,8 +30,8 @@ const HeroSection = () => (
       <br />
 
       <button>
-        <Link to="/contact">לתיאום טיפול</Link>
-      </button>
+      <a href="https://api.whatsapp.com/send?phone=+972549794777&text=שלום ארנה, ברצוני להזמין טיפול רפלקסולוגי"  rel="noreferrer" target="_blank">לתיאום טיפול</a>
+            </button>
     </div>
   </section>
 );

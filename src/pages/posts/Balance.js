@@ -54,14 +54,14 @@ export default function PostPage() {
             רפלקסולוגית 👣🪻
           </p>
         </div>
-        <div className="post-section">
+        {/* <div className="post-section">
           <p>
             לשם כך יש צורך לשלב ולאזן בין שריר מיומן, טכניקה, בטחון ונשימה.
           </p>
           <p>
             איזון בין כוח והרפייה 🧘‍♀️🏋
           </p>
-        </div>
+        </div> */}
       </div>
       
       <div className="post-image-container">

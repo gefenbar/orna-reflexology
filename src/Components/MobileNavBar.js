@@ -47,7 +47,9 @@ const MobileNavbar = () => {
             <div className="gift-card revealed">
           <p>פנקי את עצמך או מישהי מיוחדת בחוויה מפנקת!</p>
           <button>
-            <Link to="/contact"  onClick={toggleMenu}>הזמיני Gift Card</Link>
+          <a href="https://api.whatsapp.com/send?phone=+972549794777&text=שלום ארנה, ברצוני להזמין Gift Card"  rel="noreferrer" target="_blank" onClick={toggleMenu}>
+    הזמיני Gift Card
+  </a>
           </button>
           <img className="logo2" src="logo.webp" alt="Logo" />
         </div>
