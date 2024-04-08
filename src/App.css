@@ -463,6 +463,8 @@ section {
   color: black;
 }
 .hero-section button {
+  margin: 30px auto 0;
+
   background-color: #fffff8;
   color: #876e4a;
   border: 0.125rem solid #876e4a;
@@ -670,7 +672,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* gap: 1.25rem; */
+  gap: 1.25rem;
   margin: 1rem 0;
   cursor: pointer;
 }
@@ -682,21 +684,21 @@ section {
   padding: 1.25rem;
   width: 70%;
   max-width: 250px;
-  transition: transform 0.3s ease;
+  /* transition: transform 0.3s ease; */
   border: none;
 }
 .treatment-card a {
   font-weight: bold;
-  color: black !important;
-  transition: color 0.6s;
+  color: black;
+  transition: color 0.3s;
   font-size: larger;
 }
-
+/* 
 .treatment-card a:hover {
-  color: #876e4a !important;
-}
+  color: #876e4a;
+} */
 .treatment-card:hover {
-  transform: translateY(-0.3125rem);
+  background-color: #e5eee3;
 }
 .treatment-card a {
 font-weight: 200
@@ -1246,9 +1248,10 @@ margin-bottom: 40px;}
   margin-top: 20px;
 }
 
-button {
-  display: block;
+.gift-card button {
   margin: 30px auto 0;
+
+  display: block;
   padding: 12px 24px;
   background-color: #e5eee3;
   color: #333;
@@ -1260,16 +1263,12 @@ button {
   transition: background-color 0.3s ease;
 }
 
-button:hover {
+.gift-card  button:hover {
   background-color: #d0e6c9;
 }
-/* .mobile-nav-giftcard .gift-card-section{
-position: relative;
-}
-.mobile-nav-giftcard .gift-card-section {height: auto;} */
+
 .mobile-giftcard .gift-card.gift-card.revealed{
     transform: translate(-50%, -0%);
-    /* background: red; */
   }
 
 @media (max-width: 768px) {
