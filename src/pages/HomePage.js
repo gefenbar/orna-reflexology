@@ -143,22 +143,22 @@ export const AboutLegsSection = ({
       title: "השתקפות",
       image: "reflection.webp",
       url: "/reflection",
-      alt:"השתקפות עצים על המים",
+      alt:"השתקפות עץ על המים",
       desc:"רפלקסולוגיה באה מהמילה REFLECTION שפירושה השתקפות. כל אזור בכף הרגל מייצג איבר או אזור מסוים בגוף..."
 
     },
     {
       title: "רפלקסולוגיה",
-      image: "coffee.webp",
+      image: "reflexology.webp",
       url: "/reflexology",
-      alt:"כוס נס קפה",
+      alt:"טביעות רגליים בחול",
       desc:"בטיפול רפלקסולוגיה, כדי להגיע לכל שכבות האיברים והמערכות, נעבור יחד תהליך יסודי..."
     },
     {
       title: "איזון",
       image: "balance.webp",
       url: "/balance",
-      alt:"תרגיל טרפז מעופף",
+      alt:"אבנים מאוזנות",
       desc:"טיפול רפלקסולוגי הוא טיפול אישי שמותאם לכל גוף עם התייחסות למאפיינים ולצרכים שלו..."
 
     },

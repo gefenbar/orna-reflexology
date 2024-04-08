@@ -65,7 +65,7 @@ export default function PostPage() {
       </div>
       
       <div className="post-image-container">
-        <img className="post-image" src="balance.webp" alt="רפלקסולוגיה" loading="lazy" />
+        <img className="post-image" src="balance.webp" alt="אבנים מאוזנות" loading="lazy" />
       </div>
       
       <Link to="/contact" className="post-book-treatment-button">

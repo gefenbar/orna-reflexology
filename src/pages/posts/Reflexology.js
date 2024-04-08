@@ -47,7 +47,7 @@ export default function Reflexology() {
         </div>
       </div>
       <div className="post-image-container">
-        <img className="post-image" src="coffee.webp" alt="רפלקסולוגיה" loading="lazy" />
+        <img className="post-image" src="reflexology.webp" alt="טביעות רגליים בחול" loading="lazy" />
       </div>
       <Link to="/contact" className="post-book-treatment-button">הזמינו טיפול עכשיו!</Link>
     </div>
