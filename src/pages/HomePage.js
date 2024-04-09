@@ -9,7 +9,7 @@ export default function HomePage() {
       <AboutMeSection />
       <Testimonials />
       <AboutLegsSection />
-      <GiftCardBanner/>
+      <GiftCardBanner />
       <ContactSection />
     </main>
   );
@@ -30,8 +30,14 @@ const HeroSection = () => (
       <br />
 
       <button>
-      <a href="https://api.whatsapp.com/send?phone=+972549794777&text=שלום ארנה, ברצוני להזמין טיפול רפלקסולוגי"  rel="noreferrer" target="_blank">לתיאום טיפול</a>
-            </button>
+        <a
+          href="https://api.whatsapp.com/send?phone=+972549794777&text=שלום ארנה, ברצוני להזמין טיפול רפלקסולוגי"
+          rel="noreferrer"
+          target="_blank"
+        >
+          לתיאום טיפול
+        </a>
+      </button>
     </div>
   </section>
 );
@@ -82,24 +88,22 @@ const AboutMeSection = () => (
 const testimonials = [
   {
     name: "אנה נקסדורף",
-    quote:
-      "אורנה מקסימה עם אנרגיות טובות. מטפלת קשובה ורגישה. ממליצה מאוד.",
+    quote: "אורנה מקסימה עם אנרגיות טובות. מטפלת קשובה ורגישה. ממליצה מאוד.",
   },
   {
-    name: "ד\"ר מירה המאירי",
-    quote:
-      "מטפלת מעולה, מומלצת מאוד.",
+    name: 'ד"ר מירה המאירי',
+    quote: "מטפלת מעולה, מומלצת מאוד.",
   },
   {
     name: "מינה נלגבאץ",
     quote:
       "חיפשתי מקום קרוב לבית. מצאתי עולם ומלואו.. אישה נעימה חכמה ישרה ומיקצועית!!!  מצאתי בית. רפלקסולוגיה היא אחת הדרכים לאבחן לטפל וגם להתפנק. אין ספק שזה המקום. זכיתי.",
-  },  {
+  },
+  {
     name: "קרן מעוז",
     quote:
       "רוצה לתת לעצמך מתנה? שעה של טיפול רפלוקסולוגיה מפנק אצל אורן קליין Orna Nissani Klein.",
   },
-  
 ];
 
 const Testimonial = ({ name, quote, image }) => (
@@ -143,27 +147,26 @@ export const AboutLegsSection = ({
       title: "השתקפות",
       image: "reflection.webp",
       url: "/reflection",
-      alt:"השתקפות עץ על המים",
-      desc:"רפלקסולוגיה באה מהמילה REFLECTION שפירושה השתקפות. כל אזור בכף הרגל מייצג איבר או אזור מסוים בגוף..."
-
+      alt: "השתקפות עץ על המים",
+      desc:
+        "רפלקסולוגיה באה מהמילה REFLECTION שפירושה השתקפות. כל אזור בכף הרגל מייצג איבר או אזור מסוים בגוף...",
     },
     {
       title: "רפלקסולוגיה",
       image: "reflexology.webp",
       url: "/reflexology",
-      alt:"טביעות רגליים בחול",
-      desc:"בטיפול רפלקסולוגיה, כדי להגיע לכל שכבות האיברים והמערכות, נעבור יחד תהליך יסודי..."
+      alt: "טביעות רגליים בחול",
+      desc:
+        "בטיפול רפלקסולוגי, כדי להגיע לכל שכבות האיברים והמערכות, נעבור יחד תהליך יסודי...",
     },
     {
       title: "איזון",
       image: "balance.webp",
       url: "/balance",
-      alt:"אבנים מאוזנות",
-      desc:"טיפול רפלקסולוגי הוא טיפול אישי שמותאם לכל גוף עם התייחסות למאפיינים ולצרכים שלו..."
-
+      alt: "אבנים מאוזנות",
+      desc:
+        "טיפול רפלקסולוגי הוא טיפול אישי שמותאם לכל גוף עם התייחסות למאפיינים ולצרכים שלו...",
     },
-  
-  
   ];
 
   if (Array.isArray(additionalInfos)) {
@@ -196,8 +199,7 @@ export const AboutLegsSection = ({
                 loading="lazy"
                 className="treatment-image"
               />
-              <p className="treatment-title">              {info.title}
-</p>
+              <p className="treatment-title"> {info.title}</p>
               {info.desc}
             </Link>
           </button>
