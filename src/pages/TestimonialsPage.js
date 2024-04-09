@@ -51,7 +51,7 @@ const Testimonial = ({ name, location, quote, image }) => (
 
 const TestimonialsPage = () => (
   <section className="testimonials" id="testimonials-page">
-    <h1 className="section-title">לקוחות ממליצים</h1>
+    <h1 className="section-title">לקוחות ממליצות</h1>
     <div className="testimonial-container">
       {testimonials.map((testimonial) => (
         <Testimonial key={testimonial.name} {...testimonial} />

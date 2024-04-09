@@ -11,9 +11,7 @@ const MobileNavbar = () => {
   return (
     <nav className="mobile-navbar">
       <div className="mobile-navbar-container">
-        <Link to="/" className="mobile-navbar-logo">
-          <img src="logo.webp" width="150px" height="40px" alt="logo" />
-        </Link>
+   
         
         <div className={`mobile-navbar-links ${isMenuOpen ? 'open' : ''}`}>
           <ul dir="rtl">
@@ -68,7 +66,9 @@ const MobileNavbar = () => {
         
         
       </div>
-      
+      <Link to="/" className="mobile-navbar-logo">
+          <img src="logo.webp" width="150px" height="40px" alt="logo" />
+        </Link>
     </nav>
     
   );

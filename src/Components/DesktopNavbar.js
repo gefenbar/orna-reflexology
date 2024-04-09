@@ -13,14 +13,7 @@ export default function DesktopNavbar() {
       <div className="navbar-container">
         <div className={`navbar-links`}>
           <ul>
-            <a className="navbar-logo" href="/">
-              <img
-                src="logo.webp"
-                width={"150px"}
-                height={"40px"}
-                alt="logo"
-              ></img>
-            </a>
+          
             <li>
               <Link to="/">דף הבית</Link>
             </li>
@@ -39,9 +32,20 @@ export default function DesktopNavbar() {
             <li>
               <Link to="/contact">צרו קשר</Link>
             </li>
+           
           </ul>
+          
         </div>
+        
       </div>
+      <a className="navbar-logo" href="/">
+              <img
+                src="logo.webp"
+                width={"150px"}
+                height={"40px"}
+                alt="logo"
+              ></img>
+            </a>
     </nav>
   );
 }

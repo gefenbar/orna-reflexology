@@ -1,6 +1,6 @@
 import { AboutLegsSection } from "./HomePage";
 export default function AboutLegsPage() {
-  const moreTreatments = [
+  const more = [
     { title: "נרות הופי", image: "sweedish-massage.webp" ,      url: "/candles" ,   alt:"כוס נס קפה", desc:"123"
   },
     { title: "רפלקסולוגיה", image: "sweedish-massage.webp" ,      url: "/reflexology" ,   alt:"כוס נס קפה", desc:"123"
@@ -9,10 +9,10 @@ export default function AboutLegsPage() {
   },
   ];
   return (
-    <main className="treatment-page">
+    <main className="about-leg-page">
       <h1>על הרגל</h1>
       <AboutLegsSection
-        additionalTreatments={moreTreatments}
+        additionalTreatments={more}
         showLink={false}
         showTitle={false}
       />

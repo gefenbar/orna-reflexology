@@ -41,10 +41,12 @@ export default function AboutPage() {
             <p>
 אשמח לפגוש אתכן ולצעוד איתכן במסע הריפוי שלכם.
             </p>
+            <button className="general-button">
             <Link className="contact-link" to="/contact">
-              דברו איתי <span className="emoji">&#128591;
-</span>
+              דברו איתי 
+              {/* <span className="emoji">&#128591;    </span> */}
             </Link>
+            </button>
           </div>
         </div>
       </div>

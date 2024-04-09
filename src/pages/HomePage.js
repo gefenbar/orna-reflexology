@@ -29,8 +29,8 @@ const HeroSection = () => (
       <br />
       <br />
 
-      <button>
-        <a
+      <button className="general-button">
+        <a 
           href="https://api.whatsapp.com/send?phone=+972549794777&text=שלום ארנה, ברצוני להזמין טיפול רפלקסולוגי"
           rel="noreferrer"
           target="_blank"
@@ -77,9 +77,12 @@ const AboutMeSection = () => (
             מענה טיפולי מדוייק תוך הבנה שריפויי אמיתי מגיע מתוך איזון של הגוף
             עצמו.
           </p>
-          <Link className="contact-link" to="/contact">
-            לפרטים נוספים וקביעת תור
+          <button className="general-button">
+          <Link className="contact-link" to="/contact">   לפרטים נוספים וקביעת תור
           </Link>
+        </button>
+          
+         
         </div>
       </div>
     </div>
@@ -174,7 +177,7 @@ export const AboutLegsSection = ({
   }
 
   return (
-    <section className="treatments-section">
+    <section className="about-leg-section">
       {showTitle && (
         <h2>
           על הרגל
@@ -189,17 +192,17 @@ export const AboutLegsSection = ({
           />
         </h2>
       )}
-      <div className="treatment-cards">
+      <div className="about-leg-cards">
         {infos.map((info, index) => (
-          <button className="treatment-card" key={index}>
+          <button className="about-leg-card" key={index}>
             <Link to={info.url}>
               <img
                 src={info.image}
                 alt={info.alt}
                 loading="lazy"
-                className="treatment-image"
+                className="about-leg-image"
               />
-              <p className="treatment-title"> {info.title}</p>
+              <p className="about-leg-title"> {info.title}</p>
               {info.desc}
             </Link>
           </button>
@@ -208,10 +211,13 @@ export const AboutLegsSection = ({
       <br />
       <br />
       <br />
+      
       {showLink && (
+        <button className="general-button">
         <Link className="more" to="/about-legs">
           למידע נוסף
         </Link>
+        </button>
       )}
       <br />
       <br />
