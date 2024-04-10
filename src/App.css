@@ -937,7 +937,8 @@ display: none;
 .post-page-container {
   margin-top: -50px;
 }
-}.mobile-navbar {
+}
+.mobile-navbar {
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -949,6 +950,7 @@ display: none;
   z-index: 100;
   left: 0;
   right: 0;
+  top:0;
 }
 
 .mobile-navbar-container {
@@ -962,6 +964,7 @@ display: none;
 .mobile-navbar-logo {
   display: flex;
   align-items: center;
+  z-index:99;
 }
 
 .mobile-navbar-toggle {
@@ -996,7 +999,7 @@ display: none;
 
 }
 .mobile-navbar-links.open {
-  transform: translateY(0);
+  transform: translateY(-10%);
   /* transform: translateX(50%); */
 }
 
