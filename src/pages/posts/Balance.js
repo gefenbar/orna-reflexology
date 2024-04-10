@@ -67,10 +67,11 @@ export default function PostPage() {
       <div className="post-image-container">
         <img className="post-image" src="balance.webp" alt="אבנים מאוזנות" loading="lazy" />
       </div>
-      
+      <button className='general-button'>
       <Link to="/contact" className="post-book-treatment-button">
         הזמינו טיפול עכשיו!
       </Link>
+      </button>
     </div>
   );
 }

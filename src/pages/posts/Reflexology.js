@@ -46,7 +46,10 @@ export default function Reflexology() {
       <div className="post-image-container">
         <img className="post-image" src="reflexology.webp" alt="טביעות רגליים בחול" loading="lazy" />
       </div>
+      <button className='general-button'>
+
       <Link to="/contact" className="post-book-treatment-button">הזמינו טיפול עכשיו!</Link>
+      </button>
     </div>
   );
 }
