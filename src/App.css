@@ -946,7 +946,7 @@ display: none;
   padding: 1rem;
   background-color: #e5eee3;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin-bottom: -5vh;
+  /* margin-bottom: -5vh; */
   z-index: 100;
   left: 0;
   right: 0;
@@ -999,7 +999,7 @@ display: none;
 
 }
 .mobile-navbar-links.open {
-  transform: translateY(-10%);
+  transform: translateY(-8%);
   /* transform: translateX(50%); */
 }
 
