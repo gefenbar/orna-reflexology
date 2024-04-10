@@ -6,7 +6,7 @@ export default function ContactPage() {
       <h1>יצירת קשר</h1>
 
       <p className="some-text">
-        לתיאום טיפול או בכל שאלה, אנא פנו אליי באמצעות:
+        לתיאום טיפול ולכל שאלה, אנא פנו אליי באמצעות:
       </p>
       <p className="contact-page-social">
         <a href="tel:0549794777">
