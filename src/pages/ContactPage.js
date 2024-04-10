@@ -36,9 +36,7 @@ export default function ContactPage() {
       <h2>שעות פעילות
       </h2>
       <p className="contact-page-social">
-        א'-ה': 9:00-17:00
-        <br />
-        ו': בתאום מראש
+        א'-ה': בתאום מראש
       </p>
       <br />
 
