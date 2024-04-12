@@ -1,6 +1,7 @@
-import { AboutLegsSection } from "./HomePage";
 import { useEffect } from 'react';
 import ReactGA from 'react-ga';
+import { Helmet } from 'react-helmet';
+import { AboutLegsSection } from './HomePage';
 
 export default function AboutLegsPage() {
   useEffect(() => {
@@ -27,6 +28,10 @@ export default function AboutLegsPage() {
 
   return (
     <main className="about-leg-page">
+      <Helmet>
+        <title>הרגליים - על הרגל</title>
+        <meta name="description" content="מידע על רפלקסולוגיה ועוד." />
+      </Helmet>
       <h1>על הרגל</h1>
       <AboutLegsSection
         additionalInfos={more}

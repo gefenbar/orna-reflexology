@@ -2,7 +2,7 @@ import ReactGA from 'react-ga';
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import GiftCardBanner from "../Components/GiftCardBanner";
-
+import { Helmet } from 'react-helmet';
 export default function HomePage() {
   useEffect(() => {
     ReactGA.pageview('/');
@@ -34,6 +34,11 @@ export default function HomePage() {
 
   return (
     <main className="home">
+       <Helmet>
+        <title>הרגליים - ארנה קליין</title>
+        <meta name="description" content="הרגליים - ארנה קליין - מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך." />
+        <meta name="keywords" content="רפלקסולוגיה, רפלקסולוג, רפלקסולוגית, הרגליים, ארנה קליין" />
+      </Helmet>
       <HeroSection handleHeroButtonClick={handleHeroButtonClick} />
       <AboutMeSection handleAboutMeButtonClick={handleAboutMeButtonClick} />
       <Testimonials />
