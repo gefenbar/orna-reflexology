@@ -16,15 +16,15 @@ export default function AboutLegsPage() {
     });
   };
 
-  const more = [
-    {
-      title: "רפלקסולוגיה",
-      image: "sweedish-massage.webp",
-      url: "/reflexology",
-      alt: "כוס נס קפה",
-      desc: "123"
-    },
-  ];
+  // const more = [
+  //   {
+  //     title: "רפלקסולוגיה",
+  //     image: "sweedish-massage.webp",
+  //     url: "/reflexology",
+  //     alt: "כוס נס קפה",
+  //     desc: "123"
+  //   },
+  // ];
 
   return (
     <main className="about-leg-page">
