@@ -55,7 +55,7 @@ const HeroSection = ({ handleHeroButtonClick }) => (
       <img
         src="logo-full.webp"
         alt="ארנה קליין"
-        loading="lazy"
+        // loading="lazy"
         width="240px"
         height="180px"
       />
