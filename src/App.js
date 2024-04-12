@@ -17,7 +17,6 @@ import Reflexology from "./pages/posts/Reflexology"
 import Testimonials from "./pages/TestimonialsPage"
 import { useMediaQuery } from 'react-responsive';
 import ReactGA from 'react-ga';
-import { Helmet } from 'react-helmet';
 
 ReactGA.initialize('G-TW5NHGEBN8'); // הפעלת Google Analytics
 
