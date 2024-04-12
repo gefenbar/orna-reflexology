@@ -11,10 +11,10 @@ import Footer from "./Components/Footer";
 import { AccessibilityWidget } from "react-accessibility";
 import "./App.css";
 import SocialLinks from "./Components/SocialLinks";
-import Balance from "./pages/posts/Balance"
-import Reflection from "./pages/posts/Reflection"
-import Reflexology from "./pages/posts/Reflexology"
-import Testimonials from "./pages/TestimonialsPage"
+import Balance from "./pages/posts/Balance";
+import Reflection from "./pages/posts/Reflection";
+import Reflexology from  "./pages/posts/Reflexology";
+import Testimonials from "./pages/TestimonialsPage";
 import { useMediaQuery } from 'react-responsive';
 import ReactGA from 'react-ga';
 
