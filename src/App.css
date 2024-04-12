@@ -880,14 +880,7 @@ font-weight: 200
   text-decoration: none;
 }
 
-.myImage {
-  position: fixed;
-  bottom: 10px;
-  right: 60px;
-  width: 25px;
-  height: 25px;
-  z-index: 100000;
-}
+
 #testimonials-page{
   min-height: 100vh;
     top: 120px;

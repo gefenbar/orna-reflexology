@@ -32,6 +32,7 @@ export default function Footer() {
           <div className="centered-copyright">
             &copy; {new Date().getFullYear()} Orna Klein
           </div>
+          
         </div>
       </div>
     </footer>

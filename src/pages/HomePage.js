@@ -1,21 +1,50 @@
-import React from "react";
+import ReactGA from 'react-ga';
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import GiftCardBanner from "../Components/GiftCardBanner";
-// import Testimonials from "./Testimonials";
+
 export default function HomePage() {
+  useEffect(() => {
+    ReactGA.pageview('/');
+  }, []);
+
+  const handleHeroButtonClick = () => {
+    ReactGA.event({
+      category: 'Interaction',
+      action: 'Click',
+      label: 'Hero Button'
+    });
+  };
+
+  const handleAboutMeButtonClick = () => {
+    ReactGA.event({
+      category: 'Interaction',
+      action: 'Click',
+      label: 'About Me Button'
+    });
+  };
+
+  const handleContactSectionView = () => {
+    ReactGA.event({
+      category: 'Engagement',
+      action: 'View',
+      label: 'Contact Section'
+    });
+  };
+
   return (
     <main className="home">
-      <HeroSection />
-      <AboutMeSection />
+      <HeroSection handleHeroButtonClick={handleHeroButtonClick} />
+      <AboutMeSection handleAboutMeButtonClick={handleAboutMeButtonClick} />
       <Testimonials />
-      <AboutLegsSection />
+      <AboutLegsSection onContactSectionView={handleContactSectionView} />
       <GiftCardBanner />
       <ContactSection />
     </main>
   );
 }
 
-const HeroSection = () => (
+const HeroSection = ({ handleHeroButtonClick }) => (
   <section className="hero-section">
     <div className="hero-content">
       <img
@@ -25,11 +54,9 @@ const HeroSection = () => (
         width="240px"
         height="180px"
       />
-
       <br />
       <br />
-
-      <button className="general-button">
+      <button className="general-button" onClick={handleHeroButtonClick}>
         <a 
           href="https://api.whatsapp.com/send?phone=+972549794777&text=שלום ארנה, ברצוני להזמין טיפול רפלקסולוגי"
           rel="noreferrer"
@@ -41,7 +68,8 @@ const HeroSection = () => (
     </div>
   </section>
 );
-const AboutMeSection = () => (
+
+const AboutMeSection = ({ handleAboutMeButtonClick }) => (
   <section className="about-section">
     <div className="about-container">
       <div className="about-content">
@@ -77,17 +105,16 @@ const AboutMeSection = () => (
             מענה טיפולי מדוייק תוך הבנה שריפויי אמיתי מגיע מתוך איזון של הגוף
             עצמו.
           </p>
-          <button className="general-button">
+          <button className="general-button" onClick={handleAboutMeButtonClick}>
           <Link className="contact-link" to="/contact">   לפרטים נוספים וקביעת תור
           </Link>
         </button>
-          
-         
         </div>
       </div>
     </div>
   </section>
 );
+
 const testimonials = [
   {
     name: "אנה נקסדורף",
@@ -144,6 +171,7 @@ export const AboutLegsSection = ({
   additionalInfos,
   showLink = true,
   showTitle = true,
+  onContactSectionView
 }) => {
   let infos = [
     {
@@ -175,6 +203,12 @@ export const AboutLegsSection = ({
   if (Array.isArray(additionalInfos)) {
     infos = [...infos, ...additionalInfos];
   }
+
+  useEffect(() => {
+    if (typeof onContactSectionView === 'function') {
+      onContactSectionView();
+    }
+  }, [onContactSectionView]);
 
   return (
     <section className="about-leg-section">
@@ -224,7 +258,6 @@ export const AboutLegsSection = ({
     </section>
   );
 };
-
 const ContactSection = () => (
   <section className="contact-section">
     <h2>

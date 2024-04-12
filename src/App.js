@@ -16,28 +16,29 @@ import Reflection from "./pages/posts/Reflection"
 import Reflexology from "./pages/posts/Reflexology"
 import Testimonials from "./pages/TestimonialsPage"
 import { useMediaQuery } from 'react-responsive';
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('G-TW5NHGEBN8'); // הפעלת Google Analytics
 
 function ScrollToTop() {
   const { pathname } = useLocation();
-
   useEffect(() => {
     window.scrollTo(0, 0);
+    ReactGA.pageview(pathname); // רישום מעבר בין עמודים
   }, [pathname]);
-
   return null;
 }
-function App() {
+
+export default function App() {
   const isDesktop = useMediaQuery({ minWidth: 768 });
+
   return (
     <div className="App">
       <SocialLinks />
       <AccessibilityWidget className="accessibility"/>
-      <a href="accessibility_declaration.pdf" target="_blank">
-  <img src="accessibility.svg" id="xxx" className="myImage" alt="Accessibility Icon" />
-</a>
       <BrowserRouter>
-      <ScrollToTop />
-        {isDesktop?<DesktopNavbar />:<MobileNavbar/>}
+        <ScrollToTop />
+        {isDesktop ? <DesktopNavbar /> : <MobileNavbar/>}
         <Routes>
           <Route exact path="/" element={<HomePage />} />
           <Route path="/about-me" element={<AboutMePage />} />
@@ -54,4 +55,3 @@ function App() {
   );
 }
 
-export default App;
