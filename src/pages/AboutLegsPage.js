@@ -34,7 +34,7 @@ export default function AboutLegsPage() {
       </Helmet>
       <h1>על הרגל</h1>
       <AboutLegsSection
-        additionalInfos={more}
+        // additionalInfos={more}
         showLink={false}
         showTitle={false}
         onAboutLegCardClick={handleAboutLegCardClick}
