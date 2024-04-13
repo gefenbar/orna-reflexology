@@ -73,6 +73,10 @@ const HeroSection = ({ handleHeroButtonClick }) => (
         width="240px"
         height="180px"
       />
+      <div itemScope itemType="http://schema.org/ImageObject">
+        <link itemProp="thumbnailUrl" href="https://hergelaim.co.il/logo-full.webp" />
+        <link itemProp="url" href="https://hergelaim.co.il/logo-full.webp" />
+      </div>
       <br />
       <br />
       <button className="general-button" onClick={handleHeroButtonClick}>
@@ -89,6 +93,7 @@ const HeroSection = ({ handleHeroButtonClick }) => (
 );
 
 const AboutMeSection = ({ handleAboutMeButtonClick }) => (
+  
   <section className="about-section">
     <div className="about-container">
       <div className="about-content">
