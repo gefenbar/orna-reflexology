@@ -531,7 +531,7 @@ section {
   font-weight: bold;
 }
 .about-leg-section {
-  margin-bottom: 8%;
+  /* margin-bottom: 8%; */
   margin-top: 5%;
 }
 .about-leg h2 {
@@ -1007,6 +1007,9 @@ margin-bottom: 40px;}
 
 
 @media screen and (max-width: 768px) {
+  .contact-section{
+    margin-top:0;
+  }
   .about-leg-section h2 {
     margin-bottom: 10%;
 }
@@ -1117,6 +1120,7 @@ display: none;
 
   .about-section .about-text-container p{
   width: 100%;
+  text-align: center;
 }
 .about-leg-card {
 width: 100%;
