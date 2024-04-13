@@ -43,16 +43,16 @@ export default function HomePage() {
     <meta property="og:title" content="הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך" />
     <meta property="og:description" content="הרגליים - ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך. בוגרת מכללת רידמן. משלבת הקשבה לצורכי המטופלת והתאמת מענה טיפולי מדויק. הקליניקה ממוקמת בכפר תבור." />
     <meta property="og:url" content="https://hergelaim.co.il/" />
-    <meta property="og:image" content="https://hergelaim.co.il/logo-full.webp" />
+    <meta property="og:image" content="https://hergelaim.co.il/logo.jpeg" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך" />
     <meta name="twitter:description" content="הרגליים - ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך. בוגרת מכללת רידמן. משלבת הקשבה לצורכי המטופלת והתאמת מענה טיפולי מדויק. הקליניקה ממוקמת בכפר תבור." />
-    <meta name="twitter:image" content="https://hergelaim.co.il/logo-full.webp" />
-    <div itemScope itemType="http://schema.org/ImageObject">
+    <meta name="twitter:image" content="https://hergelaim.co.il/logo.jpeg" />
+    {/* <div itemScope itemType="http://schema.org/ImageObject">
         <link itemProp="thumbnailUrl" href="https://hergelaim.co.il/logo-full.webp" />
         <link itemProp="url" href="https://hergelaim.co.il/logo-full.webp" />
-      </div>
+      </div> */}
     <meta name="author" content="Orna Klein" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </Helmet>

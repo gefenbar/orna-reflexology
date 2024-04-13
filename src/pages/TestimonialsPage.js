@@ -28,12 +28,12 @@ const TestimonialsPage = () => (
   <meta property="og:title" content="המלצות | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך" />
   <meta property="og:description" content="קראו מה לקוחות מספרים על החוויה והטיפול אצל ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך בכפר תבור." />
   <meta property="og:url" content="https://hergelaim.co.il/testimonials" />
-  <meta property="og:image" content="https://hergelaim.co.il/logo-full.webp" />
+  <meta property="og:image" content="https://hergelaim.co.il/logo.jpeg" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="המלצות | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך" />
   <meta name="twitter:description" content="קראו מה לקוחות מספרים על החוויה והטיפול אצל ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך בכפר תבור." />
-  <meta name="twitter:image" content="https://hergelaim.co.il/logo-full.webp" />
+  <meta name="twitter:image" content="https://hergelaim.co.il/logo.jpeg" />
 </Helmet>
     <h1 className="section-title">לקוחות ממליצות</h1>
     <div className="testimonial-container">

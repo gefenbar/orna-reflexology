@@ -13,12 +13,12 @@ export default function Reflection() {
   <meta property="og:title" content="השתקפות | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך" />
   <meta property="og:description" content="למדו על הקשר בין רפלקסולוגיה והשתקפות. כל אזור בכף הרגל מייצג איבר או אזור מסוים בגוף, והטיפול הרפלקסולוגי יכול להביא את האיברים שיצאו מאיזון לתפקוד נכון ויעיל. ארנה קליין מטפלת מוסמכת בתחום זה." />
   <meta property="og:url" content="https://hergelaim.co.il/reflection" />
-  <meta property="og:image" content="https://hergelaim.co.il/reflection.webp" />
+  <meta property="og:image" content="https://hergelaim.co.il/logo.jpeg" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="השתקפות | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך" />
   <meta name="twitter:description" content="למדו על הקשר בין רפלקסולוגיה והשתקפות. כל אזור בכף הרגל מייצג איבר או אזור מסוים בגוף, והטיפול הרפלקסולוגי יכול להביא את האיברים שיצאו מאיזון לתפקוד נכון ויעיל. ארנה קליין מטפלת מוסמכת בתחום זה." />
-  <meta name="twitter:image" content="https://hergelaim.co.il/reflection.webp" />
+  <meta name="twitter:image" content="https://hergelaim.co.il/logo.jpeg" />
 </Helmet>
       <div className="post-content-container">
         <h1 className="post-title">רפלקסולוגיה והשתקפויות</h1>

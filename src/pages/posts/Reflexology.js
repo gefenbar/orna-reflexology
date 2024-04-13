@@ -13,12 +13,12 @@ export default function Reflexology() {
   <meta property="og:title" content="רפלקסולוגיה | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך" />
   <meta property="og:description" content="למדו על טיפול הרפלקסולוגיה - טיפול מותאם אישית המשתמש בנקודות לחץ על כפות הרגליים כדי להקל על כאבים, לשפר את הבריאות הכללית ולעודד איזון גוף ונפש. ארנה קליין מטפלת מוסמכת בתחום זה." />
   <meta property="og:url" content="https://hergelaim.co.il/reflexology" />
-  <meta property="og:image" content="https://hergelaim.co.il/reflexology.webp" />
+  <meta property="og:image" content="https://hergelaim.co.il/logo.jpeg" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="רפלקסולוגיה | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך" />
   <meta name="twitter:description" content="למדו על טיפול הרפלקסולוגיה - טיפול מותאם אישית המשתמש בנקודות לחץ על כפות הרגליים כדי להקל על כאבים, לשפר את הבריאות הכללית ולעודד איזון גוף ונפש. ארנה קליין מטפלת מוסמכת בתחום זה." />
-  <meta name="twitter:image" content="https://hergelaim.co.il/reflexology.webp" />
+  <meta name="twitter:image" content="https://hergelaim.co.il/logo.jpeg" />
 </Helmet>
       <div className="post-content-container">
         <h1 className="post-title">
