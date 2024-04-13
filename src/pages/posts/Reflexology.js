@@ -9,6 +9,7 @@ export default function Reflexology() {
   <title>רפלקסולוגיה | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך</title>
   <meta name="description" content="למדו על טיפול הרפלקסולוגיה - טיפול מותאם אישית המשתמש בנקודות לחץ על כפות הרגליים כדי להקל על כאבים, לשפר את הבריאות הכללית ולעודד איזון גוף ונפש. ארנה קליין מטפלת מוסמכת בתחום זה."  />
 
+  <meta property="og:type" content="website" />
   <meta property="og:title" content="רפלקסולוגיה | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך" />
   <meta property="og:description" content="למדו על טיפול הרפלקסולוגיה - טיפול מותאם אישית המשתמש בנקודות לחץ על כפות הרגליים כדי להקל על כאבים, לשפר את הבריאות הכללית ולעודד איזון גוף ונפש. ארנה קליין מטפלת מוסמכת בתחום זה." />
   <meta property="og:url" content="https://hergelaim.co.il/reflexology" />

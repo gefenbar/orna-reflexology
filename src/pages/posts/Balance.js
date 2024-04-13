@@ -9,6 +9,7 @@ export default function Balance() {
   <title>איזון | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך</title>
   <meta name="description" content="למדו על הקשר בין רפלקסולוגיה ואיזון. טיפול רפלקסולוגי הוא טיפול אישי המותאם לצרכים הייחודיים של כל מטופלת, במטרה להשיג איזון פיזי וריגשי. ארנה קליין מטפלת מוסמכת בתחום זה." />
 
+  <meta property="og:type" content="website" />
   <meta property="og:title" content="איזון | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך" />
   <meta property="og:description" content="למדו על הקשר בין רפלקסולוגיה ואיזון. טיפול רפלקסולוגי הוא טיפול אישי המותאם לצרכים הייחודיים של כל מטופלת, במטרה להשיג איזון פיזי וריגשי. ארנה קליין מטפלת מוסמכת בתחום זה." />
   <meta property="og:url" content="https://hergelaim.co.il/balance" />

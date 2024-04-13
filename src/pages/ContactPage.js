@@ -37,6 +37,7 @@ export default function ContactPage() {
   <title>צור קשר | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך</title>
   <meta name="description" content="צרו קשר עם ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך, לתיאום טיפול או לכל שאלה. ניתן ליצור קשר דרך הטלפון, המייל או דרך הפייסבוק. הקליניקה ממוקמת בכפר תבור, מורן 9 ב'." />
 
+  <meta property="og:type" content="website" />
   <meta property="og:title" content="צור קשר | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך" />
   <meta property="og:description" content="צרו קשר עם ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך, לתיאום טיפול או לכל שאלה. ניתן ליצור קשר דרך הטלפון, המייל או דרך הפייסבוק. הקליניקה ממוקמת בכפר תבור, מורן 9 ב'." />
   <meta property="og:url" content="https://hergelaim.co.il/contact" />
