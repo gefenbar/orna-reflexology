@@ -49,7 +49,10 @@ export default function HomePage() {
     <meta name="twitter:title" content="הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך" />
     <meta name="twitter:description" content="הרגליים - ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך. בוגרת מכללת רידמן. משלבת הקשבה לצורכי המטופלת והתאמת מענה טיפולי מדויק. הקליניקה ממוקמת בכפר תבור." />
     <meta name="twitter:image" content="https://hergelaim.co.il/logo-full.webp" />
-
+    <div itemScope itemType="http://schema.org/ImageObject">
+        <link itemProp="thumbnailUrl" href="https://hergelaim.co.il/logo-full.webp" />
+        <link itemProp="url" href="https://hergelaim.co.il/logo-full.webp" />
+      </div>
     <meta name="author" content="Orna Klein" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </Helmet>
@@ -73,10 +76,7 @@ const HeroSection = ({ handleHeroButtonClick }) => (
         width="240px"
         height="180px"
       />
-      <div itemScope itemType="http://schema.org/ImageObject">
-        <link itemProp="thumbnailUrl" href="https://hergelaim.co.il/logo-full.webp" />
-        <link itemProp="url" href="https://hergelaim.co.il/logo-full.webp" />
-      </div>
+
       <br />
       <br />
       <button className="general-button" onClick={handleHeroButtonClick}>
