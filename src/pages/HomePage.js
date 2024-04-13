@@ -91,7 +91,7 @@ const AboutMeSection = ({ handleAboutMeButtonClick }) => (
         <div className="about-text-container">
           <h2>
             קצת עליי{" "}
-            <img
+            {/* <img
               className="decoration"
               id="decoration-one"
               src="decoration.webp"
@@ -99,7 +99,7 @@ const AboutMeSection = ({ handleAboutMeButtonClick }) => (
               loading="lazy"
               width="192px"
               height="70px"
-            />
+            /> */}
           </h2>
           <p>
             ארנה קליין - מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך, בוגרת מכללת
@@ -154,7 +154,7 @@ const Testimonials = () => (
   <section className="testimonials-section" id="testimonials">
     <h2>
       המלצות
-      <img
+      {/* <img
         className="decoration"
         id="decoration-four"
         src="decoration.webp"
@@ -162,7 +162,7 @@ const Testimonials = () => (
         loading="lazy"
         width="192px"
         height="70px"
-      />
+      /> */}
     </h2>
     <div className="testimonial-container">
       {testimonials.map((testimonial) => (
@@ -220,7 +220,7 @@ export const AboutLegsSection = ({
       {showTitle && (
         <h2>
           על הרגל
-          <img
+          {/* <img
             className="decoration"
             id="decoration-two"
             src="decoration.webp"
@@ -228,7 +228,7 @@ export const AboutLegsSection = ({
             loading="lazy"
             width="192px"
             height="70px"
-          />
+          /> */}
         </h2>
       )}
       <div className="about-leg-cards">
@@ -267,7 +267,7 @@ const ContactSection = () => (
   <section className="contact-section">
     <h2>
       יצירת קשר{" "}
-      <img
+      {/* <img
         className="decoration"
         id="decoration-three"
         src="decoration.webp"
@@ -275,7 +275,7 @@ const ContactSection = () => (
         loading="lazy"
         width="192px"
         height="70px"
-      />
+      /> */}
     </h2>
     <p>כתובת: כפר תבור, מורן 9 ב'</p>
     <p>טלפון: 054-9794-777</p>

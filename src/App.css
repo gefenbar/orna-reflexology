@@ -445,15 +445,15 @@ section {
 .decoration {
   position: relative;
 }
-.about-leg-section h2 {
+/* .about-leg-section h2 {
   margin-right: 152px;
-}
+} */
 
-.contact-section h2 {
+/* .contact-section h2 {
   margin-right: 220px;
-}
+} */
 .testimonials-section h2 {
-  margin-right: 180px;
+  /* margin-right: 180px; */
   padding-top: 50px;
   padding-bottom: 30px;
 }
@@ -1007,6 +1007,15 @@ margin-bottom: 40px;}
 
 
 @media screen and (max-width: 768px) {
+  .about-leg-section h2 {
+    margin-bottom: 10%;
+}
+  .about-text-container h2{
+    text-align:center;
+  }
+  .general-button {
+    display: flex;
+    justify-content: center;}
   .testimonial-container {
     grid-template-columns: 1fr;
     gap: 50px;
@@ -1136,7 +1145,7 @@ width: 100%;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1); 
 }
 .about-leg-section .general-button{
-  margin: 0;
+  margin: -30px auto 0;
 }
 
 @media (max-width: 900px) {
