@@ -19,8 +19,8 @@ export default function AboutPage() {
   return (
     <section className="about-page">
       <Helmet>
-        <title>אודות | ארנה קליין - מטפלת ברפלקסולוגיה ודמיון מודרך</title>
-        <meta name="description" content="ארנה קליין - מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך. לפרטים נוספים ולתיאום פגישה, כנסו לעמוד אודות." />
+        <title>אודות | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך</title>
+        <meta name="description" content="אודות - שמי ארנה קליין מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך, בוגרת מכללת רידמן. בחרתי ברפלקסולוגיה מאמונה עמוקה ביכולתה לתת מענה נכון למגוון מצבים ותופעות." />
       </Helmet>
       <div className="about-container">
         <div className="about-header">

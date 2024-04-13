@@ -6,7 +6,7 @@ export default function Reflection() {
   return (
     <div className="post-page-container">
       <Helmet>
-        <title>רפלקסולוגיה והשתקפויות | אורנה קליין רפלקסולוגית</title>
+      <title>השתקפות | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך</title>
         <meta name="description" content="רפלקסולוגיה באה מהמילה REFLECTION שפירושה השתקפות. כל אזור בכף הרגל מייצג איבר או אזור מסוים בגוף. טיפול רפלקסולוגי יביא את האיבר שיצא מאיזון לתפקוד נכון ויעיל." />
       </Helmet>
       <div className="post-content-container">

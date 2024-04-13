@@ -21,8 +21,8 @@ const Testimonial = ({ name, quote }) => (
 const TestimonialsPage = () => (
   <section className="testimonials" id="testimonials-page">
     <Helmet>
-      <title>לקוחות ממליצות | ארנה קליין רפלקסולוגית</title>
-      <meta name="description" content="קראו עדויות מלקוחות מרוצים של ארנה קליין רפלקסולוגית וגלו עוד על הטיפולים המדהימים שהיא מציעה." />
+      <title>המלצות | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך</title>
+      <meta name="description" content="המלצות - קראו המלצות וחוויות של לקוחות מרוצות. צרו קשר לפרטים נוספים והזמנת טיפול הרגליים - ארנה קליין - מטפלת ברפלקסולוגיה ודמיון מודרך - כפר תבור מורן 9 ב'" />
     </Helmet>
     <h1 className="section-title">לקוחות ממליצות</h1>
     <div className="testimonial-container">

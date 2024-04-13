@@ -29,8 +29,8 @@ export default function AboutLegsPage() {
   return (
     <main className="about-leg-page">
       <Helmet>
-        <title>הרגליים - על הרגל</title>
-        <meta name="description" content="מידע על רפלקסולוגיה ועוד." />
+        <title>על הרגל | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך</title>
+        <meta name="description" content="על הרגל - גלו את סודות הרפלקסולוגיה, טיפול עתיק יומין המשתמש בלחיצות ממוקדות על כפות הרגליים כדי להקל על כאבים, לשפר את הבריאות הכללית ולעודד איזון גוף ונפש." />
       </Helmet>
       <h1>על הרגל</h1>
       <AboutLegsSection

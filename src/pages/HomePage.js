@@ -35,8 +35,8 @@ export default function HomePage() {
   return (
     <main className="home">
        <Helmet>
-        <title>הרגליים - ארנה קליין</title>
-        <meta name="description" content="הרגליים - ארנה קליין - מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך." />
+        <title>הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך</title>
+        <meta name="description" content="הרגליים - ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך. בוגרת מכללת רידמן. משלבת הקשבה לצורכי המטופלת והתאמת מענה טיפולי מדויק. הקליניקה ממוקמת בכפר תבור." />
         <meta name="keywords" content="רפלקסולוגיה, רפלקסולוג, רפלקסולוגית, הרגליים, ארנה קליין" />
       </Helmet>
       <HeroSection handleHeroButtonClick={handleHeroButtonClick} />
