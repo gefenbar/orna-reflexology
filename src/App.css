@@ -794,6 +794,7 @@ font-weight: 200
 }
 
 .testimonial-name {
+  text-align: center;
   font-size: 16px;
   order: 2;
 }
