@@ -34,11 +34,24 @@ export default function HomePage() {
 
   return (
     <main className="home">
-       <Helmet>
-        <title>הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך</title>
-        <meta name="description" content="הרגליים - ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך. בוגרת מכללת רידמן. משלבת הקשבה לצורכי המטופלת והתאמת מענה טיפולי מדויק. הקליניקה ממוקמת בכפר תבור." />
-        <meta name="keywords" content="רפלקסולוגיה, רפלקסולוג, רפלקסולוגית, הרגליים, ארנה קליין" />
-      </Helmet>
+    <Helmet>
+    <title>הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך</title>
+    <meta name="description" content="הרגליים - ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך. בוגרת מכללת רידמן. משלבת הקשבה לצורכי המטופלת והתאמת מענה טיפולי מדויק. הקליניקה ממוקמת בכפר תבור." />
+    <meta name="keywords" content="רפלקסולוגיה, רפלקסולוג, רפלקסולוגית, הרגליים, ארנה קליין" />
+    
+    <meta property="og:title" content="הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך" />
+    <meta property="og:description" content="הרגליים - ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך. בוגרת מכללת רידמן. משלבת הקשבה לצורכי המטופלת והתאמת מענה טיפולי מדויק. הקליניקה ממוקמת בכפר תבור." />
+    <meta property="og:url" content="https://hergelaim.co.il/" />
+    <meta property="og:image" content="https://hergelaim.co.il/logo-full.webp" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך" />
+    <meta name="twitter:description" content="הרגליים - ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך. בוגרת מכללת רידמן. משלבת הקשבה לצורכי המטופלת והתאמת מענה טיפולי מדויק. הקליניקה ממוקמת בכפר תבור." />
+    <meta name="twitter:image" content="https://hergelaim.co.il/logo-full.webp" />
+
+    <meta name="author" content="Orna Klein" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </Helmet>
       <HeroSection handleHeroButtonClick={handleHeroButtonClick} />
       <AboutMeSection handleAboutMeButtonClick={handleAboutMeButtonClick} />
       <Testimonials />

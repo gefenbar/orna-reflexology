@@ -5,15 +5,20 @@ import { Helmet } from "react-helmet";
 export default function Reflexology() {
   return (
     <div className="post-page-container">
-      <Helmet>
-        <title>
-          רפלקסולוגיה | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך
-        </title>
-        <meta
-          name="description"
-          content="מי מחליט עלי? הגוף מורכב משכבות שונות: עצם, שריר, עור ועוד. בטיפול רפלקסולוגי, כדי להגיע לכל האיברים והמערכות, נעבור יחד תהליך יסודי הכולל תשאול התבוננות ומגע"
-        />
-      </Helmet>
+<Helmet>
+  <title>רפלקסולוגיה | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך</title>
+  <meta name="description" content="למדו על טיפול הרפלקסולוגיה - טיפול מותאם אישית המשתמש בנקודות לחץ על כפות הרגליים כדי להקל על כאבים, לשפר את הבריאות הכללית ולעודד איזון גוף ונפש. ארנה קליין מטפלת מוסמכת בתחום זה."  />
+
+  <meta property="og:title" content="רפלקסולוגיה | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך" />
+  <meta property="og:description" content="למדו על טיפול הרפלקסולוגיה - טיפול מותאם אישית המשתמש בנקודות לחץ על כפות הרגליים כדי להקל על כאבים, לשפר את הבריאות הכללית ולעודד איזון גוף ונפש. ארנה קליין מטפלת מוסמכת בתחום זה." />
+  <meta property="og:url" content="https://hergelaim.co.il/reflexology" />
+  <meta property="og:image" content="https://hergelaim.co.il/reflexology.webp" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="רפלקסולוגיה | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך" />
+  <meta name="twitter:description" content="למדו על טיפול הרפלקסולוגיה - טיפול מותאם אישית המשתמש בנקודות לחץ על כפות הרגליים כדי להקל על כאבים, לשפר את הבריאות הכללית ולעודד איזון גוף ונפש. ארנה קליין מטפלת מוסמכת בתחום זה." />
+  <meta name="twitter:image" content="https://hergelaim.co.il/reflexology.webp" />
+</Helmet>
       <div className="post-content-container">
         <h1 className="post-title">
           רפלקסולוגיה: טיפול מותאם אישית בידיים שלך - הרגליים
