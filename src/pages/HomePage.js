@@ -39,6 +39,7 @@ export default function HomePage() {
     <meta name="description" content="הרגליים - ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך. בוגרת מכללת רידמן. משלבת הקשבה לצורכי המטופלת והתאמת מענה טיפולי מדויק. הקליניקה ממוקמת בכפר תבור." />
     <meta name="keywords" content="רפלקסולוגיה, רפלקסולוג, רפלקסולוגית, הרגליים, ארנה קליין" />
     
+    <meta property="og:type" content="website" />
     <meta property="og:title" content="הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך" />
     <meta property="og:description" content="הרגליים - ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך. בוגרת מכללת רידמן. משלבת הקשבה לצורכי המטופלת והתאמת מענה טיפולי מדויק. הקליניקה ממוקמת בכפר תבור." />
     <meta property="og:url" content="https://hergelaim.co.il/" />
