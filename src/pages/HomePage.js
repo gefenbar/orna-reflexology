@@ -35,20 +35,16 @@ export default function HomePage() {
   return (
     <main className="home">
     <Helmet>
-    <title>הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך</title>
+    <title>עמוד הבית | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך</title>
     <meta name="description" content="הרגליים - ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך. בוגרת מכללת רידמן. משלבת הקשבה לצורכי המטופלת והתאמת מענה טיפולי מדויק. הקליניקה ממוקמת בכפר תבור." />
     <meta name="keywords" content="רפלקסולוגיה, רפלקסולוג, רפלקסולוגית, הרגליים, ארנה קליין" />
     
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך" />
+    <meta property="og:title" content="עמוד הבית | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך" />
     <meta property="og:description" content="הרגליים - ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך. בוגרת מכללת רידמן. משלבת הקשבה לצורכי המטופלת והתאמת מענה טיפולי מדויק. הקליניקה ממוקמת בכפר תבור." />
     <meta property="og:url" content="https://hergelaim.co.il/" />
     <meta property="og:image" content="https://hergelaim.co.il/logo.jpeg" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך" />
-    <meta name="twitter:description" content="הרגליים - ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך. בוגרת מכללת רידמן. משלבת הקשבה לצורכי המטופלת והתאמת מענה טיפולי מדויק. הקליניקה ממוקמת בכפר תבור." />
-    <meta name="twitter:image" content="https://hergelaim.co.il/logo.jpeg" />
     {/* <div itemScope itemType="http://schema.org/ImageObject">
         <link itemProp="thumbnailUrl" href="https://hergelaim.co.il/logo-full.webp" />
         <link itemProp="url" href="https://hergelaim.co.il/logo-full.webp" />

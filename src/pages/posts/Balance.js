@@ -15,10 +15,6 @@ export default function Balance() {
   <meta property="og:url" content="https://hergelaim.co.il/balance" />
   <meta property="og:image" content="https://hergelaim.co.il/logo.jpeg" />
 
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="איזון | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך" />
-  <meta name="twitter:description" content="למדו על הקשר בין רפלקסולוגיה ואיזון. טיפול רפלקסולוגי הוא טיפול אישי המותאם לצרכים הייחודיים של כל מטופלת, במטרה להשיג איזון פיזי וריגשי. ארנה קליין מטפלת מוסמכת בתחום זה." />
-  <meta name="twitter:image" content="https://hergelaim.co.il/logo.jpeg" />
 </Helmet>
       <div className="post-content-container">
         <h1 className="post-title">איזון ורפלקסולוגיה</h1>
