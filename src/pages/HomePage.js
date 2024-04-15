@@ -67,13 +67,14 @@ export default function HomePage() {
 const HeroSection = ({ handleHeroButtonClick }) => (
   <section className="hero-section">
     <div className="hero-content">
-      <img
+    <img
         src="logo-full.webp"
-        alt="ארנה קליין"
+        srcSet="logo-full-small.webp 480w, logo-full.webp 1024w"
+        sizes="(max-width: 480px) 240px, 480px"
+        alt="הרגליים - ארנה קליין"
         width="240px"
         height="180px"
       />
-
       <br />
       <br />
       <button className="general-button" onClick={handleHeroButtonClick}>
