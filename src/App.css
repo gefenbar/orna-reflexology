@@ -128,7 +128,7 @@ p {
 }
 
 .navbar-links a {
-  color: #000;
+  color: #876e4a;
   font-weight: 100;
   text-decoration: none;
   font-size: 1.2rem;
@@ -137,9 +137,8 @@ p {
 }
 
 .navbar-links a:hover {
-  color: #876e4a;
+  color: black;
 }
-
 
 /* Highlight style */
 .highlight {
