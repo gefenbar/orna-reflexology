@@ -568,7 +568,7 @@ section {
   color: #876e4a;
 } */
 .about-leg-card:hover {
-  background-color: #e5eee3;
+  background-color: #e5eee3;  
 }
 .about-leg-card a {
 font-weight: 200
@@ -1168,7 +1168,7 @@ width: 100%;
     width: 100%;
   }
   .about-image-container img {
-    width: 230px;
+    width: 217.5px;
     height: 300px;
   }
 
