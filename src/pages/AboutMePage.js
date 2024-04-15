@@ -36,7 +36,7 @@ export default function AboutPage() {
         </div>
         <div className="about-content">
           <div className="about-image-container">
-            <img src="orna2.webp" alt="ארנה קליין" loading="lazy" width="340px" height="450px" />
+            <img src="orna2.webp" alt="ארנה קליין" loading="lazy"    width="348px" height="480px" />
           </div>
           <div className="about-text-container">
             <p>בחרתי ברפלקסולוגיה מתוך אמונה עמוקה ביכולתה לתת מענה נכון למגוון מצבים ותופעות. בגישתי הטיפולית אני משלבת הקשבה לצורכי המטופלת והתאמת מענה טיפולי מדוייק תוך הבנה שריפוי אמיתי מגיע מתוך איזון של הגוף עצמו.</p>

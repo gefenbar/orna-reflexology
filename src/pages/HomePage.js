@@ -99,8 +99,8 @@ const AboutMeSection = ({ handleAboutMeButtonClick }) => (
             src="orna2.webp"
             alt="ארנה קליין"
             loading="lazy"
-            width="340px"
-            height="450px"
+            width="348px"
+            height="480px"
           />
         </div>
 
