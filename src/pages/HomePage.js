@@ -49,6 +49,8 @@ export default function HomePage() {
         <link itemProp="thumbnailUrl" href="https://hergelaim.co.il/logo-full.webp" />
         <link itemProp="url" href="https://hergelaim.co.il/logo-full.webp" />
       </div> */}
+        <link rel="preload" href="logo-full.webp" as="image" />
+
     <meta name="author" content="Orna Klein" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </Helmet>
@@ -68,7 +70,6 @@ const HeroSection = ({ handleHeroButtonClick }) => (
       <img
         src="logo-full.webp"
         alt="ארנה קליין"
-        // loading="lazy"
         width="240px"
         height="180px"
       />
