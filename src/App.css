@@ -1006,7 +1006,9 @@ margin-bottom: 40px;}
   }
 
 
-
+  .active > a {
+    color: black;
+  }
 @media screen and (max-width: 768px) {
   .gift-card-section {
   height: 52vh;}
