@@ -1032,7 +1032,8 @@ margin-bottom: 40px;}
 display: none;
 }
 .post-page-container {
-  margin-top: -50px;
+  /* margin-top: -50px; */
+  padding: 2rem;
 }
   .gift-card.gift-card.revealed {
     position: relative;
