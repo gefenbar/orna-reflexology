@@ -16,15 +16,15 @@ export default function AboutLegsPage() {
     });
   };
 
-  // const more = [
-  //   {
-  //     title: "רפלקסולוגיה",
-  //     image: "sweedish-massage.webp",
-  //     url: "/reflexology",
-  //     alt: "כוס נס קפה",
-  //     desc: "123"
-  //   },
-  // ];
+  const more = [
+    {
+      title: "טיפול אלטרנטיבי",
+      image: "alternative.webp",
+      url: "/alternative",
+      alt: "איש מסתכל על דרך חלופית",
+      desc: "מחפשים טיפול אלטרנטיבי יעיל וטבעי? רפלקסולוגיה היא הבחירה המושלמת עבורכם! שיטה עתיקה זו, המבוססת...."
+    },
+  ];
 
   return (
     <main className="about-leg-page">
@@ -41,7 +41,7 @@ export default function AboutLegsPage() {
 </Helmet>
       <h1>על הרגל</h1>
       <AboutLegsSection
-        // additionalInfos={more}
+        additionalInfos={more}
         showLink={false}
         showTitle={false}
         onAboutLegCardClick={handleAboutLegCardClick}

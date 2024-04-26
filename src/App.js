@@ -17,6 +17,7 @@ import Reflexology from  "./pages/posts/Reflexology";
 import Testimonials from "./pages/TestimonialsPage";
 import { useMediaQuery } from 'react-responsive';
 import ReactGA from 'react-ga';
+import Alternative from "./pages/posts/Alternative";
 
 ReactGA.initialize('G-TW5NHGEBN8'); // הפעלת Google Analytics
 
@@ -48,6 +49,8 @@ export default function App() {
           <Route path="/reflexology" element={<Reflexology />} />
           <Route path="/balance" element={<Balance />} />
           <Route path="/reflection" element={<Reflection />} />
+          <Route path="/alternative" element={<Alternative />} />
+
         </Routes>
         <Footer />
       </BrowserRouter>
