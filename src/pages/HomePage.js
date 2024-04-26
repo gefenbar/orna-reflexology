@@ -302,6 +302,6 @@ const ContactSection = () => (
         Orna Nissani Klein
       </a>
     </p>
-    <p>שעות פתיחה: א'-ה' 9:00-17:00, ו' בתאום מראש</p>
+    <p>שעות פתיחה: א'-ו בתיאום מראש</p>
   </section>
 );
