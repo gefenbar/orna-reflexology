@@ -58,7 +58,42 @@ export default function HomePage() {
       <meta name="author" content="Orna Klein" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="preload" href="https://hergelaim.co.il/logo-full.webp" as="image" />
+     {/* Schema.org markup for ImageObject */}
+     <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "http://schema.org",
+          "@type": "ImageObject",
+          "thumbnailUrl": "https://hergelaim.co.il/logo-full.webp",
+          "url": "https://hergelaim.co.il/logo-full.webp"
+        })}
+      </script>
 
+      {/* Schema.org markup for Person */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "http://schema.org",
+          "@type": "Person",
+          "name": "ארנה קליין",
+          "image": "https://hergelaim.co.il/orna2.webp",
+          "url": "https://hergelaim.co.il/",
+          "jobTitle": "רפלקסולוגית",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "הרגליים"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "'מורן 9 ב",
+            "addressLocality": "כפר תבור",
+            "addressRegion": "ישראל",
+            "addressCountry": "Israel"
+          },
+          "sameAs": [
+            "https://www.facebook.com/profile.php?id=100010434510829&mibextid=ZbWKwL",
+            "https://www.instagram.com/nissaniklein/"
+          ]
+        })}
+      </script>
     </Helmet>
       <HeroSection handleHeroButtonClick={handleHeroButtonClick} />
       <AboutMeSection handleAboutMeButtonClick={handleAboutMeButtonClick} />
