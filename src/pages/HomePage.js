@@ -35,30 +35,24 @@ export default function HomePage() {
   return (
     <main className="home">
        <Helmet>
-      <title>עמוד הבית | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך</title>
-      <meta
-        name="description"
-        content="הרגליים - ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך. בוגרת מכללת רידמן. משלבת הקשבה לצורכי המטופלת והתאמת מענה טיפולי מדויק. הקליניקה ממוקמת בכפר תבור."
-      />
-      <meta
-        name="keywords"
-        content="רפלקסולוגיה, רפלקסולוג, רפלקסולוגית, הרגליים, ארנה קליין"
-      />
-      <meta property="og:type" content="website" />
-      <meta
-        property="og:title"
-        content="עמוד הבית | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך"
-      />
-      <meta
-        property="og:description"
-        content="הרגליים - ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך. בוגרת מכללת רידמן. משלבת הקשבה לצורכי המטופלת והתאמת מענה טיפולי מדויק. הקליניקה ממוקמת בכפר תבור."
-      />
-      <meta property="og:url" content="https://hergelaim.co.il/" />
-      <meta property="og:image" content="https://hergelaim.co.il/logo.jpeg" />
-      <meta name="author" content="Orna Klein" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="preload" href="https://hergelaim.co.il/logo-full.webp" as="image" />
+       <title>עמוד הבית | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך</title>
+    <meta name="description" content="הרגליים - ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך. בוגרת מכללת רידמן. משלבת הקשבה לצורכי המטופלת והתאמת מענה טיפולי מדויק. הקליניקה ממוקמת בכפר תבור." />
+    <meta name="keywords" content="רפלקסולוגיה, רפלקסולוג, רפלקסולוגית, הרגליים, ארנה קליין" />
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="עמוד הבית | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך" />
+    <meta property="og:description" content="הרגליים - ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך. בוגרת מכללת רידמן. משלבת הקשבה לצורכי המטופלת והתאמת מענה טיפולי מדויק. הקליניקה ממוקמת בכפר תבור." />
+    <meta property="og:url" content="https://hergelaim.co.il/" />
+    <meta property="og:image" content="https://hergelaim.co.il/logo.jpeg" />
 
+    {/* <div itemScope itemType="http://schema.org/ImageObject">
+        <link itemProp="thumbnailUrl" href="https://hergelaim.co.il/logo-full.webp" />
+        <link itemProp="url" href="https://hergelaim.co.il/logo-full.webp" />
+      </div> */}
+        <link rel="preload" href="logo-full.webp" as="image" />
+
+    <meta name="author" content="Orna Klein" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       {/* Schema.org markup for ImageObject */}
       <script type="application/ld+json">
         {JSON.stringify({
