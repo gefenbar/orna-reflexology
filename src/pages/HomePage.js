@@ -125,6 +125,7 @@ const HeroSection = ({ handleHeroButtonClick }) => (
   </section>
 );
 
+
 const AboutMeSection = ({ handleAboutMeButtonClick }) => (
   
   <section className="about-section">
