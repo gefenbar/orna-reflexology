@@ -34,26 +34,68 @@ export default function HomePage() {
 
   return (
     <main className="home">
-    <Helmet>
-    <title>עמוד הבית | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך</title>
-    <meta name="description" content="הרגליים - ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך. בוגרת מכללת רידמן. משלבת הקשבה לצורכי המטופלת והתאמת מענה טיפולי מדויק. הקליניקה ממוקמת בכפר תבור." />
-    <meta name="keywords" content="רפלקסולוגיה, רפלקסולוג, רפלקסולוגית, הרגליים, ארנה קליין" />
-    
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="עמוד הבית | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך" />
-    <meta property="og:description" content="הרגליים - ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך. בוגרת מכללת רידמן. משלבת הקשבה לצורכי המטופלת והתאמת מענה טיפולי מדויק. הקליניקה ממוקמת בכפר תבור." />
-    <meta property="og:url" content="https://hergelaim.co.il/" />
-    <meta property="og:image" content="https://hergelaim.co.il/logo.jpeg" />
+       <Helmet>
+      <title>עמוד הבית | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך</title>
+      <meta
+        name="description"
+        content="הרגליים - ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך. בוגרת מכללת רידמן. משלבת הקשבה לצורכי המטופלת והתאמת מענה טיפולי מדויק. הקליניקה ממוקמת בכפר תבור."
+      />
+      <meta
+        name="keywords"
+        content="רפלקסולוגיה, רפלקסולוג, רפלקסולוגית, הרגליים, ארנה קליין"
+      />
+      <meta property="og:type" content="website" />
+      <meta
+        property="og:title"
+        content="עמוד הבית | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך"
+      />
+      <meta
+        property="og:description"
+        content="הרגליים - ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך. בוגרת מכללת רידמן. משלבת הקשבה לצורכי המטופלת והתאמת מענה טיפולי מדויק. הקליניקה ממוקמת בכפר תבור."
+      />
+      <meta property="og:url" content="https://hergelaim.co.il/" />
+      <meta property="og:image" content="https://hergelaim.co.il/logo.jpeg" />
+      <meta name="author" content="Orna Klein" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="preload" href="https://hergelaim.co.il/logo-full.webp" as="image" />
 
-    {/* <div itemScope itemType="http://schema.org/ImageObject">
-        <link itemProp="thumbnailUrl" href="https://hergelaim.co.il/logo-full.webp" />
-        <link itemProp="url" href="https://hergelaim.co.il/logo-full.webp" />
-      </div> */}
-        <link rel="preload" href="logo-full.webp" as="image" />
+      {/* Schema.org markup for ImageObject */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "http://schema.org",
+          "@type": "ImageObject",
+          "thumbnailUrl": "https://hergelaim.co.il/logo-full.webp",
+          "url": "https://hergelaim.co.il/logo-full.webp"
+        })}
+      </script>
 
-    <meta name="author" content="Orna Klein" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </Helmet>
+      {/* Schema.org markup for Person */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "http://schema.org",
+          "@type": "Person",
+          "name": "ארנה קליין",
+          "image": "https://hergelaim.co.il/orna2.webp",
+          "url": "https://hergelaim.co.il/",
+          "jobTitle": "רפלקסולוגית",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "הרגליים"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "'מורן 9 ב",
+            "addressLocality": "כפר תבור",
+            "addressRegion": "ישראל",
+            "addressCountry": "Israel"
+          },
+          "sameAs": [
+            "https://www.facebook.com/profile.php?id=100010434510829&mibextid=ZbWKwL",
+            "https://www.instagram.com/nissaniklein/"
+          ]
+        })}
+      </script>
+    </Helmet>
       <HeroSection handleHeroButtonClick={handleHeroButtonClick} />
       <AboutMeSection handleAboutMeButtonClick={handleAboutMeButtonClick} />
       <Testimonials />
