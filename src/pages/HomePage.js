@@ -55,24 +55,16 @@ export default function HomePage() {
       />
       <meta property="og:url" content="https://hergelaim.co.il/" />
       <meta property="og:image" content="https://hergelaim.co.il/logo.jpeg" />
-      <meta name="author" content="Orna Klein" />
+      <meta name="author" content="ארנה קליין" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="preload" href="https://hergelaim.co.il/logo-full.webp" as="image" />
 
 <script type="application/ld+json">
   {JSON.stringify({
-    "@context": "http://schema.org",
-    "@type": "ImageObject",
-    "thumbnailUrl": "https://hergelaim.co.il/logo.jpeg",
-    "url": "https://hergelaim.co.il/logo-full.webp"
-  })}
-</script> 
-<script type="application/ld+json">
-  {JSON.stringify({
     "@context": "http://schema.org/",
 	"@type": "Person",
 	"name": "ארנה קליין",
-	"image": "https://hergelaim.co.il/orna2.webp",
+	"image": "https://hergelaim.co.il/logo.jpeg",
 	"url": "https://hergelaim.co.il/",
 	"jobTitle": "רפלקסולוגית",
 	"worksFor": {
@@ -81,7 +73,7 @@ export default function HomePage() {
     },
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "'מורן 9 ב",
+      "streetAddress": "מורן 9 ב",
       "addressLocality": "כפר תבור",
       "addressRegion": "ישראל",
       "addressCountry": "Israel"
