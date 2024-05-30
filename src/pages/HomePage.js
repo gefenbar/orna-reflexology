@@ -58,6 +58,7 @@ export default function HomePage() {
       <meta name="author" content="ארנה קליין" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="preload" href="https://hergelaim.co.il/logo-full.webp" as="image" />
+      <link rel="canonical" href="https://hergelaim.co.il/" />
 
 
     </Helmet>

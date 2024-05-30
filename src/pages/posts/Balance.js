@@ -14,6 +14,7 @@ export default function Balance() {
   <meta property="og:description" content="למדו על הקשר בין רפלקסולוגיה ואיזון. טיפול רפלקסולוגי הוא טיפול אישי המותאם לצרכים הייחודיים של כל מטופלת, במטרה להשיג איזון פיזי וריגשי. ארנה קליין מטפלת מוסמכת בתחום זה." />
   <meta property="og:url" content="https://hergelaim.co.il/balance" />
   <meta property="og:image" content="https://hergelaim.co.il/logo.jpeg" />
+  <link rel="canonical" href="https://hergelaim.co.il/balance" />
 
 </Helmet>
       <div className="post-content-container">

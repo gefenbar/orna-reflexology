@@ -14,6 +14,7 @@ export default function Reflexology() {
   <meta property="og:description" content="למדו על טיפול הרפלקסולוגיה - טיפול מותאם אישית המשתמש בנקודות לחץ על כפות הרגליים כדי להקל על כאבים, לשפר את הבריאות הכללית ולעודד איזון גוף ונפש. ארנה קליין מטפלת מוסמכת בתחום זה." />
   <meta property="og:url" content="https://hergelaim.co.il/reflexology" />
   <meta property="og:image" content="https://hergelaim.co.il/logo.jpeg" />
+  <link rel="canonical" href="https://hergelaim.co.il/reflexology" />
 
 </Helmet>
       <div className="post-content-container">

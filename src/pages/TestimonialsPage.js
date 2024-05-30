@@ -34,6 +34,8 @@ const TestimonialsPage = () => (
   <meta name="twitter:title" content="המלצות | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך" />
   <meta name="twitter:description" content="קראו מה לקוחות מספרים על החוויה והטיפול אצל ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך בכפר תבור." />
   <meta name="twitter:image" content="https://hergelaim.co.il/logo.jpeg" />
+  <link rel="canonical" href="https://hergelaim.co.il/testimonials" />
+
 </Helmet>
     <h1 className="section-title">לקוחות ממליצות</h1>
     <div className="testimonial-container">

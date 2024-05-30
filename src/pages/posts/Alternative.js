@@ -22,6 +22,8 @@ export default function Alternative() {
         />
         <meta property="og:url" content="https://hergelaim.co.il/alternative" />
         <meta property="og:image" content="https://hergelaim.co.il/logo.jpeg" />
+        <link rel="canonical" href="https://hergelaim.co.il/alternative" />
+
       </Helmet>
       <div className="post-content-container">
         <h1 className="post-title">

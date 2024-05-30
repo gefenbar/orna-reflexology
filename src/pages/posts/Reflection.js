@@ -14,6 +14,7 @@ export default function Reflection() {
   <meta property="og:description" content="למדו על הקשר בין רפלקסולוגיה והשתקפות. כל אזור בכף הרגל מייצג איבר או אזור מסוים בגוף, והטיפול הרפלקסולוגי יכול להביא את האיברים שיצאו מאיזון לתפקוד נכון ויעיל. ארנה קליין מטפלת מוסמכת בתחום זה." />
   <meta property="og:url" content="https://hergelaim.co.il/reflection" />
   <meta property="og:image" content="https://hergelaim.co.il/logo.jpeg" />
+  <link rel="canonical" href="https://hergelaim.co.il/reflection" />
 
 </Helmet>
       <div className="post-content-container">
