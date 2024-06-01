@@ -193,6 +193,11 @@ const Testimonials = () => (
         <Testimonial key={testimonial.name} {...testimonial} />
       ))}
     </div>
+    <button className="general-button">
+        <Link className="more" to="/testimonials">
+          לביקורות נוספות
+        </Link>
+        </button>
   </section>
 );
 
@@ -209,7 +214,7 @@ export const AboutLegsSection = ({
       url: "/reflection",
       alt: "השתקפות עץ על המים",
       desc:
-        "רפלקסולוגיה באה מהמילה REFLECTION שפירושה השתקפות. כל אזור בכף הרגל מייצג איבר או אזור מסוים בגוף...",
+        "רפלקסולוגיה באה מהמילה REFLECTION שפירושה השתקפות. כל אזור בכף הרגל מייצג איבר או אזור מסוים....",
     },
     {
       title: "רפלקסולוגיה",
@@ -217,7 +222,7 @@ export const AboutLegsSection = ({
       url: "/reflexology",
       alt: "טביעות רגליים בחול",
       desc:
-        "בטיפול רפלקסולוגי, כדי להגיע לכל שכבות האיברים והמערכות, נעבור יחד תהליך יסודי...",
+        "בטיפול רפלקסולוגי, כדי להגיע לכל שכבות האיברים והמערכות, נעבור יחד תהליך יסודי....",
     },
     {
       title: "איזון",
@@ -225,12 +230,12 @@ export const AboutLegsSection = ({
       url: "/balance",
       alt: "אבנים מאוזנות",
       desc:
-        "טיפול רפלקסולוגי הוא טיפול אישי שמותאם לכל גוף עם התייחסות למאפיינים ולצרכים שלו...",
+        "טיפול רפלקסולוגי הוא טיפול אישי שמותאם לכל גוף עם התייחסות למאפיינים ולצרכים שלו....",
     },
   ];
 
   if (Array.isArray(additionalInfos)) {
-    infos = [...infos, ...additionalInfos];
+    infos = [...additionalInfos,...infos ];
   }
 
   useEffect(() => {

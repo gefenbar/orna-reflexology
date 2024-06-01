@@ -18,7 +18,7 @@ import Testimonials from "./pages/TestimonialsPage";
 import { useMediaQuery } from 'react-responsive';
 import ReactGA from 'react-ga';
 import Alternative from "./pages/posts/Alternative";
-
+import ReflexologyAndBackPain from "./pages/posts/BackPain";
 ReactGA.initialize('G-TW5NHGEBN8'); // הפעלת Google Analytics
 
 function ScrollToTop() {
@@ -50,6 +50,7 @@ export default function App() {
           <Route path="/balance" element={<Balance />} />
           <Route path="/reflection" element={<Reflection />} />
           <Route path="/alternative" element={<Alternative />} />
+          <Route path="/back-pain" element={<ReflexologyAndBackPain />} />
 
         </Routes>
         <Footer />
