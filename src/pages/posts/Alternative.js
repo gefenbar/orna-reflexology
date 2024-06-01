@@ -6,7 +6,7 @@ export default function Alternative() {
   return (
     <div className="post-page-container">
       <Helmet>
-        <title>רפלקסולוגיה: טיפול אלטרנטיבי עתיק יומין</title>
+        <title>טיפול אלטרנטיבי | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך</title>
         <meta
           name="description"
           content="מחפשים טיפול אלטרנטיבי יעיל וטבעי? רפלקסולוגיה היא הבחירה המושלמת עבורכם! שיטה עתיקה זו, המבוססת על לחיצות וטיפולים בכפות הרגליים, ידועה ביכולתה המופלאה לשפר את הבריאות הכללית, להקל על כאבים ולעודד ריפוי."
@@ -27,7 +27,7 @@ export default function Alternative() {
       </Helmet>
       <div className="post-content-container">
         <h1 className="post-title">
-          רפלקסולוגיה: טיפול אלטרנטיבי עתיק יומין
+          רפלקסולוגיה:<br/> טיפול אלטרנטיבי עתיק יומין
         </h1>
         <div className="post-section">
           <p>

@@ -6,7 +6,7 @@ export default function ReflexologyAndBackPain() {
   return (
     <div className="post-page-container">
       <Helmet>
-        <title>רפלקסולוגיה וכאבי גב | פתרונות טבעיים לשיפור איכות החיים</title>
+        <title>כאבי גב | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך</title>
         <meta name="description" content="למדו על רפלקסולוגיה וכיצד היא יכולה להקל על כאבי גב ולהביא לשיפור באיכות החיים. טיפול הוליסטי טבעי המשלב עיסוי ולחיצות בכפות הרגליים לשחרור מתחים ושיפור הבריאות הכללית." />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="רפלקסולוגיה וכאבי גב | פתרונות טבעיים לשיפור איכות החיים" />
@@ -16,8 +16,7 @@ export default function ReflexologyAndBackPain() {
         <link rel="canonical" href="https://hergelaim.co.il/back-pain" />
       </Helmet>
       <div className="post-content-container">
-        <h1 className="post-title">רפלקסולוגיה וכאבי גב</h1>
-        <h2 className="post-question">פתרונות טבעיים לשיפור איכות החיים</h2>
+        <h1 className="post-title">רפלקסולוגיה וכאבי גב:<br/> פתרונות טבעיים לשיפור איכות החיים</h1>
 
         <div className="post-section">
           <h2 className="post-question">מבוא: מהי רפלקסולוגיה?</h2>
