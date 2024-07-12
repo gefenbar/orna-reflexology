@@ -1165,7 +1165,9 @@ width: 100%;
 }
 
 @media (max-width: 900px) {
-
+  .about-image-container{
+    margin-bottom: 15px;
+  }
   .about-section .about-content {
     flex-direction: column;
     text-align-last: center;
