@@ -1167,7 +1167,9 @@ width: 100%;
   /* margin: -30px auto 0; */
   translate: 0% -80%;
 }
-
+.about-text-container{
+  text-align: center;
+}
 @media (max-width: 900px) {
   .about-image-container{
     margin-bottom: 15px;
@@ -1183,6 +1185,7 @@ width: 100%;
   .about-section .about-text-container p {
     width: 100%;
   }
+
   
 
    .about-content {
