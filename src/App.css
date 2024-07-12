@@ -457,6 +457,9 @@ section {
   padding-top: 50px;
   padding-bottom: 30px;
 }
+.testimonials-section button{
+     translate: 0% 80%;
+}
 #decoration-one {
   left: 140px;
   top: 23px;
@@ -1041,7 +1044,7 @@ display: none;
 }
   .gift-card.gift-card.revealed {
     position: relative;
-    transform: translate(-50%, -100%);
+    transform: translate(-50%, -90%);
      opacity: 1;
     width: 100%;
     padding: 20px;
@@ -1161,7 +1164,8 @@ width: 100%;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1); 
 }
 .about-leg-section .general-button{
-  margin: -30px auto 0;
+  /* margin: -30px auto 0; */
+  translate: 0% -80%;
 }
 
 @media (max-width: 900px) {
