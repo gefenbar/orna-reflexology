@@ -269,6 +269,8 @@ export const AboutLegsSection = ({
                 alt={info.alt}
                 loading="lazy"
                 className="about-leg-image"
+                width={"200px"}
+                height={"200px"}
               />
               <p className="about-leg-title"> {info.title}</p>
               {info.desc}
