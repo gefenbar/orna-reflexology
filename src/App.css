@@ -1010,6 +1010,10 @@ margin-bottom: 40px;}
     color: black;
   }
 @media screen and (max-width: 768px) {
+  .about-image-container img {
+    width: 217.5px;
+    height: 300px;
+  }
   .gift-card-section {
   height: 52vh;}
   .contact-section{
@@ -1173,10 +1177,7 @@ width: 100%;
   .about-section .about-text-container p {
     width: 100%;
   }
-  .about-image-container img {
-    width: 217.5px;
-    height: 300px;
-  }
+  
 
    .about-content {
     flex-direction: column;
