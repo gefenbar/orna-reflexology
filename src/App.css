@@ -1140,7 +1140,7 @@ width: 100%;
   position: relative;
   display: inline-block;
     background-color: #fffff8;
-  color: #876e4a;
+  color: #61513b;
   border: 0.125rem solid #876e4a;
   padding: 0.625rem 1.25rem;
   font-size: 1rem;
@@ -1164,6 +1164,7 @@ width: 100%;
 
   .about-section .about-content {
     flex-direction: column;
+    text-align-last: center;
   }
   .about-section .about-image-container,
   .about-section .about-text-container {
