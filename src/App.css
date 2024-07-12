@@ -1091,8 +1091,8 @@ display: none;
 
   .hero-section button {
     font-size: 14px;
-    margin: 10px auto 0;
-  }
+    position: relative;
+    display: inline-block;  }
   .hero-content {
     margin: 25% 0 15px 15px;
   }
@@ -1137,8 +1137,9 @@ width: 100%;
 
 /* General button on homepage */
 .general-button{
-  margin: 30px auto 0;
-  background-color: #fffff8;
+  position: relative;
+  display: inline-block;
+    background-color: #fffff8;
   color: #876e4a;
   border: 0.125rem solid #876e4a;
   padding: 0.625rem 1.25rem;
