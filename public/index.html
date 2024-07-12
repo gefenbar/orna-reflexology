@@ -20,17 +20,7 @@
     <!-- <link rel="preload" fetchpriority="high" as="image" href="logo-full.webp" type="image/webp"> -->
  
   <script>
-     document.addEventListener("DOMContentLoaded", function() {
-            if (window.innerWidth <= 768) {  
-                var link = document.createElement("link");
-                link.rel = "preload";
-                link.as = "image";
-                link.href = "logo-full.webp";
-                link.type = "image/webp";
-                // link.setAttribute("fetchpriority", "high");
-                document.head.appendChild(link);
-            }
-        });
+    
     window.dataLayer = window.dataLayer || [];
     function gtag() {
       dataLayer.push(arguments);

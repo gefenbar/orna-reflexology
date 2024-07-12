@@ -20,7 +20,7 @@ html {
 }
 a {
   text-decoration: none;
-  color: #876e4a;
+  color: #593400;
 }
 .emoji {
   font-size: 25px;
@@ -74,7 +74,7 @@ p {
   align-items: center;
   text-decoration: none;
   /* color: #333; */
-  /* outline: 2px solid #876e4a; Adjust color and width */
+  /* outline: 2px solid #593400; Adjust color and width */
   border-radius: 1150%;
   transition: all 0.1s ease;
   background-color: #f9eddc;
@@ -128,7 +128,7 @@ p {
 }
 
 .navbar-links a {
-  color: #876e4a;
+  color: #593400;
   font-weight: 100;
   text-decoration: none;
   font-size: 1.2rem;
@@ -142,7 +142,7 @@ p {
 
 /* Highlight style */
 .highlight {
-  background-color: #876e4a;
+  background-color: #593400;
   /* padding: 0.25rem 0.5rem; */
   border-radius: 0.25rem;
   box-shadow: 0.2rem 0.2rem 0.3rem #b19a86;
@@ -230,7 +230,7 @@ p {
 
 .contact-page .some-text {
   font-weight: 500;
-  color: #876e4a;
+  color: #593400;
   margin-bottom: 0;
   font-size: 18px;
 }
@@ -238,7 +238,7 @@ p {
   color: black;
 }
 .contact-page a:hover {
-  color: #876e4a;
+  color: #593400;
 }
 
 .contact-page img {
@@ -297,7 +297,7 @@ p {
   color: black;
 }
 .about-header h2 {
-  color: #876e4a;
+  color: #593400;
   font-weight: 400;
   font-size: 20px;
 }
@@ -325,7 +325,7 @@ p {
   font-weight: bold;
   font-size: 16px;
   text-decoration: none;
-  color: #876e4a;
+  color: #593400;
 }
 .contact a:hover {
   color: black;
@@ -335,7 +335,7 @@ p {
   /* width: 100vw; */
   bottom: 0;
   background-color: #fff;
-  color: #876e4a;
+  color: #593400;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -565,7 +565,7 @@ section {
 }
 /* 
 .treatment-card a:hover {
-  color: #876e4a;
+  color: #593400;
 } */
 .about-leg-card:hover {
   background-color: #e5eee3;  
@@ -877,7 +877,7 @@ font-weight: 200
 }
 
 .mobile-navbar-links a {
-  color: #876e4a;
+  color: #593400;
   text-decoration: none;
 }
 
@@ -1144,8 +1144,8 @@ width: 100%;
   position: relative;
   display: inline-block;
     background-color: #fffff8;
-  color: #61513b;
-  border: 0.125rem solid #876e4a;
+  color: #593400;
+  border: 0.125rem solid #593400;
   padding: 0.625rem 1.25rem;
   font-size: 1rem;
   border-radius: 0.3125rem;
@@ -1154,7 +1154,7 @@ width: 100%;
    font-weight: 300;
 }
 .general-button{
-  color: #876e4a;
+  color: #593400;
 }
 .general-button:hover {
   transform: scale(1.1); 
