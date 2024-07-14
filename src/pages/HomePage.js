@@ -73,8 +73,10 @@ export default function HomePage() {
 }
 
 const HeroSection = ({ handleHeroButtonClick }) => (
+  <header>
   <section className="hero-section">
     <div className="hero-content">
+    <h1 className="visually-hidden">הרגליים - ארנה קליין - רפלקסולוגית מוסמכת</h1>
       <img
         src="logo-full.webp"
         alt="ארנה קליין"
@@ -95,6 +97,7 @@ const HeroSection = ({ handleHeroButtonClick }) => (
       </button>
     </div>
   </section>
+  </header>
 );
 
 const AboutMeSection = ({ handleAboutMeButtonClick }) => (

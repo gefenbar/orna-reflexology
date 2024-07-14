@@ -408,13 +408,25 @@ section {
 .hero-section {
   width: 100vw;
   height: 100vh;
-  position: relative;
+  display: inline-table;
+  /* position: relative; */
   background-image: url("../public/feet.webp");
   /* background-attachment: fixed; */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 .hero-content {
   position: relative;
   top: 8vh;
