@@ -54,12 +54,6 @@ p {
   font-size: 1.375rem;
   margin: 1rem 0;
 }
-#small-logo{
- display: none;
-}
-#big-logo{
-  display: inline-table;
-}
 
 .side-social-links {
   position: fixed;
@@ -1031,11 +1025,6 @@ margin-bottom: 40px;}
     color: black;
   }
 @media screen and (max-width: 768px) {
-  #small-logo{
-display: inline-table;  }
-  #big-logo{
-    display: none;
-  }
   .about-image-container img {
     width: 217.5px;
     height: 300px;

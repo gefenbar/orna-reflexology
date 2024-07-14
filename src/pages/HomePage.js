@@ -78,19 +78,12 @@ const HeroSection = ({ handleHeroButtonClick }) => (
     <div className="hero-content">
     <h1 className="visually-hidden">הרגליים - ארנה קליין - רפלקסולוגית מוסמכת</h1>
       <img
-        id='big-logo'
         src="logo-full.webp"
         alt="ארנה קליין"
         width="240px"
         height="180px"
       />
- <img
-        id='small-logo'
-        src="logo-full-small.webp"
-        alt="ארנה קליין"
-        width="120px"
-        height="90px"
-      />
+
       <br />
       <br />
       <button className="general-button" onClick={handleHeroButtonClick}>
