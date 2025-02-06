@@ -20,6 +20,7 @@ import Alternative from "./pages/posts/Alternative";
 import ReflexologyAndBackPain from "./pages/posts/BackPain";
 import Stress from "./pages/posts/stress";
 import Headache from "./pages/posts/headache";
+import LowerBack from "./pages/posts/LowerBack";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -52,6 +53,7 @@ export default function App() {
           <Route path="/back-pain" element={<ReflexologyAndBackPain />} />
           <Route path="/stress" element={<Stress />} />
           <Route path="/headache" element={<Headache />} />
+          <Route path="/lower-back" element={<LowerBack />} />
 
         </Routes>
         <Footer />
