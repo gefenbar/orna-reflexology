@@ -71,55 +71,9 @@ export default function Balance() {
         <img className="post-image" src="balance.webp" alt="אבנים מאוזנות" loading="lazy" />
       </div>
       <button className='general-button'>
-        <Link to="/contact" className="post-book-treatment-button">הזמינו טיפול עכשיו!</Link>
+        <Link to="/contact" className="post-book-treatment-button">הזמיני טיפול עכשיו!</Link>
       </button>
     </div>
   );
 }
-  <div className="post-section">
-          <h2 className="post-question">
-            <strong>ניסיתן פעם משהו כזה?! 😊</strong>
-          </h2>
-          <p>
-            טיפול רפלקסולוגי הוא טיפול אישי שמותאם לכל גוף עם התייחסות למאפיינים ולצרכים שלו.
-          </p>
-          <p>
-            את תוכנית הטיפול האישית אני בונה לאחר תשאול והכרות המטופלת, כשכל התהליך נעשה עם שיתוף פעולה והסכמתה.
-          </p>
-          <p>
-            השאיפה שלנו בטיפול, כמו בחיים, היא להגיע לאיזון.
-          </p>
-          <p>
-            בין המרכיבים שמשפיעים על חוסר האיזון נמצא את התזונה, פעילות גופנית, לחצים ומתחים, פגיעות פיזיות וריגשיות ועוד..
-          </p>
-          <p>
-            ברפלקסולוגיה, כל נקודה בכף הרגל משקפת אזור/איבר בגוף. לחיצה או עיסוי מתאים בנקודה מסויימת תשפיע על האיבר, תעורר זרימת דם, תשפר את תפקוד האיבר ותרגיע.
-          </p>
-          <p>
-            כשהדם זורם באיברים הם מקבלים חמצן וחומרי הזנה לתפקוד תקין. הטיפול ישפיע על הניקוז הלימפתי ויעזור בסילוק פסולת מהגוף ובכך ישפר את ההגנה הטיבעית של המערכת החיסונית בגוף.
-          </p>
-          <p>
-            במהלך טיפול רפלקסולוגי, בלחיצות מתאימות, ישתחררו גם אנדרופינים שירגיעו כאב, יפחיתו מתח, יגרמו למערכת החיסון לתפקד בצורה מיטיבה ויגרמו למערכת השלד והשריר רוגע שייקל על תנועתיות.
-          </p>
-          <p>
-            השפעה משמעותית בטיפול רפלקסולוגי היא גם על מערכת העצבים. גם פה המטרה העיקרית היא לאזן את הפרשת ההורמונים השונים, מה שיאפשר למערכת העצבים לתפקד באופן רגוע והרמוני.
-          </p>
-          <p>
-            כולנו חווים מדי פעם מצבים מתח, חרדה ובחודשים האחרונים המצבים האלה קורים בעצימות גבוהה יותר, מה שמשפיע מאד על בריאות הגוף והנפש.
-          </p>
-          <p>
-            הרפלקסולוגיה היא דרך טיפול מוכחת שמשפיעה על הגוף ומאפשרת לו לחזור לאיזון פיזי וריגשי ולשמור על האיזון לאורך זמן.
-          </p>
-          <p>
-            בואי לאזן (אני גם מאזינה.... 😉)
-          </p>
-          <p>
-            התקשרי עכשו 0549794777
-          </p>
-          <p>
-            ארנה קליין
-          </p>
-          <p>
-            רפלקסולוגית 👣🪻
-          </p>
-        </div>
+ 

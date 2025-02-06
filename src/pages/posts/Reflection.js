@@ -32,7 +32,7 @@ export default function Reflection() {
         <img className="post-image" src="reflection.webp" alt="רפלקסולוגיה" loading="lazy" />
       </div>
       <button className='general-button'>
-        <Link to="/contact" className="post-book-treatment-button"> הזמינו טיפול עכשיו! </Link>
+        <Link to="/contact" className="post-book-treatment-button"> הזמיני טיפול עכשיו! </Link>
       </button>
     </div>
   );

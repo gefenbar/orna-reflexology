@@ -1,43 +1,38 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 export default function DesktopNavbar() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
 
-  const isActive = (path) => {
-    return window.location.pathname === path;
-  };
+  // const isActive = () => {
+    
+  // };
 
   return (
     <nav className="navbar" dir="rtl">
       <div className="navbar-container">
-        <div className={`navbar-links`}>
+        <div className="navbar-links">
           <ul>
-            <li className={isActive("/") ? "active" : ""}>
-              <a href="/">דף הבית</a>
+            <li>
+              <NavLink to="/"  className={({ isActive }) => isActive ? "active" : ""}>דף הבית</NavLink>
             </li>
-            <li className={isActive("/about-me") ? "active" : ""}>
-              <a href="/about-me">עליי</a>
+            <li >
+              <NavLink to="/about-me" className={({ isActive }) => isActive ? "active" : ""}>קצת עליי</NavLink>
             </li>
-            <li className={isActive("/testimonials") ? "active" : ""}>
-              <a href="/testimonials" onClick={toggleMenu}>
-                המלצות
-              </a>
+            <li>
+              <NavLink to="/testimonials" className={({ isActive }) => isActive ? "active" : ""}>המלצות</NavLink>
             </li>
-            <li className={isActive("/about-legs") ? "active" : ""}>
-              <a href="/about-legs">על הרגל</a>
+            <li>
+              <NavLink to="/about-legs" className={({ isActive }) => isActive ? "active" : ""}>על הרגל</NavLink>
             </li>
-            <li className={isActive("/contact") ? "active" : ""}>
-              <a href="/contact">צרו קשר</a>
+            <li>
+              <NavLink to="/contact" className={({ isActive }) => isActive ? "active" : ""}>צרו קשר</NavLink>
             </li>
           </ul>
         </div>
       </div>
-      <a className="navbar-logo" href="/">
+      <NavLink className="navbar-logo" to="/">
         <img src="logo.webp" width={"150px"} height={"40px"} alt="logo" />
-      </a>
+      </NavLink>
     </nav>
   );
 }

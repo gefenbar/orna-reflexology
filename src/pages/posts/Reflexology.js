@@ -79,7 +79,7 @@ export default function Reflexology() {
       </div>
       <button className="general-button">
         <Link to="/contact" className="post-book-treatment-button">
-          הזמינו טיפול עכשיו!
+          הזמיני טיפול עכשיו!
         </Link>
       </button>
     </div>

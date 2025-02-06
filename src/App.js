@@ -16,16 +16,15 @@ import Reflection from "./pages/posts/Reflection";
 import Reflexology from  "./pages/posts/Reflexology";
 import Testimonials from "./pages/TestimonialsPage";
 import { useMediaQuery } from 'react-responsive';
-import ReactGA from 'react-ga';
 import Alternative from "./pages/posts/Alternative";
 import ReflexologyAndBackPain from "./pages/posts/BackPain";
-ReactGA.initialize('G-TW5NHGEBN8'); // הפעלת Google Analytics
+import Stress from "./pages/posts/stress";
+import Headache from "./pages/posts/headache";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
-    ReactGA.pageview(pathname); // רישום מעבר בין עמודים
   }, [pathname]);
   return null;
 }
@@ -51,6 +50,8 @@ export default function App() {
           <Route path="/reflection" element={<Reflection />} />
           <Route path="/alternative" element={<Alternative />} />
           <Route path="/back-pain" element={<ReflexologyAndBackPain />} />
+          <Route path="/stress" element={<Stress />} />
+          <Route path="/headache" element={<Headache />} />
 
         </Routes>
         <Footer />

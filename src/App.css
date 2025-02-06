@@ -76,7 +76,6 @@ p {
   /* color: #333; */
   /* outline: 2px solid #593400; Adjust color and width */
   border-radius: 1150%;
-  transition: all 0.1s ease;
   background-color: #f9eddc;
   transition: all 1s ease; /* Change duration to 0.5s for slower spin */
 }
@@ -86,8 +85,8 @@ p {
 }
 
 .side-social-link img {
-  width: 30px; /* Set the width of the image */
-  height: 30px; /* Set the height of the image */
+  width: 30px;
+  height: 30px; 
 }
 
 /* Navbar styles */
@@ -414,7 +413,7 @@ section {
   /* background-attachment: fixed; */
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center bottom;
+  background-position: center;
 }
 .visually-hidden {
   position: absolute;
@@ -430,15 +429,11 @@ section {
 .hero-content {
   position: relative;
   top: 8vh;
-  background-color: #e5eee3b1;
-  border-radius: 70px 0px 100px 0px;
   padding: 4% 2%;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 15%;
   margin-right: 15%;
-  box-shadow: 0 0 5px black; 
   z-index: 1; 
-  backdrop-filter: blur(5px); 
 }
 
 .hero-section p {
@@ -507,7 +502,9 @@ section {
 }
 
 .about-image-container img {
-  border-radius: 0 20% 0 20%;
+  border-radius: 81% 33% 31% 48% / 41% 60% 54% 70%;
+
+  /* border-radius: 0 20% 0 20%; */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 /* About Section */
@@ -578,10 +575,7 @@ section {
   transition: color 0.3s;
   font-size: larger;
 }
-/* 
-.treatment-card a:hover {
-  color: #593400;
-} */
+
 .about-leg-card:hover {
   background-color: #e5eee3;  
 }
@@ -595,7 +589,7 @@ font-weight: 200
 .about-leg-image {
   max-width: 200px;
   height: 200px;
-  border-radius: 0.5rem;
+  border-radius: 81% 33% 31% 48% / 41% 60% 54% 70%;
 }
 
 
@@ -1021,8 +1015,8 @@ margin-bottom: 40px;}
   }
 
 
-  .active > a {
-    color: black;
+  a.active  {
+    color: black!important;
   }
 @media screen and (max-width: 768px) {
   .about-image-container img {
@@ -1057,7 +1051,7 @@ display: none;
 }
   .gift-card.gift-card.revealed {
     position: relative;
-    transform: translate(-50%, -90%);
+    transform: translate(-50%, -130%);
      opacity: 1;
     width: 100%;
     padding: 20px;
@@ -1116,6 +1110,7 @@ display: none;
   .hero-content {
     margin: 25% 0 15px 15px;
   }
+
   .about-container {
     flex-direction: column;
   }
@@ -1177,11 +1172,16 @@ width: 100%;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1); 
 }
 .about-leg-section .general-button{
-  /* margin: -30px auto 0; */
   translate: 0% -80%;
 }
 .about-text-container{
   text-align: right;
+}
+@media (min-width: 901px) {
+  .hero-content img{
+   width: 360px;
+   height: 270px; 
+  }
 }
 @media (max-width: 900px) {
   

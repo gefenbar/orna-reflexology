@@ -1,36 +1,36 @@
-import ReactGA from 'react-ga';
+// import ReactGA from 'react-ga';
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import GiftCardBanner from "../Components/GiftCardBanner";
 import { Helmet } from 'react-helmet';
 export default function HomePage() {
-  useEffect(() => {
-    ReactGA.pageview('/');
-  }, []);
+  // useEffect(() => {
+  //   ReactGA.pageview('/');
+  // }, []);
 
-  const handleHeroButtonClick = () => {
-    ReactGA.event({
-      category: 'Interaction',
-      action: 'Click',
-      label: 'Hero Button'
-    });
-  };
+  // const handleHeroButtonClick = () => {
+  //   ReactGA.event({
+  //     category: 'Interaction',
+  //     action: 'Click',
+  //     label: 'Hero Button'
+  //   });
+  // };
 
-  const handleAboutMeButtonClick = () => {
-    ReactGA.event({
-      category: 'Interaction',
-      action: 'Click',
-      label: 'About Me Button'
-    });
-  };
+  // const handleAboutMeButtonClick = () => {
+  //   ReactGA.event({
+  //     category: 'Interaction',
+  //     action: 'Click',
+  //     label: 'About Me Button'
+  //   });
+  // };
 
-  const handleContactSectionView = () => {
-    ReactGA.event({
-      category: 'Engagement',
-      action: 'View',
-      label: 'Contact Section'
-    });
-  };
+  // const handleContactSectionView = () => {
+  //   ReactGA.event({
+  //     category: 'Engagement',
+  //     action: 'View',
+  //     label: 'Contact Section'
+  //   });
+  // };
 
   return (
     <main className="home">
@@ -62,17 +62,17 @@ export default function HomePage() {
 
 
     </Helmet>
-      <HeroSection handleHeroButtonClick={handleHeroButtonClick} />
-      <AboutMeSection handleAboutMeButtonClick={handleAboutMeButtonClick} />
+      <HeroSection />
+      <AboutMeSection />
       <Testimonials />
-      <AboutLegsSection onContactSectionView={handleContactSectionView} />
+      <AboutLegsSection  />
       <GiftCardBanner />
       <ContactSection />
     </main>
   );
 }
 
-const HeroSection = ({ handleHeroButtonClick }) => (
+const HeroSection = () => (
   <header>
   <section className="hero-section">
     <div className="hero-content">
@@ -80,13 +80,13 @@ const HeroSection = ({ handleHeroButtonClick }) => (
       <img
         src="logo-full.webp"
         alt="ארנה קליין"
-        width="240px"
-        height="180px"
+        width="264px"
+        height="198px"
       />
 
       <br />
       <br />
-      <button className="general-button" onClick={handleHeroButtonClick}>
+      <button className="general-button" >
         <a 
           href="https://api.whatsapp.com/send?phone=+972549794777&text=שלום ארנה, ברצוני להזמין טיפול רפלקסולוגי"
           rel="noreferrer"
@@ -100,7 +100,7 @@ const HeroSection = ({ handleHeroButtonClick }) => (
   </header>
 );
 
-const AboutMeSection = ({ handleAboutMeButtonClick }) => (
+const AboutMeSection = () => (
   
   <section className="about-section">
     <div className="about-container">
@@ -117,16 +117,7 @@ const AboutMeSection = ({ handleAboutMeButtonClick }) => (
 
         <div className="about-text-container">
           <h2>
-            קצת עליי{" "}
-            {/* <img
-              className="decoration"
-              id="decoration-one"
-              src="decoration.webp"
-              alt="ארנה קליין"
-              loading="lazy"
-              width="192px"
-              height="70px"
-            /> */}
+            קצת עליי
           </h2>
           <p>
             ארנה קליין - מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך, בוגרת מכללת
@@ -137,7 +128,7 @@ const AboutMeSection = ({ handleAboutMeButtonClick }) => (
             מענה טיפולי מדוייק תוך הבנה שריפויי אמיתי מגיע מתוך איזון של הגוף
             עצמו.
           </p>
-          <button className="general-button" onClick={handleAboutMeButtonClick}>
+          <button className="general-button">
           <Link className="contact-link" to="/contact">   לפרטים נוספים וקביעת תור
           </Link>
         </button>
@@ -177,15 +168,6 @@ const Testimonials = () => (
   <section className="testimonials-section" id="testimonials">
     <h2>
       המלצות
-      {/* <img
-        className="decoration"
-        id="decoration-four"
-        src="decoration.webp"
-        alt="ארנה קליין"
-        loading="lazy"
-        width="192px"
-        height="70px"
-      /> */}
     </h2>
     <div className="testimonial-container">
       {testimonials.map((testimonial) => (
@@ -208,21 +190,14 @@ export const AboutLegsSection = ({
 }) => {
   let infos = [
     {
-      title: "השתקפות",
-      image: "reflection.webp",
-      url: "/reflection",
-      alt: "השתקפות עץ על המים",
+      title: "כאבי ראש",
+      image: "headache.webp",
+      url: "/headache",
+      alt: "כאב ראש",
       desc:
-        "רפלקסולוגיה באה מהמילה REFLECTION שפירושה השתקפות. כל אזור בכף הרגל מייצג איבר או אזור מסוים....",
+        "כאבי ראש הם אחת התלונות הנפוצות ביותר שמשפיעות על איכות החיים, והם יכולים לנבוע ממגוון סיבות....",
     },
-    {
-      title: "רפלקסולוגיה",
-      image: "reflexology.webp",
-      url: "/reflexology",
-      alt: "טביעות רגליים בחול",
-      desc:
-        "בטיפול רפלקסולוגי, כדי להגיע לכל שכבות האיברים והמערכות, נעבור יחד תהליך יסודי....",
-    },
+    
     {
       title: "איזון",
       image: "balance.webp",
@@ -231,6 +206,14 @@ export const AboutLegsSection = ({
       desc:
         "טיפול רפלקסולוגי הוא טיפול אישי שמותאם לכל גוף עם התייחסות למאפיינים ולצרכים שלו....",
     },
+    {
+      title: "הפחתת לחץ",
+      image: "stress.webp",
+      url: "/stress",
+      alt: "אבנים מאוזנות",
+      desc:
+        " בעידן שבו לחץ מתמיד מהעבודה, מהמשפחה ומהחיים המודרניים משפיע על כל תחומי החיים....",
+    }
   ];
 
   if (Array.isArray(additionalInfos)) {
@@ -248,15 +231,6 @@ export const AboutLegsSection = ({
       {showTitle && (
         <h2>
           על הרגל
-          {/* <img
-            className="decoration"
-            id="decoration-two"
-            src="decoration.webp"
-            alt="ארנה קליין"
-            loading="lazy"
-            width="192px"
-            height="70px"
-          /> */}
         </h2>
       )}
       <div className="about-leg-cards">
@@ -296,16 +270,7 @@ export const AboutLegsSection = ({
 const ContactSection = () => (
   <section className="contact-section">
     <h2>
-      יצירת קשר{" "}
-      {/* <img
-        className="decoration"
-        id="decoration-three"
-        src="decoration.webp"
-        alt="ארנה קליין"
-        loading="lazy"
-        width="192px"
-        height="70px"
-      /> */}
+      יצירת קשר
     </h2>
     <p>כתובת: כפר תבור, מורן 9 ב'</p>
     <p>טלפון: 054-9794-777</p>
