@@ -1020,8 +1020,9 @@ margin-bottom: 40px;}
   }
 @media screen and (max-width: 768px) {
   .gift-card-section {
-    align-items: end;
-  height: 45vh;
+    /* align-items: end; */
+    height: 40vh;
+    align-items: baseline;
   }
   .about-image-container img {
     width: 217.5px;
@@ -1054,7 +1055,7 @@ display: none;
 }
   .gift-card.gift-card.revealed {
     position: relative;
-    transform: translate(-50%, -130%);
+    /* transform: translate(-50%, -130%); */
      opacity: 1;
     width: 100%;
     padding: 20px;
