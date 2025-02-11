@@ -2,35 +2,9 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import GiftCardBanner from "../Components/GiftCardBanner";
+import FAQSection from "../Components/FAQ";
 import { Helmet } from 'react-helmet';
 export default function HomePage() {
-  // useEffect(() => {
-  //   ReactGA.pageview('/');
-  // }, []);
-
-  // const handleHeroButtonClick = () => {
-  //   ReactGA.event({
-  //     category: 'Interaction',
-  //     action: 'Click',
-  //     label: 'Hero Button'
-  //   });
-  // };
-
-  // const handleAboutMeButtonClick = () => {
-  //   ReactGA.event({
-  //     category: 'Interaction',
-  //     action: 'Click',
-  //     label: 'About Me Button'
-  //   });
-  // };
-
-  // const handleContactSectionView = () => {
-  //   ReactGA.event({
-  //     category: 'Engagement',
-  //     action: 'View',
-  //     label: 'Contact Section'
-  //   });
-  // };
 
   return (
     <main className="home">
@@ -65,8 +39,9 @@ export default function HomePage() {
       <HeroSection />
       <AboutMeSection />
       <Testimonials />
-      <AboutLegsSection  />
+      <AboutLegsSection/>
       <GiftCardBanner />
+      <FAQSection />
       <ContactSection />
     </main>
   );
@@ -267,6 +242,7 @@ export const AboutLegsSection = ({
     </section>
   );
 };
+
 const ContactSection = () => (
   <section className="contact-section">
     <h2>
