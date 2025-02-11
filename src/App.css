@@ -904,8 +904,8 @@ margin-bottom: 40px;}
 .gift-card-section {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 60vh;
+  align-items: end;
+  height: 45vh;
 }
 
 .envelope-container {
@@ -1217,7 +1217,7 @@ width: 100%;
 }
 .faq-section { 
   background: transparent;
-  padding: 0rem 2rem 4rem 2rem;
+  padding: 4rem 2rem;
   text-align: center;
   position: relative;
   overflow: hidden;
