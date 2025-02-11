@@ -904,8 +904,8 @@ margin-bottom: 40px;}
 .gift-card-section {
   display: flex;
   justify-content: center;
-  align-items: end;
-  height: 45vh;
+  align-items: center;
+  height: 60vh;
 }
 
 .envelope-container {
@@ -1019,6 +1019,10 @@ margin-bottom: 40px;}
     color: black!important;
   }
 @media screen and (max-width: 768px) {
+  .gift-card-section {
+    align-items: end;
+  height: 45vh;
+  }
   .about-image-container img {
     width: 217.5px;
     height: 300px;
