@@ -1,36 +1,7 @@
-import React, { useEffect } from "react";
-import ReactGA from 'react-ga';
+import React from "react";
 import { Helmet } from 'react-helmet';
 
 export default function ContactPage() {
-  useEffect(() => {
-    ReactGA.pageview('/contact');
-  }, []);
-
-  const handlePhoneClick = () => {
-    ReactGA.event({
-      category: 'Interaction',
-      action: 'Click',
-      label: 'Phone Number'
-    });
-  };
-
-  const handleEmailClick = () => {
-    ReactGA.event({
-      category: 'Interaction',
-      action: 'Click',
-      label: 'Email'
-    });
-  };
-
-  const handleFacebookClick = () => {
-    ReactGA.event({
-      category: 'Interaction',
-      action: 'Click',
-      label: 'Facebook'
-    });
-  };
-
   return (
     <main className="contact-page">
       <Helmet>
@@ -48,15 +19,15 @@ export default function ContactPage() {
       <h1>יצירת קשר</h1>
       <p className="some-text"> לתיאום טיפול ולכל שאלה, אנא פנו אליי באמצעות: </p>
       <p className="contact-page-social">
-        <a href="tel:0549794777" onClick={handlePhoneClick}>
+        <a href="tel:0549794777" >
           <img src="phone.webp" alt="Phone Number" width="28px" height="28px" /> 054-9794-777
         </a>
         <br /> <br />
-        <a href="mailto:orenkl162@gmail.com" onClick={handleEmailClick}>
+        <a href="mailto:orenkl162@gmail.com" >
           <img src="email.webp" alt="Email Icon" width="28px" height="28px" /> Orna Klein
         </a>
         <br /> <br />
-        <a href="https://www.facebook.com/profile.php?id=100010434510829&mibextid=ZbWKwL" onClick={handleFacebookClick}>
+        <a href="https://www.facebook.com/profile.php?id=100010434510829&mibextid=ZbWKwL" >
           <img src="facebook.webp" alt="Facebook Icon" width="28px" height="28px" /> ארנה קליין - רפלקסולוגית
         </a>
       </p>

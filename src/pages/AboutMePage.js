@@ -1,21 +1,8 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
-import ReactGA from 'react-ga';
 
 export default function AboutPage() {
-  useEffect(() => {
-    ReactGA.pageview('/about-me');
-  }, []);
-
-  const handleContactButtonClick = () => {
-    ReactGA.event({
-      category: 'Interaction',
-      action: 'Click',
-      label: 'Contact Button'
-    });
-  };
-
   return (
     <section className="about-page">
 <Helmet>
@@ -46,7 +33,7 @@ export default function AboutPage() {
             <p>אני מאמינה שכל אישה מחזיקה בכוחות ריפוי פנימיים, ותפקידי כרפלקסולוגית הוא לסייע לה לגלות ולממש את כוחותייה.</p>
             <p>אני מזמינה אתכן לחוות איתי טיפול רפלקסולוגי מותאם אישית, שיאפשר לכן להתחבר לכוחות הריפוי הטבעיים שלכן ולמצוא איזון והרמוניה בגופכן.</p>
             <p>אשמח לפגוש אתכן ולצעוד איתכן במסע הריפוי שלכן.</p>
-            <button className="general-button" onClick={handleContactButtonClick}>
+            <button className="general-button">
               <Link className="contact-link" to="/contact">
                 דברו איתי
               </Link>
