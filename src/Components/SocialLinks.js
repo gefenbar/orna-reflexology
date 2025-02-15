@@ -2,12 +2,7 @@ import React from "react";
 export default function SocialLinks() {
   return (
     <div className="side-social-links">
-      {/* <a
-        href="tel:054-9794-777"
-        className={`side-social-link`}
-      >
-        <img src={"phone.webp"} alt="Phone" />
-      </a> */}
+   
       <a
         href="mailto:orenkl162@gmail.com"
         className={`side-social-link`}

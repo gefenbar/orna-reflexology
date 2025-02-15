@@ -1,11 +1,6 @@
-// import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 export default function DesktopNavbar() {
-
-  // const isActive = () => {
-    
-  // };
 
   return (
     <nav className="navbar" dir="rtl">
