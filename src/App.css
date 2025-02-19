@@ -1020,7 +1020,6 @@ margin-bottom: 40px;}
   }
 @media screen and (max-width: 768px) {
   .gift-card-section {
-    /* align-items: end; */
     height: 40vh;
     align-items: baseline;
   }
@@ -1028,7 +1027,6 @@ margin-bottom: 40px;}
     width: 217.5px;
     height: 300px;
   }
-  /* .gift-card-section {height: 52vh;} */
   .contact-section{
     margin-top:0;
   }
@@ -1055,7 +1053,6 @@ display: none;
 }
   .gift-card.gift-card.revealed {
     position: relative;
-    /* transform: translate(-50%, -130%); */
      opacity: 1;
     width: 100%;
     padding: 20px;
@@ -1097,12 +1094,13 @@ display: none;
     font-size: 0.9rem;
   }
   .footer-content {
-    align-items: center;
+    padding: 0;
   }
+  .social-links{gap:0.4rem;}
  
   .social-links .social-link img {
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 1.4rem;
+    height: 1.4rem;
   }
 
   .hero-section button {
