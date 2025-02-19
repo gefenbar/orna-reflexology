@@ -30,7 +30,7 @@ export default function Footer() {
         </div>
         <div className="copyright">
           <div className="centered-copyright">
-            &copy; {new Date().getFullYear()} Hergelaim
+            &copy; {new Date().getFullYear()} ארנה קליין - הרגליים
           </div>
           
         </div>
