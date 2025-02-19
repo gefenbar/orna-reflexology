@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-
+import MoreArticles from "../../Components/MoreArticles";
 export default function Alternative() {
   return (
     <div className="post-page-container">
@@ -107,11 +107,16 @@ export default function Alternative() {
     loading="lazy"
   />
 </div>
+<MoreArticles />
+<br></br>
+<br></br>
 <button className="general-button">
   <Link to="/contact" className="post-book-treatment-button">
     הזמיני טיפול עכשיו!
   </Link>
 </button>
+<br></br>
+<br></br>
 </div>
   );
 }

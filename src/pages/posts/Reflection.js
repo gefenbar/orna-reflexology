@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import MoreArticles from '../../Components/MoreArticles';
 
 export default function Reflection() {
   return (
@@ -31,9 +32,14 @@ export default function Reflection() {
       <div className="post-image-container">
         <img className="post-image" src="reflection.webp" alt="רפלקסולוגיה" loading="lazy" />
       </div>
+      <MoreArticles />
+      <br></br>
+      <br></br>
       <button className='general-button'>
         <Link to="/contact" className="post-book-treatment-button"> הזמיני טיפול עכשיו! </Link>
       </button>
+      <br></br>
+      <br></br>
     </div>
   );
 }
