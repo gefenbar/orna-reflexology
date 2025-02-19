@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
@@ -101,6 +101,45 @@ export default function MoreArticles() {
           </li>
         ))}
       </ul>
+      <BackButton />
+
     </div>
   );
 }
+
+
+
+
+
+const BackButton = () => {
+  const [isHovered, setIsHovered] = useState(false);
+
+  const buttonStyle = {
+    position: "fixed",
+    left: "10px",
+    top: "90px",
+    padding: "5px 10px",
+    backgroundColor: "#333",
+    color: "#fff",
+    border: "none",
+    borderRadius: "20px",
+    textDecoration: "none",
+    fontSize: "14px",
+    fontWeight: "bold",
+    zIndex: 1000,
+    transition: "background-color 0.3s, transform 0.3s",
+    cursor: "pointer",
+    transform: isHovered ? "scale(1.05)" : "scale(1)"
+  };
+
+  return (
+    <Link
+      to="/about-legs"
+      style={buttonStyle}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      חזור
+    </Link>
+  );
+};
