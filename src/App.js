@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import DesktopNavbar from "./Components/DesktopNavbar";
 import MobileNavbar from "./Components/MobileNavBar";
 import HomePage from "./pages/HomePage";
@@ -13,9 +13,9 @@ import "./App.css";
 import SocialLinks from "./Components/SocialLinks";
 import Balance from "./pages/posts/Balance";
 import Reflection from "./pages/posts/Reflection";
-import Reflexology from  "./pages/posts/Reflexology";
+import Reflexology from "./pages/posts/Reflexology";
 import Testimonials from "./pages/TestimonialsPage";
-import { useMediaQuery } from 'react-responsive';
+import { useMediaQuery } from "react-responsive";
 import Alternative from "./pages/posts/Alternative";
 import ReflexologyAndBackPain from "./pages/posts/BackPain";
 import Stress from "./pages/posts/stress";
@@ -38,10 +38,10 @@ export default function App() {
   return (
     <div className="App">
       <SocialLinks />
-      <AccessibilityWidget className="accessibility"/>
+      <AccessibilityWidget className="accessibility" />
       <BrowserRouter>
         <ScrollToTop />
-        {isDesktop ? <DesktopNavbar /> : <MobileNavbar/>}
+        {isDesktop ? <DesktopNavbar /> : <MobileNavbar />}
         <Routes>
           <Route exact path="/" element={<HomePage />} />
           <Route path="/about-me" element={<AboutMePage />} />
@@ -58,11 +58,9 @@ export default function App() {
           <Route path="/lower-back" element={<LowerBack />} />
           <Route path="/foot-back" element={<FootBack />} />
           {/* <Route path="/back-map" element={<BackMap />} /> */}
-
         </Routes>
-        <Footer />
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }
-

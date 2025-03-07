@@ -924,6 +924,7 @@ margin-bottom: 40px;}
   border: 1px black;
   top: 50%;
   transform: translateY(-50%);
+  border-radius: 10px;
 }
 
 .envelope-flap {
