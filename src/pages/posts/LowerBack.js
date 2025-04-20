@@ -23,7 +23,7 @@ export default function LowerBack() {
         url: "https://hergelaim.co.il/logo.jpeg",
       },
     },
-    datePublished: "2025-04-20",
+    datePublished: "2025-02-10",
     dateModified: "2025-04-20",
     description:
       "מאמר עומק מקיף המסביר כיצד רפלקסולוגיה מסייעת להקלה על כאבי גב תחתון, כולל תוכנית טיפול, שאלות נפוצות, מקרי בוחן וטיפים לשילוב ביתי.",
@@ -442,10 +442,10 @@ export default function LowerBack() {
       <div className="post-image-container">
         <img
           className="post-image"
-          src="https://hergelaim.co.il/lower-back.webp"
+          src="lower-back.webp"
           alt="טיפול רפלקסולוגיה לגב תחתון - ארנה קליין"
-          width="800"
-          height="450"
+          width="250"
+          height="250"
           loading="lazy"
           itemProp="image"
         />

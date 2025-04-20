@@ -668,7 +668,9 @@ section {
   top: 8vh;
   z-index: 0;
 }
-
+.post-page-container .general-button {
+  margin-bottom: 1rem;
+}
 .post-page-container::before {
   content: "";
   position: fixed;
@@ -1032,6 +1034,7 @@ a.active {
     display: flex;
     justify-content: center;
   }
+
   .testimonial-container {
     grid-template-columns: 1fr;
     gap: 50px;
@@ -1401,4 +1404,8 @@ section:has(nav) li a:hover {
 .faq-toggle:checked + dt + dd {
   max-height: 500px;
   padding: 1rem 1.25rem 1.25rem;
+}
+
+.table-of-contents li {
+  margin-right: 5%;
 }
