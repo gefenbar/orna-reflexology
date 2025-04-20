@@ -1312,3 +1312,93 @@ a.active {
 .fa-chevron-down:before {
   color: var(--primary-color);
 }
+section:has(nav) {
+  background-color: #fff;
+  padding: 18px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+li {
+  margin: 5px;
+  padding: 5px;
+  /* border-radius: 8px; */
+  /* box-shadow: 0 1px 0 0px black; */
+}
+
+section:has(nav) li a {
+  /* color: white; */
+  border-radius: 8px;
+  padding: 5px;
+}
+
+section:has(nav) li a:hover {
+  color: black;
+  background-color: #d0e6c9;
+}
+
+.faq-toggle {
+  display: none;
+}
+
+/* מעטפת כללית */
+.faq-list dl {
+  margin-top: 3%;
+  /* border: 1px solid #e5e7eb; */
+  border-radius: 0.75rem;
+  overflow: hidden;
+  font-size: 1rem;
+  direction: rtl;
+}
+
+/* כל שאלה */
+.faq-list dt {
+  position: relative;
+  padding: 1rem 3.5rem 1rem 1.25rem;
+  font-weight: 600;
+  background: #f9fafb;
+  margin-bottom: 10px;
+  border-radius: 0px;
+  /* border-top: 1px solid #e5e7eb; */
+  transition: background 0.25s;
+}
+.faq-list dt:first-of-type {
+  border-top: none;
+}
+
+/* “+” מימין */
+.faq-list dt label::after {
+  content: "+";
+  position: absolute;
+  right: 1.25rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.25rem;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+.faq-list dt label {
+  cursor: pointer;
+}
+
+.faq-list dd {
+  margin: 0;
+  max-height: 0;
+  overflow: hidden;
+  background: #d0e6c9;
+  padding: 0 1.25rem;
+  transition: max-height 0.35s ease, padding 0.35s ease;
+  /* border-top: 1px solid #e5e7eb; */
+}
+
+.faq-toggle:checked + dt label::after {
+  transform: translateY(-50%) rotate(45deg);
+}
+.faq-toggle:checked + dt {
+  background: #f3f4f6;
+}
+.faq-toggle:checked + dt + dd {
+  max-height: 500px;
+  padding: 1rem 1.25rem 1.25rem;
+}
