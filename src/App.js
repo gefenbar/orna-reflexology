@@ -25,6 +25,7 @@ import FootBack from "./pages/posts/FootBack";
 import LegMap from "./pages/posts/LegMap";
 import SleepImprovement from "./pages/posts/SleepImprovement";
 import HormonalBalance from "./pages/posts/HormonalBalance";
+import Digestion from "./pages/posts/Digestion";
 
 
 function ScrollToTop() {
@@ -63,6 +64,7 @@ export default function App() {
           <Route path="/reflexology-map" element={<LegMap />} />
           <Route path="/sleep-improvement" element={<SleepImprovement />} />
           <Route path="/hormonal-balance" element={<HormonalBalance />} />
+          <Route path="/digestion" element={<Digestion />} />
         </Routes>
       </BrowserRouter>
       <Footer />

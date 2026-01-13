@@ -221,7 +221,7 @@ p {
 .contact-section {
   margin: var(--section-padding) auto;
   text-align: center;
-  padding: var(--section-padding) 0;
+  padding: 0;
   max-width: var(--max-width);
   width: 90%;
 }
@@ -1305,9 +1305,9 @@ a.active {
     height: 300px;
   }
 
-  .contact-section {
+  /* .contact-section {
     margin-top: 0;
-  }
+  } */
 
   .about-leg-section h2 {
     margin: 0;
@@ -1398,9 +1398,9 @@ a.active {
     display: inline-block;
   }
 
-  .hero-content {
+  /* .hero-content {
     margin: 25% 0 15px 15px;
-  }
+  } */
 
   .about-container {
     flex-direction: column;
