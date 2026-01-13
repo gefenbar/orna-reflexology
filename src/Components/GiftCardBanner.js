@@ -36,10 +36,10 @@ const EnvelopeAndGiftCard = () => {
             <div className={`gift-card ${isHovered ? 'revealed' : ''}`}>
               <p>פנקי את עצמך או מישהי מיוחדת בחוויה מפנקת!</p>
               <button>
-  <a href="https://api.whatsapp.com/send?phone=+972549794777&text=שלום ארנה, ברצוני להזמין Gift Card"  rel="noreferrer" target="_blank">
-    הזמיני Gift Card
-  </a>
-</button>
+                <a href="https://api.whatsapp.com/send?phone=+972549794777&text=שלום ארנה, ברצוני להזמין Gift Card" rel="noreferrer" target="_blank">
+                  הזמיני Gift Card
+                </a>
+              </button>
               <img className="logo2" src="logo.webp" alt="Logo" />
             </div>
           </div>
@@ -49,9 +49,9 @@ const EnvelopeAndGiftCard = () => {
         <div className={`gift-card revealed`}>
           <p>פנקי את עצמך או מישהי מיוחדת בחוויה מפנקת!</p>
           <button>
-          <a href="https://api.whatsapp.com/send?phone=+972549794777&text=שלום ארנה, ברצוני להזמין Gift Card"  rel="noreferrer" target="_blank">
-    הזמיני Gift Card
-  </a>
+            <a href="https://api.whatsapp.com/send?phone=+972549794777&text=שלום ארנה, ברצוני להזמין Gift Card" rel="noreferrer" target="_blank">
+              הזמיני Gift Card
+            </a>
           </button>
           <img className="logo2" src="logo.webp" alt="Logo" />
         </div>

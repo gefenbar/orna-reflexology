@@ -1,9 +1,7 @@
 import { Helmet } from "react-helmet";
-import { AboutLegsSection } from "./HomePage";
+import AboutLegsSection from "../Components/AboutLegsSection";
 
 export default function AboutLegsPage() {
-  // const more = ... (Removed, using articles.json)
-
 
   return (
     <main className="about-leg-page">

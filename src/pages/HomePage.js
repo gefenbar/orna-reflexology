@@ -1,10 +1,9 @@
 // import ReactGA from 'react-ga';
-import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import GiftCardBanner from "../Components/GiftCardBanner";
 import FAQSection from "../Components/FAQ";
 import { Helmet } from "react-helmet";
-import articles from "../data/articles.json";
+import AboutLegsSection from "../Components/AboutLegsSection";
 export default function HomePage() {
   return (
     <main className="home">
@@ -265,82 +264,24 @@ const Testimonial = ({ name, quote, image }) => (
 
 const Testimonials = () => (
   <section className="testimonials-section" id="testimonials">
-    <h2>המלצות</h2>
+    <div className="testimonials-header">
+      <h2>המלצות</h2>
+      <button className="general-button">
+        <Link className="more" to="/testimonials">
+          להמלצות נוספות
+        </Link>
+      </button>
+    </div>
     <div className="testimonial-container">
       {testimonials.map((testimonial) => (
         <Testimonial key={testimonial.name} {...testimonial} />
       ))}
     </div>
-    <button className="general-button">
-      <Link className="more" to="/testimonials">
-        לביקורות נוספות
-      </Link>
-    </button>
+
   </section>
 );
 
 
-
-export const AboutLegsSection = ({
-  additionalInfos, // Deprecated, kept for backward compatibility if needed, but we will ignore it if using IDs
-  showLink = true,
-  showTitle = true,
-  onContactSectionView,
-  displayIds = [12, 11, 1, 8, 6] // Default curated list for Home Page: Sleep, Map, Headache, Stress, LowerBack
-}) => {
-
-  // Filter and Sort based on displayIds
-  let infos = displayIds
-    ? displayIds.map(id => articles.find(a => a.id === id)).filter(Boolean)
-    : articles;
-
-  // If specific IDs weren't requested (e.g. from AboutLegsPage wanting ALL), use all articles
-  // But wait, AboutLegsPage calls it without displayIds? 
-  // If I default displayIds to the subset, AboutLegsPage will only show the subset unless I override it.
-
-  useEffect(() => {
-    if (typeof onContactSectionView === "function") {
-      onContactSectionView();
-    }
-  }, [onContactSectionView]);
-
-  return (
-    <section className="about-leg-section">
-      {showTitle && <h2>על הרגל</h2>}
-      <div className="about-leg-cards">
-        {infos.map((info, index) => (
-          <button className="about-leg-card" key={index}>
-            <Link to={info.link || info.url}>
-              <img
-                src={info.image}
-                alt={info.alt}
-                loading="lazy"
-                className="about-leg-image"
-                width={"200px"}
-                height={"200px"}
-              />
-              <p className="about-leg-title"> {info.title}</p>
-              {info.desc}
-            </Link>
-          </button>
-        ))}
-      </div>
-      <br />
-      <br />
-      <br />
-
-      {showLink && (
-        <button className="general-button">
-          <Link className="more" to="/about-legs">
-            למידע נוסף
-          </Link>
-        </button>
-      )}
-      <br />
-      <br />
-    </section>
-  );
-};
 
 const ContactSection = () => (
   <section className="contact-section">
