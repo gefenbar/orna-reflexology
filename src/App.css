@@ -260,6 +260,10 @@ p {
   width: 90%;
 }
 
+.about-leg-page .about-leg-cards {
+  justify-content: end;
+}
+
 .about-leg-page .about-leg-section {
   padding: 0;
 }
