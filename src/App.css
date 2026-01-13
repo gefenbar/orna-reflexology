@@ -1590,7 +1590,7 @@ a.active {
   background-color: white;
   border-radius: var(--border-radius);
   margin-bottom: 1.5rem;
-  box-shadow: var(--shadow-lg);
+  /* box-shadow: var(--shadow-lg); */
   overflow: hidden;
   transition: all 0.3s ease;
   border: 1px solid transparent;
