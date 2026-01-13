@@ -6,13 +6,19 @@ const AboutLegsSection = ({
     showLink = true,
     showTitle = true,
     onContactSectionView,
-    displayIds = [12, 11, 8, 3] // Default curated list for Home Page: Sleep, Map, Headache, Stress, LowerBack
+    displayIds = null, // Default: null (shows newest)
+    maxItems = 4       // Default: 4 items (when showing newest)
 }) => {
 
     // Filter and Sort based on displayIds
     let infos = displayIds
         ? displayIds.map(id => articles.find(a => a.id === id)).filter(Boolean)
-        : articles;
+        : [...articles].reverse();
+
+    // Apply maxItems limit if no specific list was provided (and maxItems is set)
+    if (!displayIds && maxItems) {
+        infos = infos.slice(0, maxItems);
+    }
 
     useEffect(() => {
         if (typeof onContactSectionView === "function") {

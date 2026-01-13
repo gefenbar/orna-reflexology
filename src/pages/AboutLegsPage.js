@@ -28,6 +28,7 @@ export default function AboutLegsPage() {
       <h1>על הרגל</h1>
       <AboutLegsSection
         displayIds={null}
+        maxItems={null}
         showLink={false}
         showTitle={false}
       />
