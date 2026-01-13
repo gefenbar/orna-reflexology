@@ -141,7 +141,7 @@ export default function HormonalBalance() {
                             <li><a href="#menopause-pms">מגיל ההתבגרות ועד גיל המעבר</a></li>
                             <li><a href="#reflex-points">נקודות חיבור בכף הרגל</a></li>
                             <li><a href="#lifestyle-tips">טיפים לאיזון בבית</a></li>
-                            <li><a href="#summary">לסיכום</a></li>
+                            <li><a href="#summary">בשורה התחתונה</a></li>
                             <li><a href="#faq">שאלות נפוצות</a></li>
                         </ol>
                     </nav>
@@ -239,7 +239,7 @@ export default function HormonalBalance() {
 
                 {/* ===== Summary ===== */}
                 <section className="post-section" id="summary">
-                    <h2>לסיכום</h2>
+                    <h2>בשורה התחתונה</h2>
                     <p>
                         להיות אישה זה מסע של השתנות מתמדת. הגוף שלנו הוא חכם, ולפעמים, כשהוא יוצא מאיזון, הוא רק מבקש תשומת לב והקשבה.
                     </p>

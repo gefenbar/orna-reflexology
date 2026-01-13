@@ -26,6 +26,8 @@ import LegMap from "./pages/posts/LegMap";
 import SleepImprovement from "./pages/posts/SleepImprovement";
 import HormonalBalance from "./pages/posts/HormonalBalance";
 import HeelSpur from "./pages/posts/HeelSpur";
+import Migraines from "./pages/posts/Migraines";
+import AnxietyRelief from "./pages/posts/AnxietyRelief";
 
 
 function ScrollToTop() {
@@ -65,6 +67,8 @@ export default function App() {
           <Route path="/sleep-improvement" element={<SleepImprovement />} />
           <Route path="/hormonal-balance" element={<HormonalBalance />} />
           <Route path="/heel-spur" element={<HeelSpur />} />
+          <Route path="/migraines" element={<Migraines />} />
+          <Route path="/anxiety-relief" element={<AnxietyRelief />} />
         </Routes>
       </BrowserRouter>
       <Footer />

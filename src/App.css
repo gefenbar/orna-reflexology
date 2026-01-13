@@ -494,7 +494,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  top: 5vh;
+  /* top: 5vh; */
 }
 
 .footer-content {
@@ -626,14 +626,30 @@ section {
 
 
 /* Color palette */
+/* Color palette */
 .hero-section {
   width: 100vw;
   height: 100vh;
-  display: inline-table;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-image: url("../public/feet.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.7);
+  /* Subtle light overlay to make logo pop */
+  z-index: 0;
 }
 
 .visually-hidden {
@@ -650,10 +666,26 @@ section {
 .hero-content {
   position: relative;
   padding: 4% 2%;
-  margin: var(--section-padding) auto 0;
+  margin: 0;
+  /* Removing auto margins as we flex center */
   max-width: var(--max-width);
-  width: 90%;
-  z-index: 1;
+  width: auto;
+  /* Let content define width */
+  z-index: 10;
+  text-align: center;
+  animation: fadeIn 1.5s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .hero-section p {
@@ -680,7 +712,8 @@ section {
 
 
 .testimonials-section {
-
+  width: 90%;
+  place-self: center;
   padding-left: 2%;
   padding-right: 2%;
 }
@@ -776,7 +809,7 @@ section {
 .about-leg-cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   gap: 1.25rem;
   margin: 1rem 0;
   cursor: pointer;
@@ -897,7 +930,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: var(--section-padding);
+  padding: 5rem 20px;
   background-color: #f7f7f7;
   font-family: var(--font-secondary);
   direction: rtl;
@@ -906,8 +939,8 @@ section {
   /* max-width: var(--max-width); */
   margin: 0 auto;
   /* width: 90%; */
-  border-radius: var(--border-radius);
-  margin-bottom: var(--section-padding);
+  /* border-radius: var(--border-radius); */
+  /* margin-bottom: var(--section-padding); */
 }
 
 .post-page-container .general-button {
@@ -1004,8 +1037,7 @@ section {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 30px;
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
+  margin: 30px auto;
 }
 
 .testimonial {
@@ -1477,9 +1509,11 @@ a.active {
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
-/* .about-leg-section .general-button {
-  translate: 0% -80%;
-} */
+.about-leg-section {
+  width: 90%;
+  place-self: center;
+
+}
 
 .about-text-container {
   text-align: right;

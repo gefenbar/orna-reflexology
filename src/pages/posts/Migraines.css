@@ -1,0 +1,71 @@
+/* Migraines.css - Specific styles for this article's infographics */
+
+.infographic-container-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.info-card.trigger-card {
+    background-color: #f7fafc;
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    border-bottom: 4px solid var(--primary-color);
+    /* Earth brown accent */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s;
+}
+
+.info-card.trigger-card:hover {
+    transform: translateY(-5px);
+}
+
+.info-card .icon {
+    font-size: 2.5rem;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.info-card h4 {
+    color: var(--secondary-color);
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.comparison-table-container {
+    overflow-x: auto;
+    margin-top: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.comparison-table th,
+.comparison-table td {
+    padding: 1rem;
+    text-align: right;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.comparison-table th {
+    background-color: #e5eee3;
+    /* Light sage */
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.comparison-table tr:last-child td {
+    border-bottom: none;
+}
+
+.comparison-table tr:hover {
+    background-color: #f8fff6;
+}

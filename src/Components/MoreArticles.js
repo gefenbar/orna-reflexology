@@ -7,16 +7,44 @@ export default function MoreArticles() {
   const location = useLocation();
   const currentPath = location.pathname;
 
-  // מסנן את המאמרים כך שהמאמר הנוכחי לא יוצג
-  const filteredArticles = articles.filter(article => article.link !== currentPath);
+  // מצא את המאמר הנוכחי
+  const currentArticle = articles.find(article => article.link === currentPath);
 
-  // בוחר באופן אקראי 3 מאמרים מהמאמרים הנותרים
-  const getRandomArticles = () => {
-    const shuffled = [...filteredArticles].sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, 3);
+  // סנן את המאמר הנוכחי מהרשימה
+  const otherArticles = articles.filter(article => article.link !== currentPath);
+
+  const getRecommendedArticles = () => {
+    if (!currentArticle || !currentArticle.tags) {
+      // אם אין מאמר נוכחי או אין לו תגיות, החזר 3 מאמרים רנדומליים כמו קודם
+      return [...otherArticles].sort(() => 0.5 - Math.random()).slice(0, 3);
+    }
+
+    const currentTags = currentArticle.tags;
+
+    // צור מערך של מאמרים עם ציון רלוונטיות
+    const scoredArticles = otherArticles.map(article => {
+      let score = 0;
+      if (article.tags) {
+        // חשב כמה תגיות משותפות יש
+        const intersection = article.tags.filter(tag => currentTags.includes(tag));
+        score = intersection.length;
+      }
+      return { ...article, score };
+    });
+
+    // מיין לפי ציון (גבוה לנמוך). אם הציון זהה, אפשר למיין רנדומלית כדי לגוון
+    scoredArticles.sort((a, b) => {
+      if (b.score !== a.score) {
+        return b.score - a.score;
+      }
+      return 0.5 - Math.random();
+    });
+
+    // החזר את ה-3 הראשונים
+    return scoredArticles.slice(0, 3);
   };
 
-  const randomArticles = getRandomArticles();
+  const recommendedArticles = getRecommendedArticles();
 
   // עיצובים מודרניים
   const containerStyle = {
@@ -71,7 +99,7 @@ export default function MoreArticles() {
       </Helmet>
       <h3 style={headerStyle}>מאמרים מומלצים</h3>
       <ul className="more-articles-list" style={listStyle}>
-        {randomArticles.map(article => (
+        {recommendedArticles.map(article => (
           <li
             key={article.id}
             style={itemStyle}
