@@ -1305,9 +1305,7 @@ a.active {
     height: 300px;
   }
 
-  /* .contact-section {
-    margin-top: 0;
-  } */
+
 
   .about-leg-section h2 {
     margin: 0;
@@ -1414,9 +1412,9 @@ a.active {
     font-size: 16px;
   }
 
-  .contact-page {
+  /* .contact-page {
     padding: 20px 20px 20px 20px;
-  }
+  } */
 
   .navbar-logo img {
     width: 93.75px;
