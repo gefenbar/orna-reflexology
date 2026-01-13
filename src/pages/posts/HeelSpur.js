@@ -150,7 +150,7 @@ export default function HeelSpur() {
                 <section className="post-section" id="what-is-heel-spur">
                     <h2>מה זה בעצם "דורבן"?</h2>
                     <p>
-                        למרות השם המאיים, "דורבן" הוא לא עצם שצמחה פתאום (למרות שלעיתים רואים זיז סידן בצילום), אלא דלקת ברצועה העבה שנמתחת לאורך כף הרגל (Plantar Fascia).
+                        למרות השם המאיים, "דורבן" הוא לא עצם שצמחה פתאום (למרות שלעיתים רואים זיז סידן בצילום), אלא <a href="https://www.mayoclinic.org/diseases-conditions/plantar-fasciitis/symptoms-causes/syc-20354846" target="_blank" rel="noopener noreferrer">דלקת ברצועה העבה שנמתחת לאורך כף הרגל (Plantar Fascia)</a>.
                         הרצועה הזו פועלת כמו קפיץ בולם זעזועים בכל צעד שלנו. כשיש עומס יתר, נוצרים קרעים מיקרוסקופיים שמובילים לדלקת וכאב.
                     </p>
                     <div style={{ backgroundColor: "#fff5f5", padding: "1rem", borderRadius: "8px", borderRight: "4px solid #fc8181", marginTop: "1rem" }}>

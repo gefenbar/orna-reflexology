@@ -234,8 +234,8 @@ export default function Stress() {
           <h3>הפחתת מתחים פיזיים ונפשיים</h3>
           <p>
             רפלקסולוגיה משפיעה גם על הנפש - המטופלים מתארים תחושת רגיעה עמוקה,
-            הפחתת חרדות ושיפור באיכות השינה. בכך, הטיפול תורם לשחרור ממעגל הכאב,
-            המתח והעייפות ומכניס את הגוף למעגל של תפקוד בריא.
+            הפחתת חרדות ושיפור באיכות השינה. בכך, הטיפול תורם לשחרור מ<a href="https://www.apa.org/topics/stress" target="_blank" rel="noopener noreferrer">מעגל הלחץ</a>,
+            המתח והעייפות ומכניס את הגוף למעגל של תפקוד בריא. מידע נוסף על <a href="https://www.health.gov.il/Subjects/mental_health/BenefeshBria/Pages/default.aspx" target="_blank" rel="noopener noreferrer">עזרה ראשונה נפשית</a> זמין באתר משרד הבריאות.
           </p>
         </section>
 

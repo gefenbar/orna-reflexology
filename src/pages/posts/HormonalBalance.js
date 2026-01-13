@@ -200,7 +200,7 @@ export default function HormonalBalance() {
                     </p>
                     <h3>גיל המעבר (מנופאוזה)</h3>
                     <p>
-                        גלי חום, הפרעות שינה ויובש. זו תקופה של שינוי עמוק. הרפלקסולוגיה מספקת "עוגן" של יציבות, מסייעת לקירור הגוף (דרך עבודה על אלמנט המים והאש) ומשפרת משמעותית את איכות <Link to="/sleep-improvement">השינה</Link>.
+                        <a href="https://www.mayoclinic.org/diseases-conditions/menopause/symptoms-causes/syc-20353397" target="_blank" rel="noopener noreferrer">גלי חום, הפרעות שינה ויובש</a>. זו תקופה של שינוי עמוק. הרפלקסולוגיה מספקת "עוגן" של יציבות, מסייעת לקירור הגוף (דרך עבודה על אלמנט המים והאש) ומשפרת משמעותית את איכות <Link to="/sleep-improvement">השינה</Link>.
                     </p>
                 </section>
 

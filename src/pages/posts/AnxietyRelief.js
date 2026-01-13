@@ -152,12 +152,12 @@ export default function AnxietyRelief() {
                     <h2>המתג שנמצא בכף הרגל</h2>
                     <p>
                         מערכת העצבים שלנו פועלת בשני מצבים עיקריים: מצב "הילחם או ברח" (Sympathetic) שמופעל בזמן סכנה או לחץ,
-                        ומצב "מנוחה ועיכול" (Parasympathetic) שאחראי על רגיעה וריפוי.
+                        ומצב <a href="https://www.health.harvard.edu/staying-healthy/understanding-the-stress-response" target="_blank" rel="noopener noreferrer">"מנוחה ועיכול" (Parasympathetic)</a> שאחראי על רגיעה וריפוי.
                         הבעיה היא שאצל רבים מאיתנו, המתג "נתקע" על מצב חירום. אנחנו דרוכים תמיד, גם כשאין סכנה אמיתית.
                     </p>
                     <p>
                         הטיפול הרפלקסולוגי הוא כמו לחיצה פיזית על כפתור ה-Reset. המגע הקצבי, העמוק והמקרקע מאותת למוח: "אתה בטוח. אפשר לשחרר".
-                        זהו רגע קסום שבו הנשימה מעמיקה והשרירים המכווצים (במיוחד בצוואר ובכתפיים שקשורים ל<Link to="/stress">סטרס</Link>) מתחילים להרפות.
+                        זהו רגע קסום שבו הנשימה מעמיקה והשרירים המכווצים (במיוחד בצוואר ובכתפיים שקשורים ל<Link to="/stress">סטרס</Link>) מתחילים להרפות. מידע נוסף על <a href="https://www.health.gov.il/Subjects/mental_health/BenefeshBria/Pages/default.aspx" target="_blank" rel="noopener noreferrer">התמודדות עם חרדה</a> זמין באתר משרד הבריאות.
                     </p>
                 </section>
 

@@ -174,7 +174,7 @@ export default function SleepImprovement() {
                     }}>
                         <h3 style={{ marginTop: 0, color: "#4a5568" }}>💡 ידעת?</h3>
                         <p style={{ marginBottom: 0 }}>
-                            מחסור בשינה לא רק גורם לעייפות. הוא פוגע במערכת החיסון, מגביר סיכון להשמנה, ומשפיע לרעה על הזיכרון ומצב הרוח. השינה היא הזמן שבו הגוף מתקן את עצמו.
+                            <a href="https://www.sleepfoundation.org/how-sleep-works/why-do-we-need-sleep" target="_blank" rel="noopener noreferrer">מחסור בשינה</a> לא רק גורם לעייפות. הוא פוגע במערכת החיסון, מגביר סיכון להשמנה, ומשפיע לרעה על הזיכרון ומצב הרוח. השינה היא הזמן שבו הגוף מתקן את עצמו. קראי עוד על <a href="https://www.health.gov.il/Subjects/mental_health/BenefeshBria/sleep/Pages/default.aspx" target="_blank" rel="noopener noreferrer">שינה ובריאות הנפש</a> באתר משרד הבריאות.
                         </p>
                     </div>
                 </section>

@@ -144,7 +144,7 @@ export default function Headache() {
         <section className="post-section intro" id="intro">
           <p itemProp="description">
             <strong>
-              <em>כאבי ראש</em> הם תופעה נפוצה המשפיעה על מיליוני אנשים ברחבי
+              <em><a href="https://www.who.int/news-room/fact-sheets/detail/headache-disorders" target="_blank" rel="noopener noreferrer">כאבי ראש</a></em> הם תופעה נפוצה המשפיעה על מיליוני אנשים ברחבי
               העולם. הם יכולים לנבוע מסיבות שונות, כגון מתח, עייפות, חוסר שינה,
               תזונה לקויה ועוד. <em>רפלקסולוגיה</em> מציעה גישה טבעית ויעילה
               להקלה על כאבי ראש ושיפור איכות החיים. במדריך זה, נסקור את העקרונות

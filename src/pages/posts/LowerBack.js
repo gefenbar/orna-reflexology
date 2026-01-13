@@ -144,7 +144,7 @@ export default function LowerBack() {
         <section className="post-section intro" id="intro">
           <p itemProp="description">
             <strong>
-              אין כמעט אדם שלא חווה בשלב כלשהו בחייו <em>כאבי גב תחתון</em> —
+              אין כמעט אדם שלא חווה בשלב כלשהו בחייו <em><a href="https://www.ninds.nih.gov/health-information/disorders/low-back-pain" target="_blank" rel="noopener noreferrer">כאבי גב תחתון</a></em> —
               התופעה המטרידה ביותר של העידן המודרני.{" "}
               <em>רפלקסולוגיה לגב תחתון</em>, טיפול טבעי והוליסטי המגובה במחקר,
               מעניקה דרך עוצמתית לשבור את מעגל הכאב, לשחרר עומסים מיותרים
