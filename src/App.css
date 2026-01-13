@@ -903,9 +903,9 @@ section {
   direction: rtl;
   position: relative;
   z-index: 0;
-  max-width: var(--max-width);
+  /* max-width: var(--max-width); */
   margin: 0 auto;
-  width: 90%;
+  /* width: 90%; */
   border-radius: var(--border-radius);
   margin-bottom: var(--section-padding);
 }
@@ -939,6 +939,7 @@ section {
 .post-title {
   font-size: 2.5rem;
   margin-bottom: 2rem;
+  margin-top: 2rem;
   color: #333;
 }
 
@@ -1330,10 +1331,6 @@ a.active {
     display: none;
   }
 
-  .post-page-container {
-    /* margin-top: -50px; */
-    padding: 2rem;
-  }
 
   .gift-card.gift-card.revealed {
     position: relative;
