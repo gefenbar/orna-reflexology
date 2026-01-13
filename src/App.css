@@ -678,6 +678,7 @@ section {
   z-index: 10;
   text-align: center;
   animation: fadeIn 1.5s ease-out;
+  bottom: 100px;
 }
 
 @keyframes fadeIn {
