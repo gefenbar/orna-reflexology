@@ -184,7 +184,7 @@ export default function AnxietyRelief() {
                         <div className="info-card trigger-card" style={{ borderBottomColor: "#ed8936" }}>
                             <span className="icon">🤢</span>
                             <h4>בטן מתהפכת</h4>
-                            <p>כאבי בטן, בחילות או שלשולים פתאומיים (הקשר <Link to="/digestion">בטן-מוח</Link>).</p>
+                            <p>כאבי בטן, בחילות או שלשולים פתאומיים (הקשר בטן-מוח).</p>
                         </div>
                     </div>
                 </section>
