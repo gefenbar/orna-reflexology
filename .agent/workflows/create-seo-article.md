@@ -15,9 +15,17 @@ description: Create a fully optimized, long-form (1500+ words) SEO blog post in 
    - **Conversion Links (CRITICAL)**:
      - **MANDATORY**: Include at least one link to `/contact` (Appointment) or `/testimonials` with a call to action.
      - Example text: "רוצים לחוות את הטיפול בעצמכם? צרו קשר עוד היום" (Want to experience the treatment yourself? Contact us today).
-   - **External Authority Links**:
-     - Identify 2-3 technical terms (e.g., "Parasympathetic nervous system", "Endorphins").
-     - Plan to link these to high-authority external Hebrew sites (like Clalit, Maccabi, Wikipedia Hebrew) if possible, or reputable English sources if no high-quality Hebrew alternative exists.
+   - **External Authority Links (COMBINED APPROACH)**:
+     - **MANDATORY**: Add 1-2 external links per article for SEO credibility.
+     - **International Sources** (High Domain Authority):
+       - Mayo Clinic, WHO, NIH, Harvard Health, Sleep Foundation, APA
+       - Use for medical/scientific credibility and global SEO signals.
+     - **Israeli Sources** (Local Relevance):
+       - `health.gov.il` (משרד הבריאות) - mental health, sleep, general health
+       - `clalit.co.il` / `maccabi4u.co.il` - medical information in Hebrew
+       - Use for local SEO signals and Hebrew user experience.
+     - **Best Practice**: Include BOTH an international AND Israeli source when possible.
+     - **Technical**: Always use `target="_blank" rel="noopener noreferrer"` for external links.
 
 3. **Visuals & Infographics Strategy**:
    - **Plan**: Design **2+** distinct HTML/CSS "Infographic" zones.
