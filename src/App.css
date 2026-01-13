@@ -55,6 +55,7 @@
   /* font-family: var(--font-body); */
   /* Let body inherit */
   direction: rtl;
+  -webkit-tap-highlight-color: transparent;
 }
 
 html {
