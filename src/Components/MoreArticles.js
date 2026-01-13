@@ -1,18 +1,7 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Helmet } from "react-helmet";
-
-const articles = [
-  { id: 1, title: "רפלקסולוגיה לטיפול בכאב ראש", link: "/headache" },
-  { id: 2, title: "איזון ורפלקסולוגיה", link: "/balance" },
-  { id: 3, title: "רפלקסולוגיה: טיפול אלטרנטיבי", link: "/alternative" },
-  { id: 4, title: "רפלקסולוגיה וכאבי גב", link: "/back-pain" },
-  { id: 5, title: "רפלקסולוגיה והשתקפויות", link: "/reflection" },
-  { id: 6, title: "רפלקסולוגיה לגב תחתון", link: "/lower-back" },
-  { id: 7, title: "רפלקסולוגיה: טיפול מותאם אישית", link: "/reflexology" },
-  { id: 8, title: "רפלקסולוגיה והפחתת לחץ", link: "/stress" },
-  { id: 9, title: "רפלקסולוגיה לגב כף הרגל", link: "/foot-back" }
-];
+import articles from "../data/articles.json";
 
 export default function MoreArticles() {
   const location = useLocation();

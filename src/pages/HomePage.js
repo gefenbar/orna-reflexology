@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import GiftCardBanner from "../Components/GiftCardBanner";
 import FAQSection from "../Components/FAQ";
 import { Helmet } from "react-helmet";
+import articles from "../data/articles.json";
 export default function HomePage() {
   return (
     <main className="home">
@@ -278,47 +279,24 @@ const Testimonials = () => (
   </section>
 );
 
+
+
 export const AboutLegsSection = ({
-  additionalInfos,
+  additionalInfos, // Deprecated, kept for backward compatibility if needed, but we will ignore it if using IDs
   showLink = true,
   showTitle = true,
   onContactSectionView,
+  displayIds = [12, 11, 1, 8, 6] // Default curated list for Home Page: Sleep, Map, Headache, Stress, LowerBack
 }) => {
-  let infos = [
-    {
-      title: "מפה רפלקסולוגית",
-      image: "reflexology-map.jpg",
-      url: "/reflexology-map",
-      alt: "גב כף הרגל",
-      desc: "רפלקסולוגיה: הסבר מפורט על כל האזורים במפה רפלקסולוגית של הרגל",
-    },
-    {
-      title: "כאבי ראש",
-      image: "headache.webp",
-      url: "/headache",
-      alt: "כאב ראש",
-      desc: "רפלקסולוגיה וכאבי ראש: הקלה טבעית ושיפור איכות החיים",
-    },
 
-    {
-      title: "הפחתת לחץ",
-      image: "stress.webp",
-      url: "/stress",
-      alt: "אבנים מאוזנות",
-      desc: "רפלקסולוגיה והפחתת לחץ: איך יכולה רפלקסולוגיה להפחית לחצים",
-    },
-    {
-      title: "גב תחתון",
-      image: "lower-back.webp",
-      url: "/lower-back",
-      alt: "גב תחתון",
-      desc: "רפלקסולוגיה לגב תחתון: המדריך השלם להקלה טבעית על כאבי גב",
-    },
-  ];
+  // Filter and Sort based on displayIds
+  let infos = displayIds
+    ? displayIds.map(id => articles.find(a => a.id === id)).filter(Boolean)
+    : articles;
 
-  if (Array.isArray(additionalInfos)) {
-    infos = [...additionalInfos, ...infos];
-  }
+  // If specific IDs weren't requested (e.g. from AboutLegsPage wanting ALL), use all articles
+  // But wait, AboutLegsPage calls it without displayIds? 
+  // If I default displayIds to the subset, AboutLegsPage will only show the subset unless I override it.
 
   useEffect(() => {
     if (typeof onContactSectionView === "function") {
@@ -332,7 +310,7 @@ export const AboutLegsSection = ({
       <div className="about-leg-cards">
         {infos.map((info, index) => (
           <button className="about-leg-card" key={index}>
-            <Link to={info.url}>
+            <Link to={info.link || info.url}>
               <img
                 src={info.image}
                 alt={info.alt}

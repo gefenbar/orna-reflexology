@@ -23,6 +23,9 @@ import Headache from "./pages/posts/headache";
 import LowerBack from "./pages/posts/LowerBack";
 import FootBack from "./pages/posts/FootBack";
 import LegMap from "./pages/posts/LegMap";
+import SleepImprovement from "./pages/posts/SleepImprovement";
+import HormonalBalance from "./pages/posts/HormonalBalance";
+
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -58,6 +61,8 @@ export default function App() {
           <Route path="/lower-back" element={<LowerBack />} />
           <Route path="/foot-back" element={<FootBack />} />
           <Route path="/reflexology-map" element={<LegMap />} />
+          <Route path="/sleep-improvement" element={<SleepImprovement />} />
+          <Route path="/hormonal-balance" element={<HormonalBalance />} />
         </Routes>
       </BrowserRouter>
       <Footer />
