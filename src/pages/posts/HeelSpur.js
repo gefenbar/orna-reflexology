@@ -26,7 +26,7 @@ export default function HeelSpur() {
         datePublished: "2025-05-20",
         dateModified: "2025-05-20",
         description:
-            "סובלים מכאב דוקר בעקב בצעד הראשון של הבוקר? דורבן (Plantar Fasciitis) הוא תופעה כואבת אך ניתנת לטיפול. גלו כיצד רפלקסולוגיה מסייעת בריכוך הדלקת, שיפור זרימת הדם והקלה על הכאב.",
+            "סובלת מכאב דוקר בעקב בצעד הראשון של הבוקר? דורבן (Plantar Fasciitis) הוא תופעה כואבת אך ניתנת לטיפול. גלי כיצד רפלקסולוגיה מסייעת בריכוך הדלקת, שיפור זרימת הדם והקלה על הכאב.",
         mainEntityOfPage: {
             "@type": "WebPage",
             "@id": "https://hergelaim.co.il/heel-spur",
@@ -82,7 +82,7 @@ export default function HeelSpur() {
                 />
                 <meta
                     property="og:description"
-                    content="הצעד הראשון בבוקר כואב לכם? אל תתעלמו. טיפול משולב לדורבן עוזר להחזיר את הגמישות לכף הרגל ולהקל על הכאב."
+                    content="הצעד הראשון בבוקר כואב לך? אל תתעלמי. טיפול משולב לדורבן עוזר להחזיר את הגמישות לכף הרגל ולהקל על הכאב."
                 />
                 <meta property="og:url" content="https://hergelaim.co.il/heel-spur" />
                 <meta
@@ -119,9 +119,9 @@ export default function HeelSpur() {
                 <section className="post-section intro">
                     <p itemProp="description">
                         <strong>
-                            אם אתם מרגישים כאב חד, כמו דקירה של מסמר, בעקב כף הרגל כשאתם קמים מהמיטה בבוקר, אתם כנראה מכירים מקרוב את ה"דורבן".
+                            אם את מרגישה כאב חד, כמו דקירה של מסמר, בעקב כף הרגל כשאת קמה מהמיטה בבוקר, את כנראה מכירה מקרוב את ה"דורבן".
                             זוהי אחת הבעיות הנפוצות ביותר שאני פוגשת בקליניקה, והיא יכולה להיות מייאשת מאוד. החדשות הטובות?
-                            הגוף שלכם יודע לרפא את הדלקת, והרפלקסולוגיה כאן כדי לתת לו את הדחיפה המדויקת שהוא צריך.
+                            הגוף שלך יודע לרפא את הדלקת, והרפלקסולוגיה כאן כדי לתת לו את הדחיפה המדויקת שהוא צריך.
                         </strong>
                     </p>
                 </section>
@@ -172,7 +172,7 @@ export default function HeelSpur() {
                         או כשאנחנו מרגישים שאנחנו "נדרכים" במקום אחד.
                     </p>
                     <p>
-                        לעיתים הדורבן "מאלץ" אותנו לעצור. הוא מבקש מאיתנו להאט את הקצב ולהסתכל על הדרך שאנחנו עושים בצורה מחושבת יותר. בטיפול ננסה להבין אם יש משהו בחיים שלוחץ עליכם כרגע, במקביל לכאב הפיזי.
+                        לעיתים הדורבן "מאלץ" אותנו לעצור. הוא מבקש מאיתנו להאט את הקצב ולהסתכל על הדרך שאנחנו עושים בצורה מחושבת יותר. בטיפול ננסה להבין אם יש משהו בחיים שלוחץ עלייך כרגע, במקביל לכאב הפיזי.
                     </p>
                 </section>
 
@@ -202,7 +202,7 @@ export default function HeelSpur() {
                 <section className="post-section" id="home-tips">
                     <h2>מה אפשר לעשות בבית להקלה מידית?</h2>
                     <p>
-                        בין הטיפולים בקליניקה, הנה כמה תרגילים שיעזרו לכם לעבור את היום:
+                        בין הטיפולים בקליניקה, הנה כמה תרגילים שיעזרו לך לעבור את היום:
                     </p>
 
                     <div className="tips-grid" style={{ display: "grid", gap: "1rem", marginTop: "1rem" }}>
@@ -216,7 +216,7 @@ export default function HeelSpur() {
                         </div>
                         <div style={tipCardStyle}>
                             <h4>🧘 מתיחה בבוקר</h4>
-                            <p>לפני שאתם יורדים מהמיטה, קחו מגבת, כרכו אותה סביב כריות כף הרגל ומשכו בעדינות אליכם (כשהרגל ישרה). זה מאריך את הרצועה לפני העומס הראשון.</p>
+                            <p>לפני שאת יורדת מהמיטה, קחי מגבת, כרכי אותה סביב כריות כף הרגל ומשכי בעדינות אלייך (כשהרגל ישרה). זה מאריך את הרצועה לפני העומס הראשון.</p>
                         </div>
                     </div>
                 </section>
@@ -233,7 +233,7 @@ export default function HeelSpur() {
                 <section className="post-section" id="call-to-action" style={{ textAlign: "center", marginTop: "3rem" }}>
                     <h2>רוצים להיפרד מהכאב בעקב?</h2>
                     <p style={{ fontSize: "1.1rem", marginBottom: "1.5rem" }}>
-                        אני מזמינה אתכם לטיפול מותאם אישית שיתמקד בשורש הבעיה ויעזור לכם לחזור לצעוד בביטחון.
+                        אני מזמינה אותך לטיפול מותאם אישית שיתמקד בשורש הבעיה ויעזור לך לחזור לצעוד בביטחון.
                     </p>
                     <div style={{ display: "flex", justifyContent: "center", gap: "1rem", flexWrap: "wrap" }}>
                         <button className="general-button">

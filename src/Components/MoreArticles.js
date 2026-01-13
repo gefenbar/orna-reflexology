@@ -131,22 +131,28 @@ export default function MoreArticles() {
 const BackButton = () => {
   const [isHovered, setIsHovered] = useState(false);
 
+  // Determine styles based on hover state
   const buttonStyle = {
     position: "fixed",
-    left: "10px",
-    top: "90px",
-    padding: "5px 10px",
-    backgroundColor: "#333",
-    color: "#fff",
+    left: "1.5%",
+    bottom: "2%",
+    width: "45px",
+    height: "45px",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: isHovered ? "var(--accent-color)" : "var(--nav-bg)",
+    color: isHovered ? "white" : "var(--primary-color)",
     border: "none",
-    borderRadius: "20px",
+    borderRadius: "50%",
     textDecoration: "none",
-    fontSize: "14px",
-    fontWeight: "bold",
+    boxShadow: isHovered
+      ? "0 4px 12px rgba(0,0,0,0.15)"
+      : "0 2px 5px rgba(0,0,0,0.1)",
     zIndex: 1000,
-    transition: "background-color 0.3s, transform 0.3s",
+    transition: "all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1)",
     cursor: "pointer",
-    transform: isHovered ? "scale(1.05)" : "scale(1)"
+    transform: isHovered ? "scale(1.1)" : "scale(1)"
   };
 
   return (
@@ -155,8 +161,23 @@ const BackButton = () => {
       style={buttonStyle}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
+      aria-label="חזרה לבלוג"
+      title="חזרה לבלוג"
     >
-      חזור
+      {/* Right Arrow SVG for RTL Back */}
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <path d="M5 12h14" />
+        <path d="M12 5l7 7-7 7" />
+      </svg>
     </Link>
   );
 };

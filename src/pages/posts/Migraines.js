@@ -74,7 +74,7 @@ export default function Migraines() {
                 <title>טיפול במיגרנות ברפלקסולוגיה | הרגליים - ארנה קליין</title>
                 <meta
                     name="description"
-                    content="סובלים ממיגרנות חוזרות? הרפלקסולוגיה מציעה גישה טבעית לאיזון הגוף, הפחתת מתחים ומניעת התקפים. טיפול מקצועי בכפר תבור."
+                    content="סובלת ממיגרנות חוזרות? הרפלקסולוגיה מציעה גישה טבעית לאיזון הגוף, הפחתת מתחים ומניעת התקפים. טיפול מקצועי בכפר תבור."
                 />
                 <meta property="og:type" content="article" />
                 <meta
@@ -83,7 +83,7 @@ export default function Migraines() {
                 />
                 <meta
                     property="og:description"
-                    content="אל תתנו למיגרנה לנהל לכם את החיים. גלו כיצד לחיצות בכף הרגל משפיעות על הראש ומקלות על הכאב."
+                    content="אל תתני למיגרנה לנהל לך את החיים. גלי כיצד לחיצות בכף הרגל משפיעות על הראש ומקלות על הכאב."
                 />
                 <meta property="og:url" content="https://hergelaim.co.il/migraines" />
                 <meta
@@ -120,9 +120,9 @@ export default function Migraines() {
                 <section className="post-section intro">
                     <p itemProp="description">
                         <strong>
-                            מי שלא חווה מיגרנה, יתקשה להבין זאת. זה לא "סתם כאב ראש" שאפשר לפתור עם כוס מים וכדור.
+                            מי שלא חוותה מיגרנה, תתקשה להבין זאת. זה לא "סתם כאב ראש" שאפשר לפתור עם כוס מים וכדור.
                             זהו מצב משתק, ששולח אותנו לחדר חשוך, רחוק מרעש ומאנשים, בתקווה שהגל יעבור. בקליניקה שלי,
-                            אני פוגשת נשים וגברים שמחפשים דרך אחרת. דרך שלא רק מכבה את השריפה כשהיא פורצת, אלא מונעת ממנה להתלקח מלכתחילה.
+                            אני פוגשת נשים שמחפשות דרך אחרת. דרך שלא רק מכבה את השריפה כשהיא פורצת, אלא מונעת ממנה להתלקח מלכתחילה.
                         </strong>
                     </p>
                 </section>
@@ -190,7 +190,7 @@ export default function Migraines() {
                 <section className="post-section" id="reflexology-connection">
                     <h2>איך לחיצה ברגל משפיעה על הראש?</h2>
                     <p>
-                        הקסם של הרפלקסולוגיה טמון בחיבור העצבי. הבוהן הגדולה בכף הרגל מייצגת את הראש והמוח.
+                        הייחוד של הרפלקסולוגיה טמון בחיבור העצבי. הבוהן הגדולה בכף הרגל מייצגת את הראש והמוח.
                         צוואר הבוהן מייצג את הצוואר הפיזי (חוליות הצוואר), שדרכו עוברת זרימת הדם לראש.
                     </p>
                     <p>
@@ -240,21 +240,21 @@ export default function Migraines() {
                 <section className="post-section" id="summary">
                     <h2>אפשר לחיות אחרת</h2>
                     <p>
-                        אתם לא חייבים לחיות בחרדה מההתקף הבא. הגוף שלכם מאותת שמשהו יצא מאיזון, והוא מבקש תשומת לב.
+                        את לא חייבת לחיות בחרדה מההתקף הבא. הגוף שלך מאותת שמשהו יצא מאיזון, והוא מבקש תשומת לב.
                         דרך הרפלקסולוגיה, אנחנו מחזירים לגוף את היכולת לווסת את עצמו, להירגע, ולתפקד בהרמוניה.
                     </p>
                 </section>
 
                 {/* Call To Action */}
                 <section className="post-section" id="call-to-action" style={{ textAlign: "center", marginTop: "3rem" }}>
-                    <h2>מוכנים להפחית את עוצמת המיגרנות?</h2>
+                    <h2>מוכנה להפחית את עוצמת המיגרנות?</h2>
                     <p style={{ fontSize: "1.1rem", marginBottom: "1.5rem" }}>
-                        הגיע הזמן לטפל בשורש הבעיה ולא רק בסימפטום. צרו קשר לתיאום סדרת טיפולים מונעת.
+                        הגיע הזמן לטפל בשורש הבעיה ולא רק בסימפטום. צרי קשר לתיאום סדרת טיפולים מונעת.
                     </p>
                     <div style={{ display: "flex", justifyContent: "center", gap: "1rem", flexWrap: "wrap" }}>
                         <button className="general-button">
                             <Link to="/contact" style={{ color: "white", textDecoration: "none" }}>
-                                כן, אני רוצה לקבוע תור
+                                לקביעת תור
                             </Link>
                         </button>
                         <button className="general-button" style={{ background: "transparent", border: "2px solid var(--primary-color)" }}>

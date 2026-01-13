@@ -399,7 +399,7 @@ export default function Reflection() {
             ניתן להחזיר את האיזון הגופני והנפשי ולעודד ריפוי טבעי.
           </p>
           <p>
-            אני מזמינה אותך לחוות טיפול רפלקסולוגי מקצועי ולגלות את היתרונות
+            אני מזמינה אותך לטיפול רפלקסולוגי מקצועי ולגלות את היתרונות
             הרבים של שיטה זו.
             <br />
             <strong>ארנה קליין</strong> - "הרגליים".
@@ -426,7 +426,7 @@ export default function Reflection() {
       {/* ===== Call to Action Button ===== */}
       <button className="general-button" style={{ marginTop: "1.5rem" }}>
         <Link to="/contact" className="post-book-treatment-button">
-          הזמיני טיפול עכשיו!
+          לקביעת תור
         </Link>
       </button>
     </div>

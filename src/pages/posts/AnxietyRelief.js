@@ -27,7 +27,7 @@ export default function AnxietyRelief() {
         datePublished: "2025-06-10",
         dateModified: "2025-06-10",
         description:
-            "הלב דופק? המחשבות לא עוצרות? גלו איך רפלקסולוגיה משמשת כעוגן, מרגיעה את מערכת העצבים ומחזירה לכם את השליטה לחיים.",
+            "הלב דופק? המחשבות לא עוצרות? גלו איך רפלקסולוגיה משמשת כעוגן, מרגיעה את מערכת העצבים ומחזירה לך את השליטה לחיים.",
         mainEntityOfPage: {
             "@type": "WebPage",
             "@id": "https://hergelaim.co.il/anxiety-relief",
@@ -83,7 +83,7 @@ export default function AnxietyRelief() {
                 />
                 <meta
                     property="og:description"
-                    content="החיים בעולם המודרני מייצרים עומס בלתי פוסק. גלו כיצד טיפול רפלקסולוגי פשוט יכול להחזיר לכם את הנשימה והאיזון."
+                    content="החיים בעולם המודרני מייצרים עומס בלתי פוסק. גלו כיצד טיפול רפלקסולוגי פשוט יכול להחזיר לך את הנשימה והאיזון."
                 />
                 <meta property="og:url" content="https://hergelaim.co.il/anxiety-relief" />
                 <meta
@@ -164,7 +164,7 @@ export default function AnxietyRelief() {
                 {/* Infographic: Physical Symptoms */}
                 <section className="post-section" id="symptoms-signals">
                     <h2>הגוף מדבר חרדה</h2>
-                    <p>חרדה היא זיקית שיכולה להופיע במגוון צורות פיזיות. הנה הסימנים הנפוצים שהמטופלים שלי מתארים:</p>
+                    <p>חרדה היא זיקית שיכולה להופיע במגוון צורות פיזיות. הנה הסימנים הנפוצים שהמטופלות שלי מתארות:</p>
                     <div className="infographic-container-cards">
                         <div className="info-card trigger-card" style={{ borderBottomColor: "#ed8936" }}>
                             <span className="icon">🫀</span>
@@ -216,11 +216,11 @@ export default function AnxietyRelief() {
                     <h2>תרגיל: עוגן ברגעי סערה</h2>
                     <div className="callout-box" style={{ backgroundColor: "#f0fff4", borderColor: "#9ae6b4" }}>
                         <h3 style={{ color: "#276749", textAlign: "center" }}>תרגיל קרקוע ב-3 שלבים</h3>
-                        <p>כשאתם מרגישים הצפה רגשית, נסו את התרגיל הבא:</p>
+                        <p>כשאת מרגישה הצפה רגשית, נסי את התרגיל הבא:</p>
                         <ol className="post-list" style={{ marginRight: "20px" }}>
-                            <li className="post-list-item"><strong>1. מגע בקרקע:</strong> הסירו נעליים. עמדו יחפים על הרצפה (או עדיף - על דשא/אדמה).</li>
-                            <li className="post-list-item"><strong>2. הפעלת משקל:</strong> העבירו משקל לאט מהעקבים לכריות האצבעות ובחזרה. הרגישו את התמיכה של האדמה.</li>
-                            <li className="post-list-item"><strong>3. כיווץ ושחרור:</strong> כווצו חזק את אצבעות הרגליים לרצפה ל-5 שניות, ושחררו בבת אחת. חיזרו על כך 3 פעמים.</li>
+                            <li className="post-list-item"><strong>1. מגע בקרקע:</strong> הסירי נעליים. עמדי יחפה על הרצפה (או עדיף - על דשא/אדמה).</li>
+                            <li className="post-list-item"><strong>2. הפעלת משקל:</strong> העבירי משקל לאט מהעקבים לכריות האצבעות ובחזרה. הרגישי את התמיכה של האדמה.</li>
+                            <li className="post-list-item"><strong>3. כיווץ ושחרור:</strong> כווצי חזק את אצבעות הרגליים לרצפה ל-5 שניות, ושחררי בבת אחת. חיזרי על כך 3 פעמים.</li>
                         </ol>
                     </div>
                 </section>
@@ -235,19 +235,19 @@ export default function AnxietyRelief() {
 
                 {/* Call To Action */}
                 <section className="post-section" id="call-to-action" style={{ textAlign: "center", marginTop: "3rem" }}>
-                    <h2>זקוקים לרגע של שקט אמיתי?</h2>
+                    <h2>זקוקה לרגע של שקט אמיתי?</h2>
                     <p style={{ fontSize: "1.1rem", marginBottom: "1.5rem" }}>
-                        הקליניקה שלי היא אי של שקט. בואו לטיפול שיעטוף אתכם ברוך ויאפשר לכם להניח את הדאגות בצד, ולו לשעה אחת משנת חיים.
+                        בקליניקה תמצאי מרחב מכיל ומקצועי, המאפשר לך לעצור את המרוץ היומיומי, להירגע ולטפל בעצמך.
                     </p>
                     <div style={{ display: "flex", justifyContent: "center", gap: "1rem", flexWrap: "wrap" }}>
                         <button className="general-button">
                             <Link to="/contact" style={{ color: "white", textDecoration: "none" }}>
-                                אני רוצה לקבוע תור להרגעה
+                                לקביעת תור
                             </Link>
                         </button>
                         <button className="general-button" style={{ background: "transparent", border: "2px solid var(--primary-color)" }}>
                             <Link to="/sleep-improvement" style={{ color: "var(--primary-color)", textDecoration: "none" }}>
-                                קראו גם על שיפור השינה
+                                קראי גם על שיפור השינה
                             </Link>
                         </button>
                     </div>

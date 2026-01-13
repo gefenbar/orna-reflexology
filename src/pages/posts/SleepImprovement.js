@@ -26,7 +26,7 @@ export default function SleepImprovement() {
         datePublished: "2026-01-13",
         dateModified: "2026-01-13",
         description:
-            "גלו כיצד רפלקסולוגיה יכולה לשפר את איכות השינה שלכם, להפחית נדודי שינה ולסייע לכם לקום רעננים ושלווים יותר. מדריך מקיף לשינה טבעית ובריאה.",
+            "גלי כיצד רפלקסולוגיה יכולה לשפר את איכות השינה שלך, להפחית נדודי שינה ולסייע לך לקום רעננה ושלווה יותר. מדריך מקיף לשינה טבעית ובריאה.",
         mainEntityOfPage: {
             "@type": "WebPage",
             "@id": "https://hergelaim.co.il/sleep-improvement",
@@ -135,7 +135,7 @@ export default function SleepImprovement() {
                     <p itemProp="description">
                         <strong>
                             <em>
-                                הלילות הופכים ארוכים יותר, המחשבות לא מפסיקות לרוץ, והשינה המיוחלת פשוט לא מגיעה? אתם לא לבד. נדודי שינה הם מהתלונות הנפוצות ביותר בעידן המודרני. אך לפני שפונים לכדורי שינה, כדאי להכיר דרך טבעית ומרגיעה: רפלקסולוגיה. במאמר זה נגלה איך לחיצות עדינות בכפות הרגליים יכולות להשקיט את התודעה ולהוביל אתכם לשינה עמוקה ומרפאת.
+                                הלילות הופכים ארוכים יותר, המחשבות לא מפסיקות לרוץ, והשינה המיוחלת פשוט לא מגיעה? את לא לבד. נדודי שינה הם מהתלונות הנפוצות ביותר בעידן המודרני. אך לפני שפונים לכדורי שינה, כדאי להכיר דרך טבעית ומרגיעה: רפלקסולוגיה. במאמר זה נגלה איך לחיצות עדינות בכפות הרגליים יכולות להשקיט את התודעה ולהוביל אותך לשינה עמוקה ומרפאת.
                             </em>
                         </strong>
                     </p>
@@ -172,7 +172,7 @@ export default function SleepImprovement() {
                         margin: "2rem 0",
                         borderRadius: "8px"
                     }}>
-                        <h3 style={{ marginTop: 0, color: "#4a5568" }}>💡 ידעתם?</h3>
+                        <h3 style={{ marginTop: 0, color: "#4a5568" }}>💡 ידעת?</h3>
                         <p style={{ marginBottom: 0 }}>
                             מחסור בשינה לא רק גורם לעייפות. הוא פוגע במערכת החיסון, מגביר סיכון להשמנה, ומשפיע לרעה על הזיכרון ומצב הרוח. השינה היא הזמן שבו הגוף מתקן את עצמו.
                         </p>
@@ -292,10 +292,10 @@ export default function SleepImprovement() {
                 <section className="post-section" id="summary">
                     <h2>מילים אחרונות</h2>
                     <p>
-                        שינה היא לא מותרות, היא צורך בסיסי לבריאות הפיזית והנפשית שלנו. אם אתם מתהפכים במיטה, סופרים כבשים ומרגישים שהלילה הוא מלחמה, דעו שיש פתרון אחר.
+                        שינה היא לא מותרות, היא צורך בסיסי לבריאות הפיזית והנפשית שלנו. אם את מתהפכת במיטה, סופרת כבשים ומרגישה שהלילה הוא מלחמה, דעי שיש פתרון אחר.
                     </p>
                     <p>
-                        רפלקסולוגיה מציעה דרך עדינה אך עוצמתית להחזיר לגוף את האיזון שאבד לו, להשקיט את הרעש הפנימי ולאפשר לשינה להגיע באופן טבעי. אני מזמינה אתכם להגיע לקליניקה, לקחת נשימה עמוקה, ולתת לכפות הרגליים (ולעיניים) לנוח.
+                        רפלקסולוגיה מציעה דרך עדינה אך עוצמתית להחזיר לגוף את האיזון שאבד לו, להשקיט את הרעש הפנימי ולאפשר לשינה להגיע באופן טבעי. אני מזמינה אותך להגיע לקליניקה, לקחת נשימה עמוקה, ולתת לכפות הרגליים (ולעיניים) לנוח.
                     </p>
                 </section>
 
@@ -339,7 +339,7 @@ export default function SleepImprovement() {
 
             <button className="general-button" style={{ marginTop: "1.5rem" }}>
                 <Link to="/contact" className="post-book-treatment-button">
-                    רוצים לישון טוב יותר? קבעו תור
+                    רוצה לישון טוב יותר? קבעי תור
                 </Link>
             </button>
         </div>

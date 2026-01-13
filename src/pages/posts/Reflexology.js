@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import MoreArticles from "../../Components/MoreArticles";
 
-export default function LowerBack() {
+export default function Reflexology() {
   /* ================= JSON‑LD Schemas ================= */
   const schemaArticle = {
     "@context": "https://schema.org",
@@ -145,8 +145,7 @@ export default function LowerBack() {
             <strong>
               <em>רפלקסולוגיה</em> היא הרבה יותר מסתם טיפול בכפות הרגליים; זוהי
               גישה הוליסטית המאפשרת לך להבין את גופך לעומק ולטפל בו בצורה מותאמת
-              אישית. בטיפול רפלקסולוגי אצלי, אני לא רק מטפלת בסימפטומים, אלא גם
-              מנסה להבין את השכבות השונות שמרכיבות אותך: עצם, שריר, עור ועוד, ומנסה להבין             אני מזמינה אותך לחוות טיפול שיעניק לך בריאות, רוגע והרמוניה, ובו
+              אישית. אני מזמינה אותך לטיפול שיעניק לך בריאות, רוגע והרמוניה, ובו
               את תהיי חלק פעיל בתהליך הריפוי.
             </strong>
           </p>
@@ -308,7 +307,7 @@ export default function LowerBack() {
 
       <button className="general-button" style={{ marginTop: "1.5rem" }}>
         <Link to="/contact" className="post-book-treatment-button">
-          הזמיני טיפול עכשיו!
+          לקביעת תור
         </Link>
       </button>
     </div>
