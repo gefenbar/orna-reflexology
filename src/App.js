@@ -28,6 +28,7 @@ import HormonalBalance from "./pages/posts/HormonalBalance";
 import HeelSpur from "./pages/posts/HeelSpur";
 import Migraines from "./pages/posts/Migraines";
 import AnxietyRelief from "./pages/posts/AnxietyRelief";
+import Appointment from "./pages/Appointment";
 
 
 function ScrollToTop() {
@@ -69,6 +70,7 @@ export default function App() {
           <Route path="/heel-spur" element={<HeelSpur />} />
           <Route path="/migraines" element={<Migraines />} />
           <Route path="/anxiety-relief" element={<AnxietyRelief />} />
+          <Route path="/appointment" element={<Appointment />} />
         </Routes>
       </BrowserRouter>
       <Footer />
