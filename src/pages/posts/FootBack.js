@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
 import MoreArticles from "../../Components/MoreArticles";
 
 export default function LowerBack() {
@@ -87,44 +86,7 @@ export default function LowerBack() {
   /* ================ JSX ================ */
   return (
     <div className="post-page-container">
-      <Helmet>
-        <title>
-          רפלקסולוגיה לגב כף הרגל: גישה טבעית להקלה ושיפור תפקוד כף הרגל |
-          הרגליים - ארנה קליין
-        </title>
-        <meta
-          name="description"
-          content="גלו כיצד רפלקסולוגיה לגב כף הרגל יכולה להקל על כאבים, לשפר את התנועה ולשחרר מתחים. מדריך מקיף עם הסברים מפורטים, טכניקות טיפוליות ושאלות נפוצות."
-        />
-        <meta property="og:type" content="article" />
-        <meta
-          property="og:title"
-          content="רפלקסולוגיה לגב כף הרגל: גישה טבעית להקלה ושיפור תפקוד כף הרגל | הרגליים - ארנה קליין"
-        />
-        <meta
-          property="og:description"
-          content="למדו כיצד רפלקסולוגיה יכולה לסייע בשיפור תפקוד כף הרגל, הקלה על כאבים ושיפור איכות החיים. כל מה שצריך לדעת על הטיפול הטבעי והיעיל."
-        />
-        <meta
-          property="og:url"
-          content="https://hergelaim.co.il/foot-back.webp"
-        />
-        <meta
-          property="og:image"
-          content="https://hergelaim.co.il/foot-back.webp"
-        />
-        <meta name="robots" content="index,follow" />
-        <link rel="canonical" href="https://hergelaim.co.il/foot-reflexology" />
-        {/* JSON‑LD injection */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaArticle) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaFAQ) }}
-        />
-      </Helmet>
+      
 
       <article
         id="post-foot-reflexology"

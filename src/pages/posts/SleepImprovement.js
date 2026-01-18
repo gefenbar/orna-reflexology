@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
 import MoreArticles from "../../Components/MoreArticles";
 
 export default function SleepImprovement() {
@@ -79,40 +78,7 @@ export default function SleepImprovement() {
     /* ================ JSX ================ */
     return (
         <div className="post-page-container">
-            <Helmet>
-                <title>
-                    רפלקסולוגיה לשינה טובה: הפתרון הטבעי ללילות רגועים | הרגליים - ארנה קליין
-                </title>
-                <meta
-                    name="description"
-                    content="גלו כיצד רפלקסולוגיה יכולה לשפר את איכות השינה, להפחית נדודי שינה ולהרגיע את מערכת העצבים. טיפול טבעי ללילות שקטים ובוקר רענן."
-                />
-                <meta property="og:type" content="article" />
-                <meta
-                    property="og:title"
-                    content="רפלקסולוגיה לשינה טובה: הפתרון הטבעי ללילות רגועים"
-                />
-                <meta
-                    property="og:description"
-                    content="נדודי שינה? עייפות כרונית? רפלקסולוגיה מציעה דרך טבעית ויעילה לחזור לישון כמו תינוק. היכנסו לקרוא על הקשר בין כפות הרגליים לשינה עמוקה."
-                />
-                <meta property="og:url" content="https://hergelaim.co.il/sleep-improvement" />
-                <meta
-                    property="og:image"
-                    content="https://hergelaim.co.il/sleep-improvement.webp"
-                />
-                <meta name="robots" content="index,follow" />
-                <link rel="canonical" href="https://hergelaim.co.il/sleep-improvement" />
-                {/* JSON‑LD injection */}
-                <script
-                    type="application/ld+json"
-                    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaArticle) }}
-                />
-                <script
-                    type="application/ld+json"
-                    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaFAQ) }}
-                />
-            </Helmet>
+            
 
             <article
                 id="post-sleep-improvement"

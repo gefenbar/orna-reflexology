@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
 import MoreArticles from "../../Components/MoreArticles";
 
 export default function HormonalBalance() {
@@ -70,40 +69,7 @@ export default function HormonalBalance() {
     /* ================ JSX ================ */
     return (
         <div className="post-page-container">
-            <Helmet>
-                <title>
-                    איזון הורמונלי טבעי: רפלקסולוגיה לנשים | הרגליים - ארנה קליין
-                </title>
-                <meta
-                    name="description"
-                    content="סובלת מ-PMS או גיל המעבר? רפלקסולוגיה מציעה איזון הורמונלי טבעי. הקליקי לקריאה על הקשר בין כפות הרגליים למערכת הנשית."
-                />
-                <meta property="og:type" content="article" />
-                <meta
-                    property="og:title"
-                    content="איזון הורמונלי טבעי: כשהגוף יוצא משליטה"
-                />
-                <meta
-                    property="og:description"
-                    content="ההורמונים משתוללים? את לא חייבת לסבול. גלי כיצד רפלקסולוגיה מאזנת את הגוף והנפש."
-                />
-                <meta property="og:url" content="https://hergelaim.co.il/hormonal-balance" />
-                <meta
-                    property="og:image"
-                    content="https://hergelaim.co.il/hormonal-balance.webp"
-                />
-                <meta name="robots" content="index,follow" />
-                <link rel="canonical" href="https://hergelaim.co.il/hormonal-balance" />
-                {/* JSON‑LD injection */}
-                <script
-                    type="application/ld+json"
-                    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaArticle) }}
-                />
-                <script
-                    type="application/ld+json"
-                    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaFAQ) }}
-                />
-            </Helmet>
+            
 
             <article
                 id="post-hormonal-balance"

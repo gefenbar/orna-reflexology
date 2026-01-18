@@ -1,22 +1,10 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
 export default function AboutPage() {
   return (
     <section className="about-page">
-<Helmet>
-  <title>אודות | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך</title>
-  <meta name="description" content="אודות - הכירו את ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך, בוגרת מכללת רידמן. ארנה מאמינה בגישה הוליסטית לריפוי, משלבת הקשבה לצרכים אישיים ומחויבת לסייע לכל מטופלת להתחבר לכוחות הריפוי הטבעיים שלה." />
 
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="אודות | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך" />
-  <meta property="og:description" content="אודות - הכירו את ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך, בוגרת מכללת רידמן. ארנה מאמינה בגישה הוליסטית לריפוי, משלבת הקשבה לצרכים אישיים ומחויבת לסייע לכל מטופלת להתחבר לכוחות הריפוי הטבעיים שלה." />
-  <meta property="og:url" content="https://hergelaim.co.il/about-me" />
-  <meta property="og:image" content="https://hergelaim.co.il/logo.jpeg" />
-  <link rel="canonical" href="https://hergelaim.co.il/about-me" />
-
-</Helmet>
       <div className="about-container">
         <div className="about-header">
           <h1>שלום, שמי ארנה קליין</h1>

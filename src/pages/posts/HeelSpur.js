@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
 import MoreArticles from "../../Components/MoreArticles";
 
 export default function HeelSpur() {
@@ -69,36 +68,7 @@ export default function HeelSpur() {
 
     return (
         <div className="post-page-container">
-            <Helmet>
-                <title>טיפול בדורבן בכף הרגל | הרגליים - ארנה קליין</title>
-                <meta
-                    name="description"
-                    content="כאבים בעקב? דורבן יכול לשבש את שגרת היום. גלו טיפול טבעי ויעיל ברפלקסולוגיה להקלה על דלקת ברצועת כף הרגל. ארנה קליין, כפר תבור."
-                />
-                <meta property="og:type" content="article" />
-                <meta
-                    property="og:title"
-                    content="רפלקסולוגיה לדורבן: איך להיפטר מהכאב בעקב?"
-                />
-                <meta
-                    property="og:description"
-                    content="הצעד הראשון בבוקר כואב לך? אל תתעלמי. טיפול משולב לדורבן עוזר להחזיר את הגמישות לכף הרגל ולהקל על הכאב."
-                />
-                <meta property="og:url" content="https://hergelaim.co.il/heel-spur" />
-                <meta
-                    property="og:image"
-                    content="https://hergelaim.co.il/heel-spur.webp"
-                />
-                <link rel="canonical" href="https://hergelaim.co.il/heel-spur" />
-                <script
-                    type="application/ld+json"
-                    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaArticle) }}
-                />
-                <script
-                    type="application/ld+json"
-                    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaFAQ) }}
-                />
-            </Helmet>
+            
 
             <article
                 id="post-heel-spur"

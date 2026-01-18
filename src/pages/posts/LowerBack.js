@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
 import MoreArticles from "../../Components/MoreArticles";
 
 export default function LowerBack() {
@@ -88,41 +87,7 @@ export default function LowerBack() {
   /* ================ JSX ================ */
   return (
     <div className="post-page-container">
-      <Helmet>
-        <title>
-          רפלקסולוגיה לגב תחתון: המדריך השלם להקלה טבעית על כאבי גב | הרגליים -
-          ארנה קליין
-        </title>
-        <meta
-          name="description"
-          content="מדריך מקיף הכולל מעל ל‑2,500 מילים המפרט כיצד רפלקסולוגיה לגב תחתון יכולה להפחית כאבי גב, לשחרר מתחים ולשפר את איכות חייך בעזרת תכנית טיפולית מלאה, שאלות נפוצות וטיפים מעשיים."
-        />
-        <meta property="og:type" content="article" />
-        <meta
-          property="og:title"
-          content="רפלקסולוגיה לגב תחתון: המדריך השלם להקלה טבעית על כאבי גב | הרגליים - ארנה קליין"
-        />
-        <meta
-          property="og:description"
-          content="גלה כיצד רפלקסולוגיה יכולה לסייע לך להתמודד עם כאבי גב תחתון בצורה טבעית, שלב אחר שלב, כולל שאלות ותשובות נפוצות ומקרי בוחן אמיתיים."
-        />
-        <meta property="og:url" content="https://hergelaim.co.il/lower-back" />
-        <meta
-          property="og:image"
-          content="https://hergelaim.co.il/lower-back.webp"
-        />
-        <meta name="robots" content="index,follow" />
-        <link rel="canonical" href="https://hergelaim.co.il/lower-back" />
-        {/* JSON‑LD injection */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaArticle) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaFAQ) }}
-        />
-      </Helmet>
+      
 
       <article
         id="post-lower-back"

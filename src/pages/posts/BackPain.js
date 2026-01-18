@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
 import MoreArticles from "../../Components/MoreArticles";
 
 export default function ReflexologyAndBackPain() {
@@ -70,37 +69,7 @@ export default function ReflexologyAndBackPain() {
   /* ================ JSX ================ */
   return (
     <div className="post-page-container">
-      <Helmet>
-        <title>כאבי גב | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך</title>
-        <meta
-          name="description"
-          content="למדו על רפלקסולוגיה וכיצד היא יכולה להקל על כאבי גב ולהביא לשיפור באיכות החיים. טיפול הוליסטי טבעי המשלב עיסוי ולחיצות בכפות הרגליים לשחרור מתחים ושיפור הבריאות הכללית."
-        />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content="רפלקסולוגיה וכאבי גב | פתרונות טבעיים לשיפור איכות החיים"
-        />
-        <meta
-          property="og:description"
-          content="למדו על רפלקסולוגיה וכיצד היא יכולה להקל על כאבי גב ולהביא לשיפור באיכות החיים. טיפול הוליסטי טבעי המשלב עיסוי ולחיצות בכפות הרגליים לשחרור מתחים ושיפור הבריאות הכללית."
-        />
-        <meta
-          property="og:url"
-          content="https://hergelaim.co.il/reflexology-and-back-pain"
-        />
-        <meta property="og:image" content="https://hergelaim.co.il/logo.jpeg" />
-        <link rel="canonical" href="https://hergelaim.co.il/back-pain" />
-        {/* JSON‑LD injection */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaArticle) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaFAQ) }}
-        />
-      </Helmet>
+      
       <article
         id="post-reflexology-back-pain"
         className="post-content-container"

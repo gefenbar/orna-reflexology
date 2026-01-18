@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
 import MoreArticles from "../../Components/MoreArticles";
 import "./Migraines.css"; // We will add inline styles or a CSS file if needed, but inline is preferred for single article specific tweaks if small.
 
@@ -70,36 +69,7 @@ export default function Migraines() {
 
     return (
         <div className="post-page-container">
-            <Helmet>
-                <title>טיפול במיגרנות ברפלקסולוגיה | הרגליים - ארנה קליין</title>
-                <meta
-                    name="description"
-                    content="סובלת ממיגרנות חוזרות? הרפלקסולוגיה מציעה גישה טבעית לאיזון הגוף, הפחתת מתחים ומניעת התקפים. טיפול מקצועי בכפר תבור."
-                />
-                <meta property="og:type" content="article" />
-                <meta
-                    property="og:title"
-                    content="רפלקסולוגיה למיגרנות: הפתרון הטבעי להקלה ומניעה"
-                />
-                <meta
-                    property="og:description"
-                    content="אל תתני למיגרנה לנהל לך את החיים. גלי כיצד לחיצות בכף הרגל משפיעות על הראש ומקלות על הכאב."
-                />
-                <meta property="og:url" content="https://hergelaim.co.il/migraines" />
-                <meta
-                    property="og:image"
-                    content="https://hergelaim.co.il/migraines.webp"
-                />
-                <link rel="canonical" href="https://hergelaim.co.il/migraines" />
-                <script
-                    type="application/ld+json"
-                    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaArticle) }}
-                />
-                <script
-                    type="application/ld+json"
-                    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaFAQ) }}
-                />
-            </Helmet>
+            
 
             <article
                 id="post-migraines"

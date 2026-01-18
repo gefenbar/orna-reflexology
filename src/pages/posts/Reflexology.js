@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
 import MoreArticles from "../../Components/MoreArticles";
 
 export default function Reflexology() {
@@ -88,40 +87,7 @@ export default function Reflexology() {
   /* ================ JSX ================ */
   return (
     <div className="post-page-container">
-      <Helmet>
-        <title>
-          מה זה רפלקסולוגיה: טיפול מותאם אישית בידיים שלך - הרגליים | ארנה קליין
-        </title>
-        <meta
-          name="description"
-          content="גלו מה זה רפלקסולוגיה ואיך היא יכולה להעניק לך טיפול מותאם אישית לבריאות, רוגע והרמוניה. כל הפרטים על התהליך הייחודי והיסודי."
-        />
-        <meta property="og:type" content="article" />
-        <meta
-          property="og:title"
-          content="מה זה רפלקסולוגיה: טיפול מותאם אישית בידיים שלך - הרגליים | ארנה קליין"
-        />
-        <meta
-          property="og:description"
-          content="למדו איך רפלקסולוגיה יכולה להעניק לך טיפול אישי, בריאות ורוגע. כל מה שצריך לדעת על טיפול טבעי ויעיל."
-        />
-        <meta property="og:url" content="https://hergelaim.co.il/reflexology" />
-        <meta
-          property="og:image"
-          content="https://hergelaim.co.il/reflexology.webp"
-        />
-        <meta name="robots" content="index,follow" />
-        <link rel="canonical" href="https://hergelaim.co.il/reflexology" />
-        {/* JSON‑LD injection */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaArticle) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaFAQ) }}
-        />
-      </Helmet>
+      
 
       <article
         id="post-what-is-reflexology"

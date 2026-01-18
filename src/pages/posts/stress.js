@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
 import MoreArticles from "../../Components/MoreArticles";
 
 export default function Stress() {
@@ -88,41 +87,7 @@ export default function Stress() {
   /* ================ JSX ================ */
   return (
     <div className="post-page-container">
-      <Helmet>
-        <title>
-          רפלקסולוגיה והפחתת לחץ: גישה טבעית לשיפור איכות החיים | הרגליים - ארנה
-          קליין
-        </title>
-        <meta
-          name="description"
-          content="במאמר זה נסקור כיצד טיפול ברפלקסולוגיה יכול לסייע בהפחתת לחץ ובשיפור איכות החיים. גישה טבעית ואפקטיבית לאיזון פנימי והפחתת מתחים."
-        />
-        <meta property="og:type" content="article" />
-        <meta
-          property="og:title"
-          content="רפלקסולוגיה והפחתת לחץ: גישה טבעית לשיפור איכות החיים | הרגליים - ארנה קליין"
-        />
-        <meta
-          property="og:description"
-          content="למדו כיצד רפלקסולוגיה יכולה לסייע בהפחתת לחץ, שיפור איכות החיים ויצירת איזון פנימי. כל מה שצריך לדעת על הטיפול הטבעי והיעיל."
-        />
-        <meta property="og:url" content="https://hergelaim.co.il/stress" />
-        <meta
-          property="og:image"
-          content="https://hergelaim.co.il/stress.webp"
-        />
-        <meta name="robots" content="index,follow" />
-        <link rel="canonical" href="https://hergelaim.co.il/stress" />
-        {/* JSON‑LD injection */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaArticle) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaFAQ) }}
-        />
-      </Helmet>
+      
 
       <article
         id="post-stress-reduction"

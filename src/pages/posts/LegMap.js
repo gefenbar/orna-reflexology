@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
 import MoreArticles from "../../Components/MoreArticles";
 
 export default function LegMap() {
@@ -88,44 +87,7 @@ export default function LegMap() {
   /* ================ JSX ================ */
   return (
     <div className="post-page-container">
-      <Helmet>
-        <title>
-          רפלקסולוגיה: הסבר מפורט על כל האזורים במפה רפלקסולוגית של הרגל |
-          הרגליים - ארנה קליין
-        </title>
-        <meta
-          name="description"
-          content="גלי את הסודות של מפת הרפלקסולוגיה! מדריך מפורט על כל אזור ברגל וכיצד הוא משפיע על הבריאות שלך. למדי איך להשתמש ברפלקסולוגיה לשיפור הבריאות הכללית."
-        />
-        <meta property="og:type" content="article" />
-        <meta
-          property="og:title"
-          content="רפלקסולוגיה: הסבר מפורט על כל האזורים במפה רפלקסולוגית של הרגל | הרגליים - ארנה קליין"
-        />
-        <meta
-          property="og:description"
-          content="הכירו את מפת הרפלקסולוגיה לעומק! המדריך המלא לכל אזור ברגל ומשמעותו, טיפים לשיפור הבריאות ומידע מקיף על השיטה ההוליסטית."
-        />
-        <meta
-          property="og:url"
-          content="https://hergelaim.co.il/reflexology-map"
-        />
-        <meta
-          property="og:image"
-          content="https://hergelaim.co.il/reflexology-map.webp"
-        />
-        <meta name="robots" content="index,follow" />
-        <link rel="canonical" href="https://hergelaim.co.il/reflexology-map" />
-        {/* JSON‑LD injection */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaArticle) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaFAQ) }}
-        />
-      </Helmet>
+      
 
       <article
         id="post-reflexology-map"

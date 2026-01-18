@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
 import MoreArticles from "../../Components/MoreArticles";
 
 export default function Headache() {
@@ -88,41 +87,7 @@ export default function Headache() {
   /* ================ JSX ================ */
   return (
     <div className="post-page-container">
-      <Helmet>
-        <title>
-          רפלקסולוגיה וכאבי ראש: הקלה טבעית ושיפור איכות החיים | הרגליים - ארנה
-          קליין
-        </title>
-        <meta
-          name="description"
-          content="גלו כיצד רפלקסולוגיה יכולה להקל על כאבי ראש, מיגרנות ומתחים. מדריך מקיף עם הסברים מפורטים, טכניקות טיפוליות ושאלות נפוצות."
-        />
-        <meta property="og:type" content="article" />
-        <meta
-          property="og:title"
-          content="רפלקסולוגיה וכאבי ראש: הקלה טבעית ושיפור איכות החיים | הרגליים - ארנה קליין"
-        />
-        <meta
-          property="og:description"
-          content="למדו כיצד רפלקסולוגיה יכולה לסייע בהקלה על כאבי ראש, שיפור איכות החיים והפחתת מתחים. כל מה שצריך לדעת על הטיפול הטבעי והיעיל."
-        />
-        <meta property="og:url" content="https://hergelaim.co.il/headache" />
-        <meta
-          property="og:image"
-          content="https://hergelaim.co.il/headache.webp"
-        />
-        <meta name="robots" content="index,follow" />
-        <link rel="canonical" href="https://hergelaim.co.il/headache" />
-        {/* JSON‑LD injection */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaArticle) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaFAQ) }}
-        />
-      </Helmet>
+      
 
       <article
         id="post-headache"

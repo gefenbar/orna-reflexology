@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
 import MoreArticles from "../../Components/MoreArticles";
 
 export default function Reflection() {
@@ -87,41 +86,7 @@ export default function Reflection() {
 
   return (
     <div className="post-page-container">
-      <Helmet>
-        <title>
-          רפלקסולוגיה והשתקפויות: איך כף הרגל משקפת את גופך? | הרגליים - ארנה
-          קליין
-        </title>
-        <meta
-          name="description"
-          content="גלו את הקשר המרתק בין רפלקסולוגיה והשתקפות. כל אזור בכף הרגל מייצג איבר או אזור בגוף, וטיפול רפלקסולוגי יכול להחזיר את האיברים הלא מאוזנים לתפקוד תקין ויעיל. ארנה קליין, רפלקסולוגית מוסמכת."
-        />
-        <meta property="og:type" content="article" />
-        <meta
-          property="og:title"
-          content="רפלקסולוגיה והשתקפויות: איך כף הרגל משקפת את גופך? | הרגליים - ארנה קליין"
-        />
-        <meta
-          property="og:description"
-          content="גלו את הקשר המרתק בין רפלקסולוגיה והשתקפות. כל אזור בכף הרגל מייצג איבר או אזור בגוף, וטיפול רפלקסולוגי יכול להחזיר את האיברים הלא מאוזנים לתפקוד תקין ויעיל."
-        />
-        <meta property="og:url" content="https://hergelaim.co.il/reflection" />
-        <meta
-          property="og:image"
-          content="https://hergelaim.co.il/reflection.webp"
-        />
-        <meta name="robots" content="index,follow" />
-        <link rel="canonical" href="https://hergelaim.co.il/reflection" />
-        {/* JSON‑LD injection */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaArticle) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaFAQ) }}
-        />
-      </Helmet>
+      
 
       <article
         id="post-reflection"

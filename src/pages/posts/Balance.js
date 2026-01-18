@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
 import MoreArticles from "../../Components/MoreArticles";
 
 export default function Balance() {
@@ -88,34 +87,7 @@ export default function Balance() {
   /* ================ JSX ================ */
   return (
     <div className="post-page-container">
-      <Helmet>
-        <title>איזון | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך</title>
-        <meta
-          name="description"
-          content="למדו על הקשר בין רפלקסולוגיה ואיזון. טיפול רפלקסולוגי הוא טיפול אישי המותאם לצרכים הייחודיים של כל מטופלת, במטרה להשיג איזון פיזי וריגשי. ארנה קליין מטפלת מוסמכת בתחום זה."
-        />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content="איזון | הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך"
-        />
-        <meta
-          property="og:description"
-          content="למדו על הקשר בין רפלקסולוגיה ואיזון. טיפול רפלקסולוגי הוא טיפול אישי המותאם לצרכים הייחודיים של כל מטופלת, במטרה להשיג איזון פיזי וריגשי. ארנה קליין מטפלת מוסמכת בתחום זה."
-        />
-        <meta property="og:url" content="https://hergelaim.co.il/balance" />
-        <meta property="og:image" content="https://hergelaim.co.il/logo.jpeg" />
-        <link rel="canonical" href="https://hergelaim.co.il/balance" />
-        {/* JSON‑LD injection */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaArticle) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaFAQ) }}
-        />
-      </Helmet>
+      
       <article
         id="post-balance"
         className="post-content-container"
