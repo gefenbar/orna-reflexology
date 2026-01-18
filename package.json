@@ -55,7 +55,8 @@
     "puppeteerArgs": [
       "--no-sandbox",
       "--disable-setuid-sandbox"
-    ]
+    ],
+    "snapshotDelay": 5000
   },
   "overrides": {
     "shell-quote": "^1.7.4",
