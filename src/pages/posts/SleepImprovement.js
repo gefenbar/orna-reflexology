@@ -229,7 +229,7 @@ export default function SleepImprovement() {
                         </div>
                         <div style={{ fontSize: "2rem", color: "#e53e3e" }}>⬇</div>
                         <div style={{ textAlign: "center", padding: "1rem", border: "2px solid #e53e3e", borderRadius: "50%", width: "200px", height: "130px", display: "flex", alignItems: "center", justifyContent: "center", backgroundColor: "white" }}>
-                            <strong>עליה בלחץ</strong><br />"למה אני לא ישנה??"
+                            <strong>עליה בלחץ</strong><br />"למה אני לא ישנה?"
                         </div>
                     </div>
                     <p>
