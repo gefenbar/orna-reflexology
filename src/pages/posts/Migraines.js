@@ -5,67 +5,7 @@ import "./Migraines.css"; // We will add inline styles or a CSS file if needed, 
 
 export default function Migraines() {
     /* ================= JSON‑LD Schemas ================= */
-    const schemaArticle = {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        headline: "רפלקסולוגיה למיגרנות: איך לשבור את מעגל הכאב?",
-        image: ["https://hergelaim.co.il/migraines.webp"],
-        author: {
-            "@type": "Person",
-            name: "ארנה קליין",
-            url: "https://hergelaim.co.il/about",
-        },
-        publisher: {
-            "@type": "Organization",
-            name: "הרגליים - ארנה קליין",
-            logo: {
-                "@type": "ImageObject",
-                url: "https://hergelaim.co.il/logo.jpeg",
-            },
-        },
-        datePublished: "2025-06-01",
-        dateModified: "2025-06-01",
-        description:
-            "מיגרנה היא הרבה יותר מסתם כאב ראש. גלו כיצד רפלקסולוגיה מסייעת באיזון מערכת העצבים, הפחתת תדירות ההתקפים והקלה טבעית בזמן אמת.",
-        mainEntityOfPage: {
-            "@type": "WebPage",
-            "@id": "https://hergelaim.co.il/migraines",
-        },
-    };
 
-    const schemaFAQ = {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        mainEntity: [
-            {
-                "@type": "Question",
-                name: "מה ההבדל בין מיגרנה לכאב ראש רגיל?",
-                acceptedAnswer: {
-                    "@type": "Answer",
-                    text:
-                        "מיגרנה היא מחלה נוירולוגית המאופיינת בכאב פועם (בדרך כלל בצד אחד), רגישות לאור וסאונד, ולעיתים בחילות. כאב ראש רגיל הוא לרוב עמום ולוחץ.",
-                },
-            },
-            {
-                "@type": "Question",
-                name: "האם רפלקסולוגיה יכולה למנוע מיגרנות?",
-                acceptedAnswer: {
-                    "@type": "Answer",
-                    text:
-                        "כן. הטיפול הרפלקסולוגי עובד על הפחתת רמות הסטרס ואיזון הורמונלי, שניים מהטריגרים הראשיים להתקפים. מטופלים רבים מדווחים על ירידה משמעותית בתדירות ההתקפים.",
-                },
-            },
-            {
-                "@type": "Question",
-                name: "מה עושים בזמן התקף?",
-                acceptedAnswer: {
-                    "@type": "Answer",
-                    text:
-                        "בזמן התקף מומלץ להימנע מטיפול אינטנסיבי. עם זאת, מגע עדין מאוד בנקודות המייצגות את הראש והצוואר בכף הרגל יכול לסייע בהזרמת דם והרגעת הכאב.",
-                },
-            },
-        ],
-    };
 
     return (
         <div className="post-page-container">

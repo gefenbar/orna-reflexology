@@ -4,67 +4,7 @@ import MoreArticles from "../../Components/MoreArticles";
 
 export default function HeelSpur() {
     /* ================= JSON‑LD Schemas ================= */
-    const schemaArticle = {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        headline: "רפלקסולוגיה לדורבן (Heel Spur): הקלה על כאבי עקב",
-        image: ["https://hergelaim.co.il/heel-spur.webp"],
-        author: {
-            "@type": "Person",
-            name: "ארנה קליין",
-            url: "https://hergelaim.co.il/about",
-        },
-        publisher: {
-            "@type": "Organization",
-            name: "הרגליים - ארנה קליין",
-            logo: {
-                "@type": "ImageObject",
-                url: "https://hergelaim.co.il/logo.jpeg",
-            },
-        },
-        datePublished: "2025-05-20",
-        dateModified: "2025-05-20",
-        description:
-            "סובלת מכאב דוקר בעקב בצעד הראשון של הבוקר? דורבן (Plantar Fasciitis) הוא תופעה כואבת אך ניתנת לטיפול. גלי כיצד רפלקסולוגיה מסייעת בריכוך הדלקת, שיפור זרימת הדם והקלה על הכאב.",
-        mainEntityOfPage: {
-            "@type": "WebPage",
-            "@id": "https://hergelaim.co.il/heel-spur",
-        },
-    };
 
-    const schemaFAQ = {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        mainEntity: [
-            {
-                "@type": "Question",
-                name: "מה זה דורבן ואיך הוא נוצר?",
-                acceptedAnswer: {
-                    "@type": "Answer",
-                    text:
-                        "דורבן הוא כינוי לדלקת ברצועה הפלנטרית המחברת את העקב לאצבעות. הגורמים כוללים עומס יתר, עמידה ממושכת, נעליים לא מתאימות, או מבנה כף רגל מסוים כמו פלטפוס.",
-                },
-            },
-            {
-                "@type": "Question",
-                name: "איך רפלקסולוגיה עוזרת לדורבן?",
-                acceptedAnswer: {
-                    "@type": "Answer",
-                    text:
-                        "הטיפול הרפלקסולוגי עובד על הזרמת דם מוגברת לאזור העקב לפינוי דלקת, ריכוך הרקמה המתוחה, ועבודה על אזורי עמוד השדרה והאגן המשפיעים על היציבה והעומס על כפות הרגליים.",
-                },
-            },
-            {
-                "@type": "Question",
-                name: "האם הטיפול כואב בגלל הדלקת?",
-                acceptedAnswer: {
-                    "@type": "Answer",
-                    text:
-                        "הטיפול מותאם תמיד לרמת הכאב של המטופל. אנחנו לא עובדים 'בכוח' על אזור דלקתי וכואב אלא מסביבו ועל אזורי השתקפות, כדי להביא להקלה ולא להחמיר את המצב.",
-                },
-            },
-        ],
-    };
 
     return (
         <div className="post-page-container">

@@ -4,76 +4,7 @@ import MoreArticles from "../../Components/MoreArticles";
 
 export default function SleepImprovement() {
     /* ================= JSON‑LD Schemas ================= */
-    const schemaArticle = {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        headline: "רפלקסולוגיה לשינה טובה: הפתרון הטבעי ללילות רגועים",
-        image: ["https://hergelaim.co.il/sleep-improvement.webp"],
-        author: {
-            "@type": "Person",
-            name: "ארנה קליין",
-            url: "https://hergelaim.co.il/about",
-        },
-        publisher: {
-            "@type": "Organization",
-            name: "הרגליים - ארנה קליין",
-            logo: {
-                "@type": "ImageObject",
-                url: "https://hergelaim.co.il/logo.jpeg",
-            },
-        },
-        datePublished: "2026-01-13",
-        dateModified: "2026-01-13",
-        description:
-            "גלי כיצד רפלקסולוגיה יכולה לשפר את איכות השינה שלך, להפחית נדודי שינה ולסייע לך לקום רעננה ושלווה יותר. מדריך מקיף לשינה טבעית ובריאה.",
-        mainEntityOfPage: {
-            "@type": "WebPage",
-            "@id": "https://hergelaim.co.il/sleep-improvement",
-        },
-    };
 
-    const schemaFAQ = {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        mainEntity: [
-            {
-                "@type": "Question",
-                name: "האם רפלקסולוגיה יכולה באמת לרפא נדודי שינה?",
-                acceptedAnswer: {
-                    "@type": "Answer",
-                    text:
-                        "רפלקסולוגיה אינה 'תרופת פלא', אך היא כלי עוצמתי מאוד לאיזון הגוף. על ידי הרגעת מערכת העצבים ושחרור מתחים, היא יוצרת את התנאים האופטימליים לשינה טבעית ועמוקה יותר, ומסייעת לגוף לחזור למקצב הביולוגי התקין שלו.",
-                },
-            },
-            {
-                "@type": "Question",
-                name: "כמה טיפולים צריך כדי להרגיש שיפור בשינה?",
-                acceptedAnswer: {
-                    "@type": "Answer",
-                    text:
-                        "רבים מדווחים על שינה עמוקה יותר כבר לאחר הטיפול הראשון. עם זאת, כדי לטפל בבעיות שינה כרוניות וליצור שינוי מתמשך, מומלצת סדרה של מספר טיפולים (לרוב בין 4 ל-10) בשילוב עם שינויים קלים באורח החיים.",
-                },
-            },
-            {
-                "@type": "Question",
-                name: "באילו נקודות בכף הרגל מתמקדים לשיפור השינה?",
-                acceptedAnswer: {
-                    "@type": "Answer",
-                    text:
-                        "בטיפול לשיפור השינה אנו מתמקדים באזורים המשקפים את הראש (להרגעת המחשבות), מניפת הסרעפת (לנשימה עמוקה ושחרור מתח רגשי), ומערכת העצבים והאדרנל (להורדת רמות הורמוני הלחץ).",
-                },
-            },
-            {
-                "@type": "Question",
-                name: "האם הטיפול מתאים גם לנשים בהריון הסובלות מנדודי שינה?",
-                acceptedAnswer: {
-                    "@type": "Answer",
-                    text:
-                        "בהחלט, אך חשוב מאוד לפנות למטפלת מוסמכת המתמחה בהריון. רפלקסולוגיה יכולה להיות נפלאה להקלה על עייפות ואי-נוחות בהריון, אך ישנן נקודות מסוימות שיש להימנע מהן בשלבים שונים של ההריון.",
-                },
-            },
-        ],
-    };
 
     /* ================ JSX ================ */
     return (

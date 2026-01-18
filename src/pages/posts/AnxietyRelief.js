@@ -5,67 +5,7 @@ import "./Migraines.css"; // Reusing the CSS from Migraines as it has the same c
 
 export default function AnxietyRelief() {
     /* ================= JSON‑LD Schemas ================= */
-    const schemaArticle = {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        headline: "רפלקסולוגיה לחרדה ואיזון רגשי: להחזיר את השקט",
-        image: ["https://hergelaim.co.il/anxiety-relief.webp"],
-        author: {
-            "@type": "Person",
-            name: "ארנה קליין",
-            url: "https://hergelaim.co.il/about",
-        },
-        publisher: {
-            "@type": "Organization",
-            name: "הרגליים - ארנה קליין",
-            logo: {
-                "@type": "ImageObject",
-                url: "https://hergelaim.co.il/logo.jpeg",
-            },
-        },
-        datePublished: "2025-06-10",
-        dateModified: "2025-06-10",
-        description:
-            "הלב דופק? המחשבות לא עוצרות? גלו איך רפלקסולוגיה משמשת כעוגן, מרגיעה את מערכת העצבים ומחזירה לך את השליטה לחיים.",
-        mainEntityOfPage: {
-            "@type": "WebPage",
-            "@id": "https://hergelaim.co.il/anxiety-relief",
-        },
-    };
 
-    const schemaFAQ = {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        mainEntity: [
-            {
-                "@type": "Question",
-                name: "איך רפלקסולוגיה עוזרת להרגיע התקף חרדה?",
-                acceptedAnswer: {
-                    "@type": "Answer",
-                    text:
-                        "רפלקסולוגיה פועלת ישירות על מערכת העצבים הפארא-סימפתטית (מערכת הרגיעה). מגע בנקודות כמו 'מקלעת השמש' או הוסת הסרעפת משדר למוח מסר מיידי של ביטחון ושחרור.",
-                },
-            },
-            {
-                "@type": "Question",
-                name: "האם זה יכול להחליף טיפול פסיכולוגי?",
-                acceptedAnswer: {
-                    "@type": "Answer",
-                    text:
-                        "רפלקסולוגיה היא כלי משלים מצוין התומך בטיפול נפשי. היא עובדת על הגוף והתחושות הפיזיות של החרדה (דופק, קוצר נשימה), בעוד השיחות מטפלות במקורות המחשבתיים.",
-                },
-            },
-            {
-                "@type": "Question",
-                name: "כמה טיפולים צריך כדי להרגיש שינוי?",
-                acceptedAnswer: {
-                    "@type": "Answer",
-                    text:
-                        "רבים מרגישים הקלה משמעותית ו'שקט בראש' כבר אחרי הטיפול הראשון. כדי ליצור שינוי דפוסים עמוק לאורך זמן, מומלצת סדרה של מספר מפגשים.",
-                },
-            },
-        ],
-    };
 
     return (
         <div className="post-page-container">

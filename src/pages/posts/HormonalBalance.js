@@ -4,67 +4,7 @@ import MoreArticles from "../../Components/MoreArticles";
 
 export default function HormonalBalance() {
     /* ================= JSON‑LD Schemas ================= */
-    const schemaArticle = {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        headline: "איזון הורמונלי טבעי: כשהגוף יוצא משליטה",
-        image: ["https://hergelaim.co.il/hormonal-balance.webp"],
-        author: {
-            "@type": "Person",
-            name: "ארנה קליין",
-            url: "https://hergelaim.co.il/about",
-        },
-        publisher: {
-            "@type": "Organization",
-            name: "הרגליים - ארנה קליין",
-            logo: {
-                "@type": "ImageObject",
-                url: "https://hergelaim.co.il/logo.jpeg",
-            },
-        },
-        datePublished: "2026-01-13",
-        dateModified: "2026-01-13",
-        description:
-            "גלי חום? מצבי רוח משתנים? PMS? רפלקסולוגיה מציעה דרך טבעית לאזן את המערכת ההורמונלית ולהחזיר לעצמך את השליטה בגוף.",
-        mainEntityOfPage: {
-            "@type": "WebPage",
-            "@id": "https://hergelaim.co.il/hormonal-balance",
-        },
-    };
 
-    const schemaFAQ = {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        mainEntity: [
-            {
-                "@type": "Question",
-                name: "האם רפלקסולוגיה יכולה להקל על גלי חום של גיל המעבר?",
-                acceptedAnswer: {
-                    "@type": "Answer",
-                    text:
-                        "בהחלט. הטיפול מסייע בוויסות המערכת האנדוקרינית ולהרגעת מערכת העצבים, מה שמוביל במקרים רבים להפחתה משמעותית בתדירות ובעוצמת גלי החום.",
-                },
-            },
-            {
-                "@type": "Question",
-                name: "האם זה עוזר לכאבי מחזור ותסמונת קדם וסתית (PMS)?",
-                acceptedAnswer: {
-                    "@type": "Answer",
-                    text:
-                        "כן. רפלקסולוגיה ידועה ביכולתה לאזן את האגן, לשחרר כיווצים ברחם ולהרגיע את המתח הנפשי הנלווה לתקופת המחזור.",
-                },
-            },
-            {
-                "@type": "Question",
-                name: "כמה טיפולים נדרשים כדי להרגיש שינוי?",
-                acceptedAnswer: {
-                    "@type": "Answer",
-                    text:
-                        "מערכת הורמונלית דורשת זמן כדי להתאזן מחדש. לרוב מומלץ על סדרה של 8-12 טיפולים כדי ליצור יציבות לאורך כל החודש.",
-                },
-            },
-        ],
-    };
 
     /* ================ JSX ================ */
     return (
