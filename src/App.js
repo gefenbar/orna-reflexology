@@ -16,7 +16,7 @@ import Balance from "./pages/posts/Balance";
 import Reflection from "./pages/posts/Reflection";
 import Reflexology from "./pages/posts/Reflexology";
 import Testimonials from "./pages/TestimonialsPage";
-import { useMediaQuery } from "react-responsive";
+// import { useMediaQuery } from "react-responsive";
 import Alternative from "./pages/posts/Alternative";
 import ReflexologyAndBackPain from "./pages/posts/BackPain";
 import Stress from "./pages/posts/stress";
@@ -40,7 +40,7 @@ function ScrollToTop() {
 }
 
 export default function App() {
-  const isDesktop = useMediaQuery({ minWidth: 768 });
+
 
   return (
     <div className="App">
@@ -49,7 +49,8 @@ export default function App() {
 
       <BrowserRouter>
         <ScrollToTop />
-        {isDesktop ? <DesktopNavbar /> : <MobileNavbar />}
+        <div className="desktop-only"><DesktopNavbar /></div>
+        <div className="mobile-only"><MobileNavbar /></div>
         <Routes>
           <Route exact path="/" element={<HomePage />} />
           <Route path="/about-me" element={<AboutMePage />} />

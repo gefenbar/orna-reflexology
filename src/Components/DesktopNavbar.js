@@ -1,6 +1,14 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 export default function DesktopNavbar() {
+  const location = useLocation();
+
+  const isActive = (path) => {
+    const normalize = (p) => p.endsWith('/') ? p.slice(0, -1) : p;
+    return normalize(location.pathname) === normalize(path);
+  };
+
+  const getLinkClass = (path) => isActive(path) ? "active" : "";
 
   return (
     <nav className="navbar" dir="rtl">
@@ -8,19 +16,19 @@ export default function DesktopNavbar() {
         <div className="navbar-links">
           <ul>
             <li>
-              <NavLink to="/" className={({ isActive }) => isActive ? "active" : ""}>דף הבית</NavLink>
+              <NavLink to="/" className={getLinkClass('/')}>דף הבית</NavLink>
             </li>
             <li >
-              <NavLink to="/about-me" className={({ isActive }) => isActive ? "active" : ""}>קצת עליי</NavLink>
+              <NavLink to="/about-me/" className={getLinkClass('/about-me/')}>קצת עליי</NavLink>
             </li>
             <li>
-              <NavLink to="/testimonials" className={({ isActive }) => isActive ? "active" : ""}>המלצות</NavLink>
+              <NavLink to="/testimonials/" className={getLinkClass('/testimonials/')}>המלצות</NavLink>
             </li>
             <li>
-              <NavLink to="/about-legs" className={({ isActive }) => isActive ? "active" : ""}>על הרגל</NavLink>
+              <NavLink to="/about-legs/" className={getLinkClass('/about-legs/')}>על הרגל</NavLink>
             </li>
             <li>
-              <NavLink to="/contact" className={({ isActive }) => isActive ? "active" : ""}>צרו קשר</NavLink>
+              <NavLink to="/contact/" className={getLinkClass('/contact/')}>צרו קשר</NavLink>
             </li>
 
           </ul>

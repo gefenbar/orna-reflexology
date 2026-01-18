@@ -33,7 +33,7 @@ const AboutLegsSection = ({
 
                 {showLink && (
                     <button className="general-button">
-                        <Link className="more" to="/about-legs">
+                        <Link className="more" to="/about-legs/">
                             למאמרים נוספים                        </Link>
                     </button>
                 )}

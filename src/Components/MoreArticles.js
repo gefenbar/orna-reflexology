@@ -15,32 +15,32 @@ export default function MoreArticles() {
 
   const getRecommendedArticles = () => {
     if (!currentArticle || !currentArticle.tags) {
-      // אם אין מאמר נוכחי או אין לו תגיות, החזר 3 מאמרים רנדומליים כמו קודם
-      return [...otherArticles].sort(() => 0.5 - Math.random()).slice(0, 3);
+      // Return 3 articles deterministically (e.g., newest or by ID)
+      return [...otherArticles].slice(0, 3);
     }
 
     const currentTags = currentArticle.tags;
 
-    // צור מערך של מאמרים עם ציון רלוונטיות
+    // Create array of articles with relevance score
     const scoredArticles = otherArticles.map(article => {
       let score = 0;
       if (article.tags) {
-        // חשב כמה תגיות משותפות יש
+        // Calculate shared tags
         const intersection = article.tags.filter(tag => currentTags.includes(tag));
         score = intersection.length;
       }
       return { ...article, score };
     });
 
-    // מיין לפי ציון (גבוה לנמוך). אם הציון זהה, אפשר למיין רנדומלית כדי לגוון
+    // Sort by score (high to low). If score is identical, sort by ID to be deterministic.
     scoredArticles.sort((a, b) => {
       if (b.score !== a.score) {
         return b.score - a.score;
       }
-      return 0.5 - Math.random();
+      return b.id - a.id;
     });
 
-    // החזר את ה-3 הראשונים
+    // Return first 3
     return scoredArticles.slice(0, 3);
   };
 
@@ -150,7 +150,7 @@ const BackButton = () => {
 
   return (
     <Link
-      to="/about-legs"
+      to="/about-legs/"
       style={buttonStyle}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}

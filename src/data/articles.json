@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "כאבי ראש",
-    "link": "/headache",
+    "link": "/headache/",
     "image": "/headache.webp",
     "alt": "כאב ראש",
     "desc": "רפלקסולוגיה וכאבי ראש: הקלה טבעית ושיפור איכות החיים",
@@ -15,7 +15,7 @@
   {
     "id": 2,
     "title": "איזון ורפלקסולוגיה",
-    "link": "/balance",
+    "link": "/balance/",
     "image": "/balance.webp",
     "alt": "אבנים מאוזנות",
     "desc": "על הקשר בין איזון לרפלקסולוגיה",
@@ -27,7 +27,7 @@
   {
     "id": 3,
     "title": "טיפול אלטרנטיבי",
-    "link": "/alternative",
+    "link": "/alternative/",
     "image": "/alternative.webp",
     "alt": "דרך חלופית",
     "desc": "ההיסטוריה של רפואה אלטרנטיבית ובפרט של רפלקסולוגיה",
@@ -39,7 +39,7 @@
   {
     "id": 4,
     "title": "רפלקסולוגיה וכאבי גב",
-    "link": "/back-pain",
+    "link": "/back-pain/",
     "image": "/backpain.webp",
     "alt": "גב",
     "desc": "רפלקסולוגיה וכאבי גב: פתרונות טבעיים לשיפור איכות החיים",
@@ -52,7 +52,7 @@
   {
     "id": 5,
     "title": "רפלקסולוגיה והשתקפויות",
-    "link": "/reflection",
+    "link": "/reflection/",
     "image": "/reflection.webp",
     "alt": "השתקפות עץ על המים",
     "desc": "רפלקסולוגיה והשתקפויות: איך כף הרגל משקפת את גופך?",
@@ -64,7 +64,7 @@
   {
     "id": 6,
     "title": "רפלקסולוגיה לגב תחתון",
-    "link": "/lower-back",
+    "link": "/lower-back/",
     "image": "/lower-back.webp",
     "alt": "גב תחתון",
     "desc": "רפלקסולוגיה לגב תחתון: המדריך השלם להקלה טבעית על כאבי גב",
@@ -77,7 +77,7 @@
   {
     "id": 7,
     "title": "רפלקסולוגיה: טיפול מותאם אישית",
-    "link": "/reflexology",
+    "link": "/reflexology/",
     "image": "/reflexology.webp",
     "alt": "טביעות רגליים בחול",
     "desc": "מה זה רפלקסולוגיה: טיפול מותאם אישית בידיים שלך - הרגליים",
@@ -89,7 +89,7 @@
   {
     "id": 8,
     "title": "רפלקסולוגיה והפחתת לחץ",
-    "link": "/stress",
+    "link": "/stress/",
     "image": "/stress.webp",
     "alt": "אבנים מאוזנות",
     "desc": "רפלקסולוגיה והפחתת לחץ: איך יכולה רפלקסולוגיה להפחית לחצים",
@@ -101,7 +101,7 @@
   {
     "id": 9,
     "title": "רפלקסולוגיה לגב כף הרגל",
-    "link": "/foot-back",
+    "link": "/foot-back/",
     "image": "/foot-back.webp",
     "alt": "גב כף הרגל",
     "desc": "רפלקסולוגיה לגב כף הרגל: גישה טבעית להקלה ושיפור תפקוד כף הרגל",
@@ -113,7 +113,7 @@
   {
     "id": 10,
     "title": "מפה רפלקסולוגית",
-    "link": "/reflexology-map",
+    "link": "/reflexology-map/",
     "image": "/reflexology-map.jpg",
     "alt": "גב כף הרגל",
     "desc": "רפלקסולוגיה: הסבר מפורט על כל האזורים במפה רפלקסולוגית של הרגל",
@@ -126,7 +126,7 @@
   {
     "id": 11,
     "title": "שינה טובה",
-    "link": "/sleep-improvement",
+    "link": "/sleep-improvement/",
     "image": "/sleep-improvement.webp",
     "alt": "חדר שינה מרגיע",
     "desc": "רפלקסולוגיה לשינה טובה: הפתרון הטבעי ללילות רגועים ושינה עמוקה",
@@ -139,7 +139,7 @@
   {
     "id": 12,
     "title": "איזון הורמונלי",
-    "link": "/hormonal-balance",
+    "link": "/hormonal-balance/",
     "image": "/hormonal-balance.webp",
     "alt": "אישה יושבת בנחת ליד חלון",
     "desc": "רפלקסולוגיה ואיזון הורמונלי: גישה טבעית לטיפול ב-PMS, גיל המעבר ובעיות פוריות",
@@ -152,7 +152,7 @@
   {
     "id": 13,
     "title": "רפלקסולוגיה לדורבן",
-    "link": "/heel-spur",
+    "link": "/heel-spur/",
     "image": "/heel-spur.webp",
     "alt": "עיסוי עקב כף רגל",
     "desc": "רפלקסולוגיה לדורבן (Plantar Fasciitis): הקלה טבעית וטיפול בשורש הכאב",
@@ -165,7 +165,7 @@
   {
     "id": 14,
     "title": "רפלקסולוגיה למיגרנות",
-    "link": "/migraines",
+    "link": "/migraines/",
     "image": "/migraines.webp",
     "alt": "אישה נחה בחדר מרגיע",
     "desc": "רפלקסולוגיה למיגרנות: איך לשבור את מעגל הכאב הבלתי נסבל",
@@ -178,7 +178,7 @@
   {
     "id": 15,
     "title": "רפלקסולוגיה לטיפול בחרדה",
-    "link": "/anxiety-relief",
+    "link": "/anxiety-relief/",
     "image": "/anxiety-relief.webp",
     "alt": "רגליים במים צלולים ומרגיעים",
     "desc": "הלב דופק? המחשבות לא עוצרות? גלו איך רפלקסולוגיה מרגיעה את מערכת העצבים ומחזירה את השליטה לחיים.",

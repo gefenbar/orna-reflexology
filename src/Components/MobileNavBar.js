@@ -10,7 +10,8 @@ export default function MobileNavbar() {
   };
 
   const isActive = (path) => {
-    return location.pathname === path;
+    const normalize = (p) => p.endsWith('/') ? p.slice(0, -1) : p;
+    return normalize(location.pathname) === normalize(path);
   };
 
   return (
@@ -23,23 +24,23 @@ export default function MobileNavbar() {
                 דף הבית
               </Link>
             </li>
-            <li className={isActive('/about-me') ? 'active' : ''}>
-              <Link to="/about-me" onClick={toggleMenu}>
+            <li className={isActive('/about-me/') ? 'active' : ''}>
+              <Link to="/about-me/" onClick={toggleMenu}>
                 עליי
               </Link>
             </li>
-            <li className={isActive('/testimonials') ? 'active' : ''}>
-              <Link to="/testimonials" onClick={toggleMenu}>
+            <li className={isActive('/testimonials/') ? 'active' : ''}>
+              <Link to="/testimonials/" onClick={toggleMenu}>
                 המלצות
               </Link>
             </li>
-            <li className={isActive('/about-legs') ? 'active' : ''}>
-              <Link to="/about-legs" onClick={toggleMenu}>
+            <li className={isActive('/about-legs/') ? 'active' : ''}>
+              <Link to="/about-legs/" onClick={toggleMenu}>
                 על הרגל
               </Link>
             </li>
-            <li className={isActive('/contact') ? 'active' : ''}>
-              <Link to="/contact" onClick={toggleMenu}>
+            <li className={isActive('/contact/') ? 'active' : ''}>
+              <Link to="/contact/" onClick={toggleMenu}>
                 צרו קשר
               </Link>
             </li>

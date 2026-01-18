@@ -6,7 +6,7 @@ import AboutLegsSection from "../Components/AboutLegsSection";
 export default function HomePage() {
   return (
     <main className="home">
-      
+
       <HeroSection />
       <AboutMeSection />
       <Testimonials />
@@ -74,7 +74,7 @@ const AboutMeSection = () => (
             עצמו.
           </p>
           <button className="general-button">
-            <Link className="contact-link" to="/contact">
+            <Link className="contact-link" to="/contact/">
               {" "}
               לפרטים נוספים וקביעת תור
             </Link>
@@ -115,7 +115,7 @@ const Testimonials = () => (
     <div className="testimonials-header">
       <h2>המלצות</h2>
       <button className="general-button">
-        <Link className="more" to="/testimonials">
+        <Link className="more" to="/testimonials/">
           להמלצות נוספות
         </Link>
       </button>
