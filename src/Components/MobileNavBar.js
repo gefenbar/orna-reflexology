@@ -58,7 +58,7 @@ export default function MobileNavbar() {
                       הזמיני Gift Card
                     </a>
                   </button>
-                  <img className="logo2" src="logo.webp" alt="Logo" width={"120px"} height={"32px"} />
+                  <img className="logo2" src="/logo.webp" alt="Logo" width={"120px"} height={"32px"} />
                 </div>
               </div>
             </li>
@@ -74,7 +74,7 @@ export default function MobileNavbar() {
         </div>
       </div>
       <Link to="/" className="mobile-navbar-logo">
-        <img src="logo.webp" width="150px" height="40px" alt="logo" />
+        <img src="/logo.webp" width="150px" height="40px" alt="logo" />
       </Link>
     </nav>
   );

@@ -329,7 +329,7 @@ export default function LowerBack() {
       <div className="post-image-container">
         <img
           className="post-image"
-          src="lower-back.webp"
+          src="/lower-back.webp"
           alt="טיפול רפלקסולוגיה לגב תחתון - ארנה קליין"
           width="250"
           height="250"

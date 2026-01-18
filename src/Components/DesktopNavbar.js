@@ -27,7 +27,7 @@ export default function DesktopNavbar() {
         </div>
       </div>
       <NavLink className="navbar-logo" to="/">
-        <img src="logo.webp" width={"150px"} height={"40px"} alt="logo" />
+        <img src="/logo.webp" width={"150px"} height={"40px"} alt="logo" />
       </NavLink>
     </nav>);
 }

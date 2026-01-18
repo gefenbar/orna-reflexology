@@ -3,7 +3,7 @@ import React from "react";
 export default function ContactPage() {
   return (
     <main className="contact-page">
-      
+
 
       <div className="contact-header">
         <h1>יצירת קשר</h1>
@@ -15,15 +15,15 @@ export default function ContactPage() {
           <h2>פרטי התקשרות</h2>
           <div className="contact-links">
             <a href="tel:0549794777" className="contact-item">
-              <div className="icon-circle"><img src="phone.webp" alt="Phone" /></div>
+              <div className="icon-circle"><img src="/phone.webp" alt="Phone" /></div>
               <span>054-9794-777</span>
             </a>
             <a href="mailto:orenkl162@gmail.com" className="contact-item">
-              <div className="icon-circle"><img src="email.webp" alt="Email" /></div>
+              <div className="icon-circle"><img src="/email.webp" alt="Email" /></div>
               <span>Orna Klein</span>
             </a>
             <a href="https://www.facebook.com/profile.php?id=100010434510829&mibextid=ZbWKwL" className="contact-item" target="_blank" rel="noopener noreferrer">
-              <div className="icon-circle"><img src="facebook.webp" alt="Facebook" /></div>
+              <div className="icon-circle"><img src="/facebook.webp" alt="Facebook" /></div>
               <span>ארנה קליין - רפלקסולוגית</span>
             </a>
           </div>

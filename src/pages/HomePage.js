@@ -26,7 +26,7 @@ const HeroSection = () => (
           הרגליים - ארנה קליין - רפלקסולוגית מוסמכת
         </h1>
         <img
-          src="logo-full.webp"
+          src="/logo-full.webp"
           alt="ארנה קליין"
           width="264px"
           height="198px"
@@ -54,7 +54,7 @@ const AboutMeSection = () => (
       <div className="about-content">
         <div className="about-image-container">
           <img
-            src="orna2.webp"
+            src="/orna2.webp"
             alt="ארנה קליין"
             loading="lazy"
             width="348px"

@@ -30,7 +30,7 @@ const EnvelopeAndGiftCard = () => {
               <div className="envelope-flap" />
             </div>
             <div className="envelope-content">
-              <img className="logo" src="logo-full.webp" alt="Logo" />
+              <img className="logo" src="/logo-full.webp" alt="Logo" />
               <p>לחצי כאן להזמנת כרטיס מתנה</p>
             </div>
             <div className={`gift-card ${isHovered ? 'revealed' : ''}`}>
@@ -40,7 +40,7 @@ const EnvelopeAndGiftCard = () => {
                   הזמיני Gift Card
                 </a>
               </button>
-              <img className="logo2" src="logo.webp" alt="Logo" />
+              <img className="logo2" src="/logo.webp" alt="Logo" />
             </div>
           </div>
         </div>
@@ -53,7 +53,7 @@ const EnvelopeAndGiftCard = () => {
               הזמיני Gift Card
             </a>
           </button>
-          <img className="logo2" src="logo.webp" alt="Logo" />
+          <img className="logo2" src="/logo.webp" alt="Logo" />
         </div>
       )}
     </section>

@@ -9,7 +9,7 @@ export default function Footer() {
             className="social-link"
             target="_blank"
           >
-            <img src="facebook.webp" alt="Facebook" />
+            <img src="/facebook.webp" alt="Facebook" />
           </a>
           <a
             href="https://wa.me/+972549794777"
@@ -17,7 +17,7 @@ export default function Footer() {
             className="social-link"
             target="_blank"
           >
-            <img src="whatsapp.webp" alt="WhatsApp" />
+            <img src="/whatsapp.webp" alt="WhatsApp" />
           </a>
           <a
             href="https://www.instagram.com/nissaniklein"
@@ -25,7 +25,7 @@ export default function Footer() {
             className="social-link"
             target="_blank"
           >
-            <img src="instagram.webp" alt="Instagram" />
+            <img src="/instagram.webp" alt="Instagram" />
           </a>
         </div>
 

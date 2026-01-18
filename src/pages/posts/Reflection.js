@@ -298,7 +298,7 @@ export default function Reflection() {
       <div className="post-image-container">
         <img
           className="post-image"
-          src="reflection.webp"
+          src="/reflection.webp"
           alt="רפלקסולוגיה והשתקפויות - ארנה קליין"
           width="250"
           height="250"
