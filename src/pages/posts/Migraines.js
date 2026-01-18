@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import MoreArticles from "../../Components/MoreArticles";
 import "./Migraines.css"; // We will add inline styles or a CSS file if needed, but inline is preferred for single article specific tweaks if small.
 

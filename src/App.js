@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import DesktopNavbar from "./Components/DesktopNavbar";
 import MobileNavbar from "./Components/MobileNavBar";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import HomePage from "./pages/HomePage";
 import AboutMePage from "./pages/AboutMePage";
 import ContactPage from "./pages/ContactPage";
@@ -45,32 +46,57 @@ export default function App() {
     <div className="App">
       <SocialLinks />
       <AccessibilityWidget className="accessibility" />
-      <BrowserRouter>
-        <ScrollToTop />
-        {isDesktop ? <DesktopNavbar /> : <MobileNavbar />}
-        <Routes>
-          <Route exact path="/" element={<HomePage />} />
-          <Route path="/about-me" element={<AboutMePage />} />
-          <Route path="/about-legs" element={<AboutLegsPage />} />
-          <Route path="/testimonials" element={<Testimonials />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/reflexology" element={<Reflexology />} />
-          <Route path="/balance" element={<Balance />} />
-          <Route path="/reflection" element={<Reflection />} />
-          <Route path="/alternative" element={<Alternative />} />
-          <Route path="/back-pain" element={<ReflexologyAndBackPain />} />
-          <Route path="/stress" element={<Stress />} />
-          <Route path="/headache" element={<Headache />} />
-          <Route path="/lower-back" element={<LowerBack />} />
-          <Route path="/foot-back" element={<FootBack />} />
-          <Route path="/reflexology-map" element={<LegMap />} />
-          <Route path="/sleep-improvement" element={<SleepImprovement />} />
-          <Route path="/hormonal-balance" element={<HormonalBalance />} />
-          <Route path="/heel-spur" element={<HeelSpur />} />
-          <Route path="/migraines" element={<Migraines />} />
-          <Route path="/anxiety-relief" element={<AnxietyRelief />} />
-        </Routes>
-      </BrowserRouter>
+      <HelmetProvider>
+        <BrowserRouter>
+          <ScrollToTop />
+          <Helmet>
+            <title>הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך</title>
+            <meta
+              name="description"
+              content="הרגליים - ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך. בוגרת מכללת רידמן. משלבת הקשבה לצורכי המטופלת והתאמת מענה טיפולי מדויק. הקליניקה ממוקמת בכפר תבור."
+            />
+            <meta
+              name="keywords"
+              content="רפלקסולוגיה, רפלקסולוג, רפלקסולוגית, הרגליים, ארנה קליין"
+            />
+            <meta property="og:type" content="website" />
+            <meta
+              property="og:title"
+              content="הרגליים - ארנה קליין | רפלקסולוגיה ודמיון מודרך"
+            />
+            <meta
+              property="og:description"
+              content="הרגליים - ארנה קליין, מטפלת מוסמכת ברפלקסולוגיה ודמיון מודרך. בוגרת מכללת רידמן. משלבת הקשבה לצורכי המטופלת והתאמת מענה טיפולי מדויק. הקליניקה ממוקמת בכפר תבור."
+            />
+            <meta property="og:url" content="https://hergelaim.co.il/" />
+            <meta property="og:image" content="https://hergelaim.co.il/logo.jpeg" />
+            <link rel="canonical" href="https://hergelaim.co.il/" />
+          </Helmet>
+          {isDesktop ? <DesktopNavbar /> : <MobileNavbar />}
+          <Routes>
+            <Route exact path="/" element={<HomePage />} />
+            <Route path="/about-me" element={<AboutMePage />} />
+            <Route path="/about-legs" element={<AboutLegsPage />} />
+            <Route path="/testimonials" element={<Testimonials />} />
+            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/reflexology" element={<Reflexology />} />
+            <Route path="/balance" element={<Balance />} />
+            <Route path="/reflection" element={<Reflection />} />
+            <Route path="/alternative" element={<Alternative />} />
+            <Route path="/back-pain" element={<ReflexologyAndBackPain />} />
+            <Route path="/stress" element={<Stress />} />
+            <Route path="/headache" element={<Headache />} />
+            <Route path="/lower-back" element={<LowerBack />} />
+            <Route path="/foot-back" element={<FootBack />} />
+            <Route path="/reflexology-map" element={<LegMap />} />
+            <Route path="/sleep-improvement" element={<SleepImprovement />} />
+            <Route path="/hormonal-balance" element={<HormonalBalance />} />
+            <Route path="/heel-spur" element={<HeelSpur />} />
+            <Route path="/migraines" element={<Migraines />} />
+            <Route path="/anxiety-relief" element={<AnxietyRelief />} />
+          </Routes>
+        </BrowserRouter>
+      </HelmetProvider>
       <Footer />
     </div>
   );

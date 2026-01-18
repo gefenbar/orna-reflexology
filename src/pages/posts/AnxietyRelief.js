@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import MoreArticles from "../../Components/MoreArticles";
 import "./Migraines.css"; // Reusing the CSS from Migraines as it has the same card/table structures
 
