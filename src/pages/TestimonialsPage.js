@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import { Helmet } from 'react-helmet';
 
 const testimonials = [
   { name: "אנה נקסדורף", quote: "אורנה מקסימה עם אנרגיות טובות. מטפלת קשובה ורגישה. ממליצה מאוד." },

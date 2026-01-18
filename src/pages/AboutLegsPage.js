@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet";
 import AboutLegsSection from "../Components/AboutLegsSection";
 
 export default function AboutLegsPage() {

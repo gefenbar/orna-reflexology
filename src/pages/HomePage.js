@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 import GiftCardBanner from "../Components/GiftCardBanner";
 import FAQSection from "../Components/FAQ";
-import { Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet";
 import AboutLegsSection from "../Components/AboutLegsSection";
 export default function HomePage() {
   return (
