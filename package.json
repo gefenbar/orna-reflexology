@@ -50,8 +50,7 @@
       "/",
       "/about-me",
       "/contact"
-    ],
-    "puppeteerExecutablePath": "/Users/workiza/.cache/puppeteer/chrome/mac_arm-143.0.7499.192/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing"
+    ]
   },
   "overrides": {
     "shell-quote": "^1.7.4",
