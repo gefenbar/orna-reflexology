@@ -8,7 +8,7 @@ export default function DesktopNavbar() {
         <div className="navbar-links">
           <ul>
             <li>
-              <NavLink to="/"  className={({ isActive }) => isActive ? "active" : ""}>דף הבית</NavLink>
+              <NavLink to="/" className={({ isActive }) => isActive ? "active" : ""}>דף הבית</NavLink>
             </li>
             <li >
               <NavLink to="/about-me" className={({ isActive }) => isActive ? "active" : ""}>קצת עליי</NavLink>
@@ -21,6 +21,9 @@ export default function DesktopNavbar() {
             </li>
             <li>
               <NavLink to="/contact" className={({ isActive }) => isActive ? "active" : ""}>צרו קשר</NavLink>
+            </li>
+            <li>
+              <NavLink to="/articles" className={({ isActive }) => isActive ? "active" : ""}>מאמרים</NavLink>
             </li>
           </ul>
         </div>

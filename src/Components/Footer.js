@@ -28,11 +28,14 @@ export default function Footer() {
             <img src="instagram.webp" alt="Instagram" />
           </a>
         </div>
+        <div style={{ textAlign: "center", marginBottom: "1rem" }}>
+          <a href="/articles" style={{ color: "inherit", textDecoration: "underline" }}>לכל המאמרים</a>
+        </div>
         <div className="copyright">
           <div className="centered-copyright">
             &copy; {new Date().getFullYear()} ארנה קליין
           </div>
-          
+
         </div>
       </div>
     </footer>

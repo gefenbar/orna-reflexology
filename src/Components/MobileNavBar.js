@@ -43,6 +43,11 @@ export default function MobileNavbar() {
                 צרו קשר
               </Link>
             </li>
+            <li className={isActive('/articles') ? 'active' : ''}>
+              <Link to="/articles" onClick={toggleMenu}>
+                מאמרים
+              </Link>
+            </li>
             <li className="mobile-giftcard">
               <div className="giftcard">
                 <div className="gift-card revealed">
@@ -57,7 +62,7 @@ export default function MobileNavbar() {
                       הזמיני Gift Card
                     </a>
                   </button>
-                  <img className="logo2" src="logo.webp" alt="Logo"  width={"120px"} height={"32px"} />
+                  <img className="logo2" src="logo.webp" alt="Logo" width={"120px"} height={"32px"} />
                 </div>
               </div>
             </li>
