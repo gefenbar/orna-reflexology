@@ -1,71 +1,63 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-	<loc>https://hergelaim.co.il/</loc>
-</url>
-
-<url>
-	<loc>https://hergelaim.co.il/about-me</loc>
-</url>
-<url>
-	<loc>https://hergelaim.co.il/contact</loc>
-</url>
-<url>
-	<loc>https://hergelaim.co.il/about-legs</loc>
-</url>
-<url>
-	<loc>https://hergelaim.co.il/balance</loc>
-</url>
-<url>
-	<loc>https://hergelaim.co.il/reflection</loc>
-
-</url>
-<url>
-	<loc>https://hergelaim.co.il/reflexology</loc>
-
-</url>
-<url>
-	<loc>https://hergelaim.co.il/testimonials</loc>
-
-</url>
-<url>
-	<loc>https://hergelaim.co.il/alternative</loc>
-	
-</url>
-<url>
-	<loc>https://hergelaim.co.il/back-pain</loc>
-
-</url>
-<url>
-	<loc>https://hergelaim.co.il/lower-back</loc>
-</url>
-<url>
-	<loc>https://hergelaim.co.il/foot-back</loc>
-</url>
-<url>
-	<loc>https://hergelaim.co.il/headache</loc>
-</url>
-<url>
-	<loc>https://hergelaim.co.il/stress</loc>
-</url>
-<url>
-	<loc>https://hergelaim.co.il/sleep-improvement</loc>
-</url>
-<url>
-	<loc>https://hergelaim.co.il/hormonal-balance</loc>
-</url>
-<url>
-	<loc>https://hergelaim.co.il/heel-spur</loc>
-</url>
-<url>
-	<loc>https://hergelaim.co.il/migraines</loc>
-</url>
-<url>
-	<loc>https://hergelaim.co.il/anxiety-relief</loc>
-</url>
-<url>
-	<loc>https://hergelaim.co.il/reflexology-map</loc>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://hergelaim.co.il/</loc>
+    </url>
+    <url>
+        <loc>https://hergelaim.co.il/about-me/</loc>
+    </url>
+    <url>
+        <loc>https://hergelaim.co.il/contact/</loc>
+    </url>
+    <url>
+        <loc>https://hergelaim.co.il/about-legs/</loc>
+    </url>
+    <url>
+        <loc>https://hergelaim.co.il/balance/</loc>
+    </url>
+    <url>
+        <loc>https://hergelaim.co.il/reflection/</loc>
+    </url>
+    <url>
+        <loc>https://hergelaim.co.il/reflexology/</loc>
+    </url>
+    <url>
+        <loc>https://hergelaim.co.il/testimonials/</loc>
+    </url>
+    <url>
+        <loc>https://hergelaim.co.il/alternative/</loc>
+    </url>
+    <url>
+        <loc>https://hergelaim.co.il/back-pain/</loc>
+    </url>
+    <url>
+        <loc>https://hergelaim.co.il/lower-back/</loc>
+    </url>
+    <url>
+        <loc>https://hergelaim.co.il/foot-back/</loc>
+    </url>
+    <url>
+        <loc>https://hergelaim.co.il/headache/</loc>
+    </url>
+    <url>
+        <loc>https://hergelaim.co.il/stress/</loc>
+    </url>
+    <url>
+        <loc>https://hergelaim.co.il/sleep-improvement/</loc>
+    </url>
+    <url>
+        <loc>https://hergelaim.co.il/hormonal-balance/</loc>
+    </url>
+    <url>
+        <loc>https://hergelaim.co.il/heel-spur/</loc>
+    </url>
+    <url>
+        <loc>https://hergelaim.co.il/migraines/</loc>
+    </url>
+    <url>
+        <loc>https://hergelaim.co.il/anxiety-relief/</loc>
+    </url>
+    <url>
+        <loc>https://hergelaim.co.il/reflexology-map/</loc>
+    </url>
 </urlset>
