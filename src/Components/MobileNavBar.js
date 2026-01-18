@@ -43,11 +43,7 @@ export default function MobileNavbar() {
                 צרו קשר
               </Link>
             </li>
-            <li className={isActive('/articles') ? 'active' : ''}>
-              <Link to="/articles" onClick={toggleMenu}>
-                מאמרים
-              </Link>
-            </li>
+
             <li className="mobile-giftcard">
               <div className="giftcard">
                 <div className="gift-card revealed">

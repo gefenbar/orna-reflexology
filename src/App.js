@@ -28,7 +28,6 @@ import HormonalBalance from "./pages/posts/HormonalBalance";
 import HeelSpur from "./pages/posts/HeelSpur";
 import Migraines from "./pages/posts/Migraines";
 import AnxietyRelief from "./pages/posts/AnxietyRelief";
-import ArticlesPage from "./pages/ArticlesPage";
 
 
 function ScrollToTop() {
@@ -65,7 +64,6 @@ export default function App() {
           <Route path="/lower-back" element={<LowerBack />} />
           <Route path="/foot-back" element={<FootBack />} />
           <Route path="/reflexology-map" element={<LegMap />} />
-          <Route path="/articles" element={<ArticlesPage />} />
           <Route path="/sleep-improvement" element={<SleepImprovement />} />
           <Route path="/hormonal-balance" element={<HormonalBalance />} />
           <Route path="/heel-spur" element={<HeelSpur />} />

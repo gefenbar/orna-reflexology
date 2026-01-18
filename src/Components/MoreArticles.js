@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Helmet } from "react-helmet";
+
 import articles from "../data/articles.json";
 
 export default function MoreArticles() {
@@ -89,14 +89,7 @@ export default function MoreArticles() {
 
   return (
     <div className="more-articles-container" style={containerStyle}>
-      <Helmet>
-        <title>מאמרים מומלצים | הרגליים - ארנה קליין</title>
-        <meta
-          name="description"
-          content="קראו מאמרים מומלצים באתר הרגליים - ארנה קליין, וגלו מידע מקצועי בתחום הרפלקסולוגיה."
-        />
-        <link rel="canonical" href="https://hergelaim.co.il/more-articles" />
-      </Helmet>
+
       <h3 style={headerStyle}>מאמרים מומלצים</h3>
       <ul className="more-articles-list" style={listStyle}>
         {recommendedArticles.map(article => (

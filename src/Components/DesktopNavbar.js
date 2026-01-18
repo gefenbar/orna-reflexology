@@ -22,9 +22,7 @@ export default function DesktopNavbar() {
             <li>
               <NavLink to="/contact" className={({ isActive }) => isActive ? "active" : ""}>צרו קשר</NavLink>
             </li>
-            <li>
-              <NavLink to="/articles" className={({ isActive }) => isActive ? "active" : ""}>מאמרים</NavLink>
-            </li>
+
           </ul>
         </div>
       </div>
