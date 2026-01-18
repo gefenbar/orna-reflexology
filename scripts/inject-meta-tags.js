@@ -107,12 +107,30 @@ const META_TAGS = {
 
 function injectMetaTags(htmlPath, route) {
     const meta = META_TAGS[route];
+    let html = fs.readFileSync(htmlPath, 'utf8');
+
+    // Fix relative asset paths (src, href, srcset)
+    // Avoid fixing external URLs, already absolute paths, or local anchors (#)
+    const fixPaths = (content) => {
+        // Regex to find src, href, or srcset values that don't start with /, http, https, //, #, or data:
+        // Also handle the case where they might be empty or just white-space
+        return content.replace(
+            /(href|src|srcset)="(?!\/|http|https|\/\/|#|data:)([^"]+)"/g,
+            (match, attr, path) => {
+                // If it's a relative path, prefix with /
+                return `${attr}="/${path}"`;
+            }
+        );
+    };
+
+    html = fixPaths(html);
+
     if (!meta) {
-        console.log(`⚠️  No meta tags defined for route: ${route}`);
+        // Even if no meta tags, we still write back fixed paths
+        fs.writeFileSync(htmlPath, html, 'utf8');
+        console.log(`✅ Fixed asset paths for ${route} (No meta tags)`);
         return;
     }
-
-    let html = fs.readFileSync(htmlPath, 'utf8');
 
     // Replace title
     html = html.replace(
@@ -188,7 +206,31 @@ function main() {
         if (fs.existsSync(htmlPath)) {
             injectMetaTags(htmlPath, route);
         } else {
+            // Check if it's a known route from include array in package.json
+            // If it's not in META_TAGS, we still want to fix paths if it's pre-rendered
             console.log(`⚠️  HTML file not found: ${htmlPath}`);
+        }
+    });
+
+    // Also process index.html, 404.html, and 200.html if they exist but aren't in META_TAGS
+    ['index.html', '404.html', '200.html'].forEach(file => {
+        const filePath = path.join(buildDir, file);
+        if (fs.existsSync(filePath)) {
+            // We can just call injectMetaTags with a dummy route if it's not in META_TAGS
+            // or modify injectMetaTags to handle files directly.
+            // For now, let's just use / for index.html as it's already covered.
+            if (file !== 'index.html') {
+                let html = fs.readFileSync(filePath, 'utf8');
+
+                // Regex to find src, href, or srcset values that don't start with /, http, https, //, #, or data:
+                html = html.replace(
+                    /(href|src|srcset)="(?!\/|http|https|\/\/|#|data:)([^"]+)"/g,
+                    (match, attr, path) => `${attr}="/${path}"`
+                );
+
+                fs.writeFileSync(filePath, html, 'utf8');
+                console.log(`✅ Fixed asset paths for ${file}`);
+            }
         }
     });
 
