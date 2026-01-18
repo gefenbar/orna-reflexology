@@ -121,10 +121,16 @@ function injectMetaTags(htmlPath, route) {
     );
 
     // Replace or add description meta tag
+    // Handle both attribute orders: name first or content first
     if (html.includes('name="description"')) {
+        // Try both patterns
         html = html.replace(
-            /<meta name="description" content=".*?">/,
+            /<meta name="description" content="[^"]*"[^>]*>/g,
             `<meta name="description" content="${meta.description}">`
+        );
+        html = html.replace(
+            /<meta content="[^"]*" name="description"[^>]*>/g,
+            `<meta content="${meta.description}" name="description">`
         );
     } else {
         html = html.replace(
