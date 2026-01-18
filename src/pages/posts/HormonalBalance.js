@@ -9,7 +9,7 @@ export default function HormonalBalance() {
     /* ================ JSX ================ */
     return (
         <div className="post-page-container">
-            
+
 
             <article
                 id="post-hormonal-balance"
@@ -106,7 +106,7 @@ export default function HormonalBalance() {
                     </p>
                     <h3>גיל המעבר (מנופאוזה)</h3>
                     <p>
-                        <a href="https://www.mayoclinic.org/diseases-conditions/menopause/symptoms-causes/syc-20353397" target="_blank" rel="noopener noreferrer">גלי חום, הפרעות שינה ויובש</a>. זו תקופה של שינוי עמוק. הרפלקסולוגיה מספקת "עוגן" של יציבות, מסייעת לקירור הגוף (דרך עבודה על אלמנט המים והאש) ומשפרת משמעותית את איכות <Link to="/sleep-improvement">השינה</Link>.
+                        <a href="https://www.mayoclinic.org/diseases-conditions/menopause/symptoms-causes/syc-20353397" target="_blank" rel="noopener noreferrer">גלי חום, הפרעות שינה ויובש</a>. זו תקופה של שינוי עמוק. הרפלקסולוגיה מספקת "עוגן" של יציבות, מסייעת לקירור הגוף (דרך עבודה על אלמנט המים והאש) ומשפרת משמעותית את איכות <Link to="/sleep-improvement/">השינה</Link>.
                     </p>
                 </section>
 
@@ -189,7 +189,7 @@ export default function HormonalBalance() {
             <MoreArticles />
 
             <button className="general-button" style={{ marginTop: "1.5rem" }}>
-                <Link to="/contact" className="post-book-treatment-button">
+                <Link to="/contact/" className="post-book-treatment-button">
                     רוצה להחזיר לעצמך את האיזון? קבעי תור היום
                 </Link>
             </button>

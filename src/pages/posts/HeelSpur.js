@@ -8,7 +8,7 @@ export default function HeelSpur() {
 
     return (
         <div className="post-page-container">
-            
+
 
             <article
                 id="post-heel-spur"
@@ -147,7 +147,7 @@ export default function HeelSpur() {
                     </p>
                     <div style={{ display: "flex", justifyContent: "center", gap: "1rem", flexWrap: "wrap" }}>
                         <button className="general-button">
-                            <Link to="/contact" style={{ color: "white", textDecoration: "none" }}>
+                            <Link to="/contact/" style={{ color: "white", textDecoration: "none" }}>
                                 צרי קשר לקביעת תור
                             </Link>
                         </button>

@@ -9,7 +9,7 @@ export default function SleepImprovement() {
     /* ================ JSX ================ */
     return (
         <div className="post-page-container">
-            
+
 
             <article
                 id="post-sleep-improvement"
@@ -99,7 +99,7 @@ export default function SleepImprovement() {
                 <section className="post-section" id="stress-sleep-cycle">
                     <h2>מעגל הקסמים: לחץ ושינה</h2>
                     <p>
-                        קיים קשר הדוק בין <Link to="/stress">לחץ ומתח</Link> לבין איכות השינה שלנו. זהו מעגל שחשוב להבין כדי לפרוץ אותו.
+                        קיים קשר הדוק בין <Link to="/stress/">לחץ ומתח</Link> לבין איכות השינה שלנו. זהו מעגל שחשוב להבין כדי לפרוץ אותו.
                     </p>
 
                     <div className="infographic-container" style={{
@@ -138,7 +138,7 @@ export default function SleepImprovement() {
                 <section className="post-section" id="key-reflex-points">
                     <h2>נקודות המפתח בכף הרגל לשינה טובה</h2>
                     <p>
-                        בטיפול רפלקסולוגי לשיפור השינה, אני מתמקדת במספר אזורים עיקריים. ניתן לראות את מיקומם המדויק ב<Link to="/reflexology-map">מפה הרפלקסולוגית</Link>, אך הנה הסבר קצר על חשיבותם:
+                        בטיפול רפלקסולוגי לשיפור השינה, אני מתמקדת במספר אזורים עיקריים. ניתן לראות את מיקומם המדויק ב<Link to="/reflexology-map/">מפה הרפלקסולוגית</Link>, אך הנה הסבר קצר על חשיבותם:
                     </p>
 
                     <div style={{ overflowX: "auto" }}>
@@ -235,7 +235,7 @@ export default function SleepImprovement() {
             <MoreArticles />
 
             <button className="general-button" style={{ marginTop: "1.5rem" }}>
-                <Link to="/contact" className="post-book-treatment-button">
+                <Link to="/contact/" className="post-book-treatment-button">
                     רוצה לישון טוב יותר? קבעי תור
                 </Link>
             </button>

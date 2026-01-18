@@ -9,7 +9,7 @@ export default function AnxietyRelief() {
 
     return (
         <div className="post-page-container">
-            
+
 
             <article
                 id="post-anxiety-relief"
@@ -67,7 +67,7 @@ export default function AnxietyRelief() {
                     </p>
                     <p>
                         הטיפול הרפלקסולוגי הוא כמו לחיצה פיזית על כפתור ה-Reset. המגע הקצבי, העמוק והמקרקע מאותת למוח: "אתה בטוח. אפשר לשחרר".
-                        זהו רגע קסום שבו הנשימה מעמיקה והשרירים המכווצים (במיוחד בצוואר ובכתפיים שקשורים ל<Link to="/stress">סטרס</Link>) מתחילים להרפות. מידע נוסף על <a href="https://www.health.gov.il/Subjects/mental_health/BenefeshBria/Pages/default.aspx" target="_blank" rel="noopener noreferrer">התמודדות עם חרדה</a> זמין באתר משרד הבריאות.
+                        זהו רגע קסום שבו הנשימה מעמיקה והשרירים המכווצים (במיוחד בצוואר ובכתפיים שקשורים ל<Link to="/stress/">סטרס</Link>) מתחילים להרפות. מידע נוסף על <a href="https://www.health.gov.il/Subjects/mental_health/BenefeshBria/Pages/default.aspx" target="_blank" rel="noopener noreferrer">התמודדות עם חרדה</a> זמין באתר משרד הבריאות.
                     </p>
                 </section>
 
@@ -151,12 +151,12 @@ export default function AnxietyRelief() {
                     </p>
                     <div style={{ display: "flex", justifyContent: "center", gap: "1rem", flexWrap: "wrap" }}>
                         <button className="general-button">
-                            <Link to="/contact" style={{ color: "white", textDecoration: "none" }}>
+                            <Link to="/contact/" style={{ color: "white", textDecoration: "none" }}>
                                 לקביעת תור
                             </Link>
                         </button>
                         <button className="general-button" style={{ background: "transparent", border: "2px solid var(--primary-color)" }}>
-                            <Link to="/sleep-improvement" style={{ color: "var(--primary-color)", textDecoration: "none" }}>
+                            <Link to="/sleep-improvement/" style={{ color: "var(--primary-color)", textDecoration: "none" }}>
                                 קראי גם על שיפור השינה
                             </Link>
                         </button>

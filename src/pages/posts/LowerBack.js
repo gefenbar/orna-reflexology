@@ -9,7 +9,7 @@ export default function LowerBack() {
   /* ================ JSX ================ */
   return (
     <div className="post-page-container">
-      
+
 
       <article
         id="post-lower-back"
@@ -223,7 +223,7 @@ export default function LowerBack() {
             <p>
               רוצה להתחיל תהליך אישי עם <strong>רפלקסולוגית מוסמכת</strong>{" "}
               המתמחה בכאבי גב תחתון?{" "}
-              <Link to="/contact">לחצי כאן לקביעת פגישה ראשונה ›</Link>
+              <Link to="/contact/">לחצי כאן לקביעת פגישה ראשונה ›</Link>
             </p>
           </aside>
         </section>
@@ -343,7 +343,7 @@ export default function LowerBack() {
 
       {/* ===== Call to Action Button ===== */}
       <button className="general-button" style={{ marginTop: "1.5rem" }}>
-        <Link to="/contact" className="post-book-treatment-button">
+        <Link to="/contact/" className="post-book-treatment-button">
           לקביעת תור
         </Link>
       </button>

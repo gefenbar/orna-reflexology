@@ -9,7 +9,7 @@ export default function Migraines() {
 
     return (
         <div className="post-page-container">
-            
+
 
             <article
                 id="post-migraines"
@@ -61,7 +61,7 @@ export default function Migraines() {
                 <section className="post-section" id="migraine-vs-headache">
                     <h2>לא סתם כאב ראש: המנגנון הפיזיולוגי</h2>
                     <p>
-                        המיגרנה היא תוצאה של כיווץ והרחבה קיצוניים של כלי הדם במוח. בניגוד ל<Link to="/headache">כאבי ראש רגילים</Link> שנובעים לרוב ממתח שרירי בצוואר,
+                        המיגרנה היא תוצאה של כיווץ והרחבה קיצוניים של כלי הדם במוח. בניגוד ל<Link to="/headache/">כאבי ראש רגילים</Link> שנובעים לרוב ממתח שרירי בצוואר,
                         המיגרנה מערבת <a href="https://www.mayoclinic.org/diseases-conditions/migraine-headache/symptoms-causes/syc-20360201" target="_blank" rel="noopener noreferrer">תהליכים עצביים וכימיים מורכבים</a>. לעיתים קרובות היא מלווה ב"ארוה" (הפרעות ראייה), בחילות ורגישות קיצונית לגירויים. מידע נוסף בעברית ניתן למצוא ב<a href="https://www.clalit.co.il/he/medical/Pages/migraine.aspx" target="_blank" rel="noopener noreferrer">אתר כללית</a>.
                     </p>
                     <p>
@@ -80,13 +80,13 @@ export default function Migraines() {
                             <span className="icon">🤯</span>
                             <h4>סטרס ולחץ</h4>
                             <p>האויב מספר אחד. ירידת מתח פתאומית (למשל בסופי שבוע) יכולה גם היא לעורר התקף.</p>
-                            <Link to="/stress" style={{ fontSize: "0.9em" }}>קראו עוד על טיפול בסטרס</Link>
+                            <Link to="/stress/" style={{ fontSize: "0.9em" }}>קראו עוד על טיפול בסטרס</Link>
                         </div>
                         <div className="info-card trigger-card">
                             <span className="icon">⚖️</span>
                             <h4>שינויים הורמונליים</h4>
                             <p>נפוץ במיוחד אצל נשים לפני מחזור או בגיל המעבר. האיזון ההורמונלי הוא קריטי.</p>
-                            <Link to="/hormonal-balance" style={{ fontSize: "0.9em" }}>על איזון הורמונלי</Link>
+                            <Link to="/hormonal-balance/" style={{ fontSize: "0.9em" }}>על איזון הורמונלי</Link>
                         </div>
                         <div className="info-card trigger-card">
                             <span className="icon">🧀</span>
@@ -163,12 +163,12 @@ export default function Migraines() {
                     </p>
                     <div style={{ display: "flex", justifyContent: "center", gap: "1rem", flexWrap: "wrap" }}>
                         <button className="general-button">
-                            <Link to="/contact" style={{ color: "white", textDecoration: "none" }}>
+                            <Link to="/contact/" style={{ color: "white", textDecoration: "none" }}>
                                 לקביעת תור
                             </Link>
                         </button>
                         <button className="general-button" style={{ background: "transparent", border: "2px solid var(--primary-color)" }}>
-                            <Link to="/testimonials" style={{ color: "var(--primary-color)", textDecoration: "none" }}>
+                            <Link to="/testimonials/" style={{ color: "var(--primary-color)", textDecoration: "none" }}>
                                 סיפורי הצלחה
                             </Link>
                         </button>

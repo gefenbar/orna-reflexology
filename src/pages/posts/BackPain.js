@@ -9,7 +9,7 @@ export default function ReflexologyAndBackPain() {
   /* ================ JSX ================ */
   return (
     <div className="post-page-container">
-      
+
       <article
         id="post-reflexology-back-pain"
         className="post-content-container"
@@ -256,7 +256,7 @@ export default function ReflexologyAndBackPain() {
       <br />
       <br />
       <button className="general-button" style={{ marginTop: "1.5rem" }}>
-        <Link to="/contact" className="post-book-treatment-button">
+        <Link to="/contact/" className="post-book-treatment-button">
           לקביעת תור
         </Link>
       </button>

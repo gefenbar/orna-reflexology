@@ -12,7 +12,7 @@ export default function AboutPage() {
         </div>
         <div className="about-content">
           <div className="about-image-container">
-            <img src="/orna.webp" alt="ארנה קליין" loading="lazy"  width="348px" height="480px" />
+            <img src="/orna.webp" alt="ארנה קליין" loading="lazy" width="348px" height="480px" />
           </div>
           <div className="about-text-container">
             <p>בחרתי ברפלקסולוגיה מתוך אמונה עמוקה ביכולתה לתת מענה נכון למגוון מצבים ותופעות. בגישתי הטיפולית אני משלבת הקשבה לצורכי המטופלת והתאמת מענה טיפולי מדוייק תוך הבנה שריפוי אמיתי מגיע מתוך איזון של הגוף עצמו.</p>
@@ -22,7 +22,7 @@ export default function AboutPage() {
             <p>אני מזמינה אתכן לחוות איתי טיפול רפלקסולוגי מותאם אישית, שיאפשר לכן להתחבר לכוחות הריפוי הטבעיים שלכן ולמצוא איזון והרמוניה בגופכן.</p>
             <p>אשמח לפגוש אתכן ולצעוד איתכן במסע הריפוי שלכן.</p>
             <button className="general-button">
-              <Link className="contact-link" to="/contact">
+              <Link className="contact-link" to="/contact/">
                 דברו איתי
               </Link>
             </button>

@@ -9,7 +9,7 @@ export default function Headache() {
   /* ================ JSX ================ */
   return (
     <div className="post-page-container">
-      
+
 
       <article
         id="post-headache"
@@ -453,7 +453,7 @@ export default function Headache() {
       <MoreArticles />
 
       <button className="general-button" style={{ marginTop: "1.5rem" }}>
-        <Link to="/contact" className="post-book-treatment-button">
+        <Link to="/contact/" className="post-book-treatment-button">
           לקביעת תור
         </Link>
       </button>
