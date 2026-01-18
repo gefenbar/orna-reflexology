@@ -50,7 +50,24 @@
     "include": [
       "/",
       "/about-me",
-      "/contact"
+      "/contact",
+      "/testimonials",
+      "/about-legs",
+      "/anxiety-relief",
+      "/migraines",
+      "/heel-spur",
+      "/hormonal-balance",
+      "/sleep-improvement",
+      "/reflexology-map",
+      "/foot-back",
+      "/stress",
+      "/reflexology",
+      "/lower-back",
+      "/reflection",
+      "/back-pain",
+      "/alternative",
+      "/balance",
+      "/headache"
     ],
     "puppeteerArgs": [
       "--no-sandbox",
