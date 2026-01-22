@@ -83,7 +83,7 @@
     "nth-check": "^2.1.1",
     "semver": "^7.5.4",
     "rollup": "^2.79.2",
-    "tar": "^6.2.1",
+    "tar": "^7.5.6",
     "minimist": "^1.2.8",
     "body-parser": "^1.20.3",
     "ip": "^2.0.1",
@@ -100,7 +100,14 @@
     "express": "^4.20.0",
     "send": "^0.19.0",
     "serve-static": "^1.16.2",
-    "postcss": "^8.4.31"
+    "postcss": "^8.4.31",
+    "node-fetch": "^2.6.7",
+    "minimatch": "^3.1.2",
+    "lodash": "^4.17.21",
+    "webpack-dev-server": "^5.2.1",
+    "browserslist": "^4.16.5",
+    "micromatch": "^4.0.8",
+    "elliptic": "^6.5.7"
   },
   "engines": {
     "node": "18.x"
